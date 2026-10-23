@@ -1,0 +1,15 @@
+# Registros
+logs
+*.log
+npm-debug.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Cache de Firebase
+.firebase/
+
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
