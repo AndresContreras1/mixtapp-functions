@@ -133,3 +133,63 @@ exports.sendFollowNotification = onDocumentCreated(
         }
     }
 )
+
+// Notificacion al autor de una resena cuando alguien la comenta. Si es una respuesta, tambien al
+// autor del comentario que responde
+exports.sendCommentNotification = onDocumentCreated(
+    "reviews/{reviewId}/comments/{commentId}",
+    async (event) => {
+        const reviewId = event.params.reviewId
+        const comentario = event.data.data()
+        const comentaristaId = comentario.usuarioId
+
+        const reviewDoc = await db.collection("reviews").doc(reviewId).get()
+        if (!reviewDoc.exists) {
+            logger.log(`La reseña ${reviewId} ya no existe.`)
+            return
+        }
+        const reviewData = reviewDoc.data()
+
+        // Se muestra el nombre que se copio en el comentario, no el id
+        const comentaristaName = (comentario.usuario && comentario.usuario.nombre) || "Alguien"
+        const tituloAlbum = reviewData.album ? reviewData.album.titulo : ""
+
+        // Los destinatarios: el autor de la reseña y, si es respuesta, el autor del comentario
+        // principal. Nadie recibe la notificacion de su propio comentario
+        const destinatarios = new Set([reviewData.usuarioId])
+        if (comentario.parentCommentId) {
+            const padreDoc = await db.collection("reviews").doc(reviewId)
+                .collection("comments").doc(comentario.parentCommentId).get()
+            if (padreDoc.exists) destinatarios.add(padreDoc.data().usuarioId)
+        }
+        destinatarios.delete(comentaristaId)
+
+        for (const destinatarioId of destinatarios) {
+            const destinatarioDoc = await db.collection("usuarios").doc(destinatarioId).get()
+            const destinatarioToken = destinatarioDoc.exists ? destinatarioDoc.data().fcmtoken : null
+
+            if (!destinatarioToken) {
+                logger.log(`El usuario ${destinatarioId} no tiene token FCM, no se envía la notificación.`)
+                continue
+            }
+
+            const esLaResena = destinatarioId === reviewData.usuarioId
+            const message = {
+                token: destinatarioToken,
+                notification: {
+                    title: esLaResena ? "Nuevo comentario" : "Nueva respuesta",
+                    body: esLaResena
+                        ? `${comentaristaName} comentó tu reseña de ${tituloAlbum}.`
+                        : `${comentaristaName} respondió tu comentario.`,
+                },
+            }
+
+            try {
+                await admin.messaging().send(message)
+                logger.log(`Notificación enviada a ${destinatarioId} por el comentario de ${comentaristaName}`)
+            } catch (error) {
+                logger.error(`Error al enviar notificación a ${destinatarioId}:`, error)
+            }
+        }
+    }
+)

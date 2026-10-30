@@ -9,6 +9,7 @@ Funciones en línea del proyecto Firebase `mixtapp-720eb`. Responden a cambios e
 | `updateUserInfoInReviews` | `onDocumentUpdated("usuarios/{userId}")` | **Integridad de los datos.** Cada reseña guarda una copia del nombre y la foto de quien la escribió (desnormalización). Cuando el usuario cambia alguno de los dos, la función los actualiza con un `batch` en todas sus reseñas. Si solo cambiaron los contadores o el token, no hace nada. |
 | `sendLikeNotification` | `onDocumentCreated("reviews/{reviewId}/likes/{userId}")` | Envía una notificación push al **autor** de la reseña cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu reseña de Toxicity». |
 | `sendFollowNotification` | `onDocumentCreated("usuarios/{userId}/followers/{followerId}")` | Envía una notificación push al usuario que tiene un seguidor nuevo: «Nuevo seguidor · Ana ha comenzado a seguirte». |
+| `sendCommentNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}")` | Envía una notificación push al **autor** de la reseña cuando alguien la comenta («Nuevo comentario · Ana comentó tu reseña de Toxicity») y, si es una respuesta, al autor del comentario que responde («Nueva respuesta»). Nadie recibe la notificación de su propio comentario. |
 
 Las notificaciones usan el token de FCM que la app guarda en el campo `fcmtoken` del usuario al registrarse y al iniciar sesión. Si el usuario no tiene token, la función lo anota en los registros y no envía nada.
 
@@ -21,10 +22,29 @@ mixtapp-functions
 │   ├── index.js
 │   ├── package-lock.json
 │   └── package.json
+├── seed               datos falsos con Faker (ver seed/README.md)
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── seed.js
 ├── .firebaserc
 ├── .gitignore
 └── firebase.json
 ```
+
+## Emulador (Firebase CLI)
+
+`firebase.json` tiene los puertos del emulador: Authentication en `9099`, Firestore en `8080` y la
+interfaz en `4000`. La app, en modo debug, se conecta a ellos desde el emulador de Android con la IP
+`10.0.2.2`.
+
+```bash
+firebase emulators:start --only firestore,auth --project mixtapp-720eb
+```
+
+Sin un archivo de reglas, el emulador permite todas las lecturas y escrituras. Los datos se borran
+al cerrarlo; para llenarlo están los datos de Faker de `seed/`.
 
 ## Publicar
 
@@ -39,7 +59,7 @@ cd ..
 firebase deploy --only functions
 ```
 
-El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las tres funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
+El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las cuatro funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
 
 ## Reglas de seguridad de Firestore
 
