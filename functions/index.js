@@ -233,3 +233,46 @@ exports.sendCommentNotification = onDocumentCreated(
         }
     }
 )
+
+// Notificacion al autor de un comentario cuando alguien le da like
+exports.sendCommentLikeNotification = onDocumentCreated(
+    "reviews/{reviewId}/comments/{commentId}/likes/{userId}",
+    async (event) => {
+        const reviewId = event.params.reviewId
+        const commentId = event.params.commentId
+        const userId = event.params.userId
+
+        const resenaRef = db.collection("reviews").doc(reviewId)
+        const comentarioDoc = await resenaRef.collection("comments").doc(commentId).get()
+        if (!comentarioDoc.exists) {
+            logger.log(`El comentario ${commentId} ya no existe.`)
+            return
+        }
+        const comentario = comentarioDoc.data()
+
+        // La notificacion es para quien escribio el comentario, no para quien dio el like
+        if (comentario.usuarioId === userId) {
+            logger.log(`El usuario ${userId} le dio like a su propio comentario, no se notifica.`)
+            return
+        }
+
+        // La imagen y el titulo salen de la copia del item en la resena
+        const resenaDoc = await resenaRef.get()
+        const resena = resenaDoc.exists ? resenaDoc.data() : {}
+        const quienDioLike = await datosDelUsuario(userId)
+        await enviarNotificacion(
+            comentario.usuarioId,
+            {
+                tipo: "like_comentario",
+                actorId: userId,
+                actorNombre: quienDioLike.nombre,
+                actorFotoUrl: quienDioLike.fotoUrl,
+                reviewId: reviewId,
+                itemTitulo: resena.item ? resena.item.titulo : "",
+                imagenUrl: resena.item ? resena.item.imagenUrl : null,
+            },
+            "Nuevo me gusta",
+            `A ${quienDioLike.nombre} le gustó tu comentario.`
+        )
+    }
+)
