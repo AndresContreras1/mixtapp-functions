@@ -1,160 +1,59 @@
 {
-  "fuente": "Portadas, fotos y Top Colombia: api.deezer.com (31 de octubre de 2026)",
+  "fuente": "Portadas, fotos, fechas y listas por género: api.deezer.com (1 de noviembre de 2026)",
   "albumes": [
-    {
-      "id": "album_from_zero",
-      "titulo": "From Zero",
-      "artista": "Linkin Park",
-      "anio": 2024,
-      "genero": "Rock",
-      "subgenero": "Rock alternativo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Primer álbum con Emily Armstrong en la voz, después de la muerte de Chester Bennington en 2017.",
-        "Primer álbum de estudio de Linkin Park desde One More Light (2017).",
-        "El nombre recuerda a Xero, como se llamaba la banda en sus comienzos.",
-        "Colin Brittain reemplazó a Rob Bourdon en la batería."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_the_black_parade",
-      "titulo": "The Black Parade",
-      "artista": "My Chemical Romance",
-      "anio": 2006,
-      "genero": "Rock",
-      "subgenero": "Emo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es un álbum conceptual sobre El Paciente, un hombre que muere de cáncer.",
-        "En la gira, la banda tocaba como su alter ego: The Black Parade.",
-        "Lo produjo Rob Cavallo, que también trabajó con Green Day.",
-        "Welcome to the Black Parade fue su primer número 1 en el Reino Unido."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_teatro_d_ira_vol_i",
-      "titulo": "Teatro d'ira: Vol. I",
-      "artista": "Måneskin",
-      "anio": 2021,
-      "genero": "Rock",
-      "subgenero": "Hard rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Incluye Zitti e buoni, con la que ganaron Sanremo y Eurovisión en 2021.",
-        "Es el segundo álbum de estudio de Måneskin.",
-        "Tiene 8 canciones y dura menos de media hora.",
-        "La banda nació en Roma en 2016."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_am",
-      "titulo": "AM",
-      "artista": "Arctic Monkeys",
-      "anio": 2013,
-      "genero": "Rock",
-      "subgenero": "Indie rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es el quinto álbum de estudio de Arctic Monkeys.",
-        "Debutó en el número 1 en el Reino Unido.",
-        "Lo produjo James Ford, junto a Ross Orton.",
-        "R U Mine? salió en 2012, más de un año antes que el álbum."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_cancion_animal",
-      "titulo": "Canción Animal",
-      "artista": "Soda Stereo",
-      "anio": 1990,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es el quinto álbum de estudio de Soda Stereo.",
-        "Incluye De música ligera, uno de los himnos del rock en español.",
-        "Lo grabaron Gustavo Cerati, Zeta Bosio y Charly Alberti."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_el_dorado",
-      "titulo": "El Dorado",
-      "artista": "Aterciopelados",
-      "anio": 1995,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Segundo álbum de Aterciopelados, la banda bogotana de Andrea Echeverri y Héctor Buitrago.",
-        "Incluye Bolero falaz y Florecita rockera, dos clásicos del rock colombiano.",
-        "Salió en 1995 y tiene 16 canciones."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_toxicity",
-      "titulo": "Toxicity",
-      "artista": "System of a Down",
-      "anio": 2001,
-      "genero": "Metal",
-      "subgenero": "Nu metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Debutó en el número 1 del Billboard 200 en Estados Unidos.",
-        "Salió el 4 de septiembre de 2001, una semana antes de los atentados del 11 de septiembre.",
-        "Chop Suey! fue nominada al Grammy a mejor interpretación de metal.",
-        "Los cuatro integrantes de la banda son de ascendencia armenia."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "album_finisterra",
-      "titulo": "Finisterra",
-      "artista": "Mägo de Oz",
-      "anio": 2000,
-      "genero": "Metal",
-      "subgenero": "Folk metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Álbum doble y conceptual de Mägo de Oz, publicado en el año 2000.",
-        "Incluye Fiesta pagana, una de las canciones más coreadas de la banda.",
-        "Mägo de Oz es una banda de folk metal de Madrid, fundada en 1988."
-      ],
-      "tendencia": null
-    },
     {
       "id": "album_master_of_puppets",
       "titulo": "Master of Puppets",
       "artista": "Metallica",
       "anio": 1986,
+      "fechaLanzamiento": "1986-03-03",
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Tercer álbum de estudio de Metallica, de 1986.",
-        "Fue el último con el bajista Cliff Burton, que murió ese mismo año.",
-        "Fue el primer álbum de metal elegido para el Registro Nacional de Grabaciones de EE. UU.",
-        "La canción Master of Puppets volvió a las listas en 2022 gracias a Stranger Things."
-      ],
-      "tendencia": null
+      "tendencia": 6
     },
     {
       "id": "album_the_number_of_the_beast",
       "titulo": "The Number of the Beast",
       "artista": "Iron Maiden",
       "anio": 1982,
+      "fechaLanzamiento": "1982-01-01",
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Primer álbum de Iron Maiden con Bruce Dickinson como vocalista.",
-        "Fue su primer número 1 en el Reino Unido.",
-        "Salió en 1982 y es su tercer álbum de estudio."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "album_reign_in_blood",
+      "titulo": "Reign in Blood",
+      "artista": "Slayer",
+      "anio": 1986,
+      "fechaLanzamiento": "1986-01-01",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_rust_in_peace",
+      "titulo": "Rust in Peace",
+      "artista": "Megadeth",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-09-24",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_vulgar_display_of_power",
+      "titulo": "Vulgar Display of Power",
+      "artista": "Pantera",
+      "anio": 1992,
+      "fechaLanzamiento": "1992-02-21",
+      "genero": "Metal",
+      "subgenero": "Groove metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -162,15 +61,21 @@
       "titulo": "Vol. 3: (The Subliminal Verses)",
       "artista": "Slipknot",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Metal",
-      "subgenero": "Nu metal",
+      "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Lo produjo Rick Rubin.",
-        "Before I Forget ganó el Grammy a mejor interpretación de metal en 2006.",
-        "Se grabó en una mansión de Los Ángeles que, según la banda, estaba embrujada.",
-        "Es el tercer álbum de estudio de Slipknot."
-      ],
+      "tendencia": 16
+    },
+    {
+      "id": "album_finisterra",
+      "titulo": "Finisterra",
+      "artista": "Mägo de Oz",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-01-01",
+      "genero": "Metal",
+      "subgenero": "Folk metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -178,30 +83,252 @@
       "titulo": "POST HUMAN: NeX GEn",
       "artista": "Bring Me the Horizon",
       "anio": 2024,
+      "fechaLanzamiento": "2024-05-24",
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió por sorpresa el 24 de mayo de 2024.",
-        "Es la segunda parte de la serie POST HUMAN, después de Survival Horror (2020).",
-        "Primer álbum tras la salida del tecladista Jordan Fish.",
-        "Tiene 16 canciones."
-      ],
       "tendencia": null
+    },
+    {
+      "id": "album_mutter",
+      "titulo": "Mutter",
+      "artista": "Rammstein",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Metal",
+      "subgenero": "Metal industrial",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 15
+    },
+    {
+      "id": "album_magos_espadas_y_rosas",
+      "titulo": "Magos, Espadas y Rosas",
+      "artista": "Rata Blanca",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-01-01",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_from_zero",
+      "titulo": "From Zero",
+      "artista": "Linkin Park",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-11-15",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 95
+    },
+    {
+      "id": "album_hybrid_theory",
+      "titulo": "Hybrid Theory",
+      "artista": "Linkin Park",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 6
+    },
+    {
+      "id": "album_meteora",
+      "titulo": "Meteora",
+      "artista": "Linkin Park",
+      "anio": 2003,
+      "fechaLanzamiento": "2003-03-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 10
+    },
+    {
+      "id": "album_toxicity",
+      "titulo": "Toxicity",
+      "artista": "System of a Down",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 3
+    },
+    {
+      "id": "album_mezmerize",
+      "titulo": "Mezmerize",
+      "artista": "System of a Down",
+      "anio": 2005,
+      "fechaLanzamiento": "2005-05-17",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 14
+    },
+    {
+      "id": "album_follow_the_leader",
+      "titulo": "Follow the Leader",
+      "artista": "Korn",
+      "anio": 1998,
+      "fechaLanzamiento": "1998-08-18",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 9
+    },
+    {
+      "id": "album_chocolate_starfish_and_the_hot_dog_flavored_water",
+      "titulo": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "artista": "Limp Bizkit",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-17",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_white_pony",
+      "titulo": "White Pony",
+      "artista": "Deftones",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-05-16",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_back_in_black",
+      "titulo": "Back in Black",
+      "artista": "AC/DC",
+      "anio": 1980,
+      "fechaLanzamiento": "1980-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 21
+    },
+    {
+      "id": "album_appetite_for_destruction",
+      "titulo": "Appetite for Destruction",
+      "artista": "Guns N' Roses",
+      "anio": 1987,
+      "fechaLanzamiento": "1987-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 5
+    },
+    {
+      "id": "album_nevermind",
+      "titulo": "Nevermind",
+      "artista": "Nirvana",
+      "anio": 1991,
+      "fechaLanzamiento": "1991-01-01",
+      "genero": "Rock",
+      "subgenero": "Grunge",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 11
+    },
+    {
+      "id": "album_a_night_at_the_opera",
+      "titulo": "A Night at the Opera",
+      "artista": "Queen",
+      "anio": 1975,
+      "fechaLanzamiento": "1975-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 8
+    },
+    {
+      "id": "album_let_it_bleed",
+      "titulo": "Let It Bleed",
+      "artista": "The Rolling Stones",
+      "anio": 1969,
+      "fechaLanzamiento": "1969-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_the_black_parade",
+      "titulo": "The Black Parade",
+      "artista": "My Chemical Romance",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-10-23",
+      "genero": "Rock",
+      "subgenero": "Emo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_teatro_d_ira_vol_i",
+      "titulo": "Teatro d'ira: Vol. I",
+      "artista": "Måneskin",
+      "anio": 2021,
+      "fechaLanzamiento": "2021-03-19",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_am",
+      "titulo": "AM",
+      "artista": "Arctic Monkeys",
+      "anio": 2013,
+      "fechaLanzamiento": "2013-09-06",
+      "genero": "Rock",
+      "subgenero": "Indie rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 11
+    },
+    {
+      "id": "album_cancion_animal",
+      "titulo": "Canción Animal",
+      "artista": "Soda Stereo",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-10-09",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 7
+    },
+    {
+      "id": "album_el_dorado",
+      "titulo": "El Dorado",
+      "artista": "Aterciopelados",
+      "anio": 1995,
+      "fechaLanzamiento": "1995-09-25",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_american_idiot",
+      "titulo": "American Idiot",
+      "artista": "Green Day",
+      "anio": 2004,
+      "fechaLanzamiento": "2004-09-14",
+      "genero": "Rock",
+      "subgenero": "Punk rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 30
     },
     {
       "id": "album_no_me_arrepiento_de_sentir_tanto",
       "titulo": "NO ME ARREPIENTO DE SENTIR TANTO",
       "artista": "KAROL G",
       "anio": 2026,
+      "fechaLanzamiento": "2026-08-07",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió el 7 de agosto de 2026 y es el sexto álbum de estudio de KAROL G.",
-        "Tiene 14 canciones, con invitados como Bruno Mars, Drake, Judeline y Rusowsky.",
-        "BbY WOW, con Judeline y Rusowsky, era el número 1 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
       "tendencia": 1
     },
     {
@@ -209,78 +336,54 @@
       "titulo": "MAÑANA SERÁ BONITO",
       "artista": "KAROL G",
       "anio": 2023,
+      "fechaLanzamiento": "2023-02-24",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Primer álbum en español de una mujer en debutar en el número 1 del Billboard 200.",
-        "Ganó el Grammy a mejor álbum de música urbana en 2024.",
-        "Incluye TQG, su primera colaboración con Shakira.",
-        "KAROL G nació en Medellín."
-      ],
-      "tendencia": 78
+      "tendencia": 61
     },
     {
       "id": "album_debi_tirar_mas_fotos",
       "titulo": "DeBÍ TiRAR MáS FOToS",
       "artista": "Bad Bunny",
       "anio": 2025,
+      "fechaLanzamiento": "2025-01-05",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió el 5 de enero de 2025.",
-        "Mezcla reggaetón con salsa, plena y bomba de Puerto Rico.",
-        "Su título se abrevia DtMF, como una de sus canciones.",
-        "BAILE INoLVIDABLE y DtMF siguen en el Top Colombia de Deezer en octubre de 2026."
-      ],
-      "tendencia": 26
+      "tendencia": 21
     },
     {
       "id": "album_ferxxocalipsis",
       "titulo": "FERXXOCALIPSIS",
       "artista": "Feid",
       "anio": 2023,
+      "fechaLanzamiento": "2023-12-01",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "EP sorpresa que Feid lanzó el 1 de diciembre de 2023.",
-        "Incluye LUNA, con ATL Jacob, que salió como sencillo.",
-        "Feid es de Medellín y sus fans lo llaman Ferxxo.",
-        "Tiene 10 canciones y dura unos 25 minutos."
-      ],
-      "tendencia": 44
+      "tendencia": 43
     },
     {
       "id": "album_borondo",
       "titulo": "BORONDO",
       "artista": "Beéle",
       "anio": 2025,
+      "fechaLanzamiento": "2025-05-15",
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Álbum debut de Beéle, cantante de Barranquilla.",
-        "Salió el 15 de mayo de 2025 con 26 canciones.",
-        "Mezcla reggaetón, dancehall y afrobeats.",
-        "Con BORONDO, Beéle fue el artista más escuchado en Spotify Colombia en 2025."
-      ],
-      "tendencia": 18
+      "tendencia": 22
     },
     {
       "id": "album_vibras",
       "titulo": "Vibras",
       "artista": "J Balvin",
       "anio": 2018,
+      "fechaLanzamiento": "2018-05-25",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Ganó el Latin Grammy a mejor álbum de música urbana en 2018.",
-        "Incluye Mi Gente, con Willy William, que tuvo un remix con Beyoncé.",
-        "J Balvin nació en Medellín."
-      ],
       "tendencia": null
     },
     {
@@ -288,14 +391,54 @@
       "titulo": "Barrio Fino",
       "artista": "Daddy Yankee",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Incluye Gasolina, la canción que ayudó a llevar el reggaetón a todo el mundo.",
-        "Billboard lo eligió como el álbum latino más vendido de la década de 2000.",
-        "Daddy Yankee se retiró de la música en 2023."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "album_sende",
+      "titulo": "SENDÉ",
+      "artista": "Ryan Castro",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-05-29",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 9
+    },
+    {
+      "id": "album_king_of_kings",
+      "titulo": "King of Kings",
+      "artista": "Don Omar",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 40
+    },
+    {
+      "id": "album_los_extraterrestres",
+      "titulo": "Los Extraterrestres",
+      "artista": "Wisin & Yandel",
+      "anio": 2007,
+      "fechaLanzamiento": "2007-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 35
+    },
+    {
+      "id": "album_papi_juancho",
+      "titulo": "PAPI JUANCHO",
+      "artista": "Maluma",
+      "anio": 2020,
+      "fechaLanzamiento": "2020-08-21",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -303,14 +446,10 @@
       "titulo": "1800 Noches",
       "artista": "Jessi Uribe",
       "anio": 2023,
+      "fechaLanzamiento": "2023-05-26",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió el 26 de mayo de 2023 con 8 canciones.",
-        "Si ya hiciste el mal es con el mexicano Luis R Conriquez.",
-        "Jessi Uribe es de Bucaramanga y empezó cantando con mariachis."
-      ],
       "tendencia": null
     },
     {
@@ -318,14 +457,10 @@
       "titulo": "Quinto Elemento",
       "artista": "Yeison Jiménez",
       "anio": 2021,
+      "fechaLanzamiento": "2021-09-03",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió el 3 de septiembre de 2021.",
-        "Yeison Jiménez nació en Manzanares, Caldas, en 1991.",
-        "En 2025 fue el primer cantante de música popular en llenar solo el estadio El Campín."
-      ],
       "tendencia": null
     },
     {
@@ -333,14 +468,10 @@
       "titulo": "Contentoso",
       "artista": "Luis Alfonso",
       "anio": 2024,
+      "fechaLanzamiento": "2024-08-30",
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió en agosto de 2024 con 19 canciones.",
-        "Doce y treinta es con Jhonny Rivera.",
-        "A Luis Alfonso lo llaman El Señorazo y es de Popayán."
-      ],
       "tendencia": null
     },
     {
@@ -348,14 +479,10 @@
       "titulo": "Te Sigo Queriendo",
       "artista": "Jhonny Rivera",
       "anio": 2011,
+      "fechaLanzamiento": "2011-08-12",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió en 2011 y la canción que le da nombre es una de las más pedidas de Jhonny Rivera.",
-        "Jhonny Rivera nació en 1974 en Pereira, Risaralda.",
-        "Antes de cantar trabajó como carpintero."
-      ],
       "tendencia": null
     },
     {
@@ -363,291 +490,69 @@
       "titulo": "En Tus Manos",
       "artista": "Paola Jara",
       "anio": 2019,
+      "fechaLanzamiento": "2019-08-21",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió el 21 de agosto de 2019 con 14 canciones.",
-        "Incluye Murió el amor, uno de sus grandes éxitos.",
-        "Paola Jara empezó su carrera profesional a los 14 años."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "album_el_rey_del_despecho",
+      "titulo": "El Rey del Despecho",
+      "artista": "Darío Gómez",
+      "anio": 1996,
+      "fechaLanzamiento": "1996-06-18",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_el_rey_del_chupe",
+      "titulo": "El Rey del Chupe",
+      "artista": "Jhon Alex Castaño",
+      "anio": 2016,
+      "fechaLanzamiento": "2016-01-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_carino_malo",
+      "titulo": "Cariño Malo",
+      "artista": "Luis Alberto Posada",
+      "anio": 2019,
+      "fechaLanzamiento": "2019-06-10",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_aqui_estoy_yo",
+      "titulo": "Aquí Estoy Yo",
+      "artista": "Pipe Bueno",
+      "anio": 2026,
+      "fechaLanzamiento": "2026-10-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "album_mi_historia",
+      "titulo": "Mi Historia",
+      "artista": "Arelys Henao",
+      "anio": 2018,
+      "fechaLanzamiento": "2018-03-09",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     }
   ],
   "canciones": [
-    {
-      "id": "cancion_the_emptiness_machine",
-      "titulo": "The Emptiness Machine",
-      "albumId": "album_from_zero",
-      "album": "From Zero",
-      "artista": "Linkin Park",
-      "anio": 2024,
-      "genero": "Rock",
-      "subgenero": "Rock alternativo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Primer sencillo con Emily Armstrong en la voz, lanzado en septiembre de 2024.",
-        "Es la canción 2 de From Zero y dura 3:10.",
-        "Salió el 15 de noviembre de 2024 con From Zero."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_heavy_is_the_crown",
-      "titulo": "Heavy Is the Crown",
-      "albumId": "album_from_zero",
-      "album": "From Zero",
-      "artista": "Linkin Park",
-      "anio": 2024,
-      "genero": "Rock",
-      "subgenero": "Rock alternativo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Fue el himno del Mundial de League of Legends 2024.",
-        "Es la canción 4 de From Zero y dura 2:47.",
-        "Salió el 15 de noviembre de 2024 con From Zero."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_welcome_to_the_black_parade",
-      "titulo": "Welcome to the Black Parade",
-      "albumId": "album_the_black_parade",
-      "album": "The Black Parade",
-      "artista": "My Chemical Romance",
-      "anio": 2006,
-      "genero": "Rock",
-      "subgenero": "Emo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Empieza con una sola nota de piano: un sol.",
-        "Fue el primer número 1 de My Chemical Romance en el Reino Unido.",
-        "Es la canción 5 de The Black Parade y dura 5:11."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_the_sharpest_lives",
-      "titulo": "The Sharpest Lives",
-      "albumId": "album_the_black_parade",
-      "album": "The Black Parade",
-      "artista": "My Chemical Romance",
-      "anio": 2006,
-      "genero": "Rock",
-      "subgenero": "Emo",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Hace parte de The Black Parade, el álbum conceptual sobre El Paciente.",
-        "Es la canción 4 de The Black Parade y dura 3:20.",
-        "Salió el 23 de octubre de 2006 con The Black Parade."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_zitti_e_buoni",
-      "titulo": "ZITTI E BUONI",
-      "albumId": "album_teatro_d_ira_vol_i",
-      "album": "Teatro d'ira: Vol. I",
-      "artista": "Måneskin",
-      "anio": 2021,
-      "genero": "Rock",
-      "subgenero": "Hard rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Ganó el Festival de Sanremo y Eurovisión en 2021.",
-        "Su título significa \"callados y buenos\" en italiano.",
-        "Es la canción 1 de Teatro d'ira: Vol. I y dura 3:12."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_i_wanna_be_your_slave",
-      "titulo": "I WANNA BE YOUR SLAVE",
-      "albumId": "album_teatro_d_ira_vol_i",
-      "album": "Teatro d'ira: Vol. I",
-      "artista": "Måneskin",
-      "anio": 2021,
-      "genero": "Rock",
-      "subgenero": "Hard rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Llegó al top 10 en el Reino Unido después de Eurovisión 2021.",
-        "Tiene una versión con Iggy Pop, de 2021.",
-        "Es la canción 4 de Teatro d'ira: Vol. I y dura 2:52."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_do_i_wanna_know",
-      "titulo": "Do I Wanna Know?",
-      "albumId": "album_am",
-      "album": "AM",
-      "artista": "Arctic Monkeys",
-      "anio": 2013,
-      "genero": "Rock",
-      "subgenero": "Indie rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió como sencillo en junio de 2013, antes que el álbum.",
-        "Es la canción 1 de AM y dura 4:32.",
-        "Salió el 6 de septiembre de 2013 con AM."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_r_u_mine",
-      "titulo": "R U Mine?",
-      "albumId": "album_am",
-      "album": "AM",
-      "artista": "Arctic Monkeys",
-      "anio": 2013,
-      "genero": "Rock",
-      "subgenero": "Indie rock",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Salió en 2012 para el Record Store Day, más de un año antes que AM.",
-        "Es la canción 2 de AM y dura 3:21.",
-        "Salió el 6 de septiembre de 2013 con AM."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_de_musica_ligera",
-      "titulo": "De Música Ligera",
-      "albumId": "album_cancion_animal",
-      "album": "Canción Animal",
-      "artista": "Soda Stereo",
-      "anio": 1990,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "En el concierto de despedida de 1997, Cerati la cerró con su famoso \"¡Gracias... totales!\".",
-        "Es una de las canciones más versionadas del rock en español.",
-        "Es la canción 6 de Canción Animal y dura 3:33."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_cancion_animal",
-      "titulo": "Canción Animal",
-      "albumId": "album_cancion_animal",
-      "album": "Canción Animal",
-      "artista": "Soda Stereo",
-      "anio": 1990,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Le da nombre al álbum.",
-        "Es la canción 3 de Canción Animal y dura 4:07.",
-        "Salió el 9 de octubre de 1990 con Canción Animal."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_bolero_falaz",
-      "titulo": "Bolero Falaz",
-      "albumId": "album_el_dorado",
-      "album": "El Dorado",
-      "artista": "Aterciopelados",
-      "anio": 1995,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es uno de los mayores éxitos de Aterciopelados.",
-        "Es la canción 4 de El Dorado y dura 3:50.",
-        "Salió el 25 de septiembre de 1995 con El Dorado."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_florecita_rockera",
-      "titulo": "Florecita Rockera",
-      "albumId": "album_el_dorado",
-      "album": "El Dorado",
-      "artista": "Aterciopelados",
-      "anio": 1995,
-      "genero": "Rock",
-      "subgenero": "Rock en español",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es una de las canciones más conocidas del rock colombiano de los noventa.",
-        "Es la canción 1 de El Dorado y dura 2:56.",
-        "Salió el 25 de septiembre de 1995 con El Dorado."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_chop_suey",
-      "titulo": "Chop Suey!",
-      "albumId": "album_toxicity",
-      "album": "Toxicity",
-      "artista": "System of a Down",
-      "anio": 2001,
-      "genero": "Metal",
-      "subgenero": "Nu metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Fue nominada al Grammy a mejor interpretación de metal.",
-        "Su título de trabajo era Suicide; la banda lo cambió antes de lanzarla.",
-        "Es la canción 6 de Toxicity y dura 3:30."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_toxicity",
-      "titulo": "Toxicity",
-      "albumId": "album_toxicity",
-      "album": "Toxicity",
-      "artista": "System of a Down",
-      "anio": 2001,
-      "genero": "Metal",
-      "subgenero": "Nu metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Le da nombre al álbum.",
-        "Es la canción 12 de Toxicity y dura 3:38.",
-        "Hace parte de Toxicity, de 2001."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_fiesta_pagana",
-      "titulo": "Fiesta Pagana",
-      "albumId": "album_finisterra",
-      "album": "Finisterra",
-      "artista": "Mägo de Oz",
-      "anio": 2000,
-      "genero": "Metal",
-      "subgenero": "Folk metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es una de las canciones más coreadas en los conciertos de Mägo de Oz.",
-        "Su letra critica cómo la Iglesia se apropió de las fiestas paganas.",
-        "Es la canción 1 de Finisterra y dura 4:57.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "cancion_hasta_que_el_cuerpo_aguante",
-      "titulo": "Hasta Que El Cuerpo Aguante",
-      "albumId": "album_finisterra",
-      "album": "Finisterra",
-      "artista": "Mägo de Oz",
-      "anio": 2000,
-      "genero": "Metal",
-      "subgenero": "Folk metal",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Mezcla metal con violín y flauta, el sello de Mägo de Oz.",
-        "Es la canción 5 de Finisterra y dura 4:33.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
-      "tendencia": null
-    },
     {
       "id": "cancion_master_of_puppets",
       "titulo": "Master Of Puppets",
@@ -655,15 +560,11 @@
       "album": "Master of Puppets",
       "artista": "Metallica",
       "anio": 1986,
+      "fechaLanzamiento": "1986-03-03",
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción más larga del álbum: 8:35.",
-        "Volvió a las listas en 2022 por la serie Stranger Things.",
-        "Es la canción 2 de Master of Puppets y dura 8:35."
-      ],
-      "tendencia": null
+      "tendencia": 6
     },
     {
       "id": "cancion_battery",
@@ -672,15 +573,24 @@
       "album": "Master of Puppets",
       "artista": "Metallica",
       "anio": 1986,
+      "fechaLanzamiento": "1986-03-03",
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Va a más de 190 pulsaciones por minuto.",
-        "Es la canción 1 de Master of Puppets y dura 5:12.",
-        "Hace parte de Master of Puppets, de 1986."
-      ],
-      "tendencia": null
+      "tendencia": 66
+    },
+    {
+      "id": "cancion_welcome_home_sanitarium",
+      "titulo": "Welcome Home (Sanitarium)",
+      "albumId": "album_master_of_puppets",
+      "album": "Master of Puppets",
+      "artista": "Metallica",
+      "anio": 1986,
+      "fechaLanzamiento": "1986-03-03",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 54
     },
     {
       "id": "cancion_the_number_of_the_beast",
@@ -689,14 +599,10 @@
       "album": "The Number of the Beast",
       "artista": "Iron Maiden",
       "anio": 1982,
+      "fechaLanzamiento": "1982-01-01",
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Steve Harris la escribió después de una pesadilla, tras ver La profecía II.",
-        "Es la canción 5 de The Number of the Beast y dura 4:50.",
-        "Hace parte de The Number of the Beast, de 1982."
-      ],
       "tendencia": null
     },
     {
@@ -706,14 +612,101 @@
       "album": "The Number of the Beast",
       "artista": "Iron Maiden",
       "anio": 1982,
+      "fechaLanzamiento": "1982-01-01",
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Fue el primer sencillo de Iron Maiden en el top 10 británico.",
-        "Es la canción 6 de The Number of the Beast y dura 3:53.",
-        "Hace parte de The Number of the Beast, de 1982."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_hallowed_be_thy_name",
+      "titulo": "Hallowed Be Thy Name",
+      "albumId": "album_the_number_of_the_beast",
+      "album": "The Number of the Beast",
+      "artista": "Iron Maiden",
+      "anio": 1982,
+      "fechaLanzamiento": "1982-01-01",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_raining_blood",
+      "titulo": "Raining Blood",
+      "albumId": "album_reign_in_blood",
+      "album": "Reign in Blood",
+      "artista": "Slayer",
+      "anio": 1986,
+      "fechaLanzamiento": "1986-01-01",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_angel_of_death",
+      "titulo": "Angel Of Death",
+      "albumId": "album_reign_in_blood",
+      "album": "Reign in Blood",
+      "artista": "Slayer",
+      "anio": 1986,
+      "fechaLanzamiento": "1986-01-01",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_holy_wars_the_punishment_due",
+      "titulo": "Holy Wars...The Punishment Due",
+      "albumId": "album_rust_in_peace",
+      "album": "Rust in Peace",
+      "artista": "Megadeth",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-09-24",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_tornado_of_souls",
+      "titulo": "Tornado Of Souls",
+      "albumId": "album_rust_in_peace",
+      "album": "Rust in Peace",
+      "artista": "Megadeth",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-09-24",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_walk",
+      "titulo": "Walk",
+      "albumId": "album_vulgar_display_of_power",
+      "album": "Vulgar Display of Power",
+      "artista": "Pantera",
+      "anio": 1992,
+      "fechaLanzamiento": "1992-02-21",
+      "genero": "Metal",
+      "subgenero": "Groove metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_this_love",
+      "titulo": "This Love",
+      "albumId": "album_vulgar_display_of_power",
+      "album": "Vulgar Display of Power",
+      "artista": "Pantera",
+      "anio": 1992,
+      "fechaLanzamiento": "1992-02-21",
+      "genero": "Metal",
+      "subgenero": "Groove metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -723,15 +716,11 @@
       "album": "Vol. 3: (The Subliminal Verses)",
       "artista": "Slipknot",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Metal",
-      "subgenero": "Nu metal",
+      "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Fue el primer sencillo de Vol. 3.",
-        "Es la canción 4 de Vol. 3: (The Subliminal Verses) y dura 4:12.",
-        "Hace parte de Vol. 3: (The Subliminal Verses), de 2004."
-      ],
-      "tendencia": null
+      "tendencia": 16
     },
     {
       "id": "cancion_before_i_forget",
@@ -740,14 +729,49 @@
       "album": "Vol. 3: (The Subliminal Verses)",
       "artista": "Slipknot",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Metal",
-      "subgenero": "Nu metal",
+      "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Ganó el Grammy a mejor interpretación de metal en 2006.",
-        "Es la canción 10 de Vol. 3: (The Subliminal Verses) y dura 4:38.",
-        "Hace parte de Vol. 3: (The Subliminal Verses), de 2004."
-      ],
+      "tendencia": 22
+    },
+    {
+      "id": "cancion_vermilion",
+      "titulo": "Vermilion",
+      "albumId": "album_vol_3_the_subliminal_verses",
+      "album": "Vol. 3: (The Subliminal Verses)",
+      "artista": "Slipknot",
+      "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
+      "genero": "Metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 44
+    },
+    {
+      "id": "cancion_fiesta_pagana",
+      "titulo": "Fiesta Pagana",
+      "albumId": "album_finisterra",
+      "album": "Finisterra",
+      "artista": "Mägo de Oz",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-01-01",
+      "genero": "Metal",
+      "subgenero": "Folk metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_hasta_que_el_cuerpo_aguante",
+      "titulo": "Hasta Que El Cuerpo Aguante",
+      "albumId": "album_finisterra",
+      "album": "Finisterra",
+      "artista": "Mägo de Oz",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-01-01",
+      "genero": "Metal",
+      "subgenero": "Folk metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -757,14 +781,10 @@
       "album": "POST HUMAN: NeX GEn",
       "artista": "Bring Me the Horizon",
       "anio": 2024,
+      "fechaLanzamiento": "2024-05-24",
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con la cantante noruega AURORA.",
-        "Es la canción 5 de POST HUMAN: NeX GEn y dura 4:11.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
       "tendencia": null
     },
     {
@@ -774,15 +794,739 @@
       "album": "POST HUMAN: NeX GEn",
       "artista": "Bring Me the Horizon",
       "anio": 2024,
+      "fechaLanzamiento": "2024-05-24",
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Su título mezcla mayúsculas y minúsculas, como todo el álbum.",
-        "Es la canción 9 de POST HUMAN: NeX GEn y dura 3:20.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
       "tendencia": null
+    },
+    {
+      "id": "cancion_sonne",
+      "titulo": "Sonne",
+      "albumId": "album_mutter",
+      "album": "Mutter",
+      "artista": "Rammstein",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Metal",
+      "subgenero": "Metal industrial",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 15
+    },
+    {
+      "id": "cancion_mein_herz_brennt",
+      "titulo": "Mein Herz brennt",
+      "albumId": "album_mutter",
+      "album": "Mutter",
+      "artista": "Rammstein",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Metal",
+      "subgenero": "Metal industrial",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 64
+    },
+    {
+      "id": "cancion_ich_will",
+      "titulo": "Ich will",
+      "albumId": "album_mutter",
+      "album": "Mutter",
+      "artista": "Rammstein",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Metal",
+      "subgenero": "Metal industrial",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 39
+    },
+    {
+      "id": "cancion_mujer_amante",
+      "titulo": "Mujer Amante",
+      "albumId": "album_magos_espadas_y_rosas",
+      "album": "Magos, Espadas y Rosas",
+      "artista": "Rata Blanca",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-01-01",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_la_leyenda_del_hada_y_el_mago",
+      "titulo": "La Leyenda Del Hada Y El Mago",
+      "albumId": "album_magos_espadas_y_rosas",
+      "album": "Magos, Espadas y Rosas",
+      "artista": "Rata Blanca",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-01-01",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_el_beso_de_la_bruja",
+      "titulo": "El Beso De La Bruja",
+      "albumId": "album_magos_espadas_y_rosas",
+      "album": "Magos, Espadas y Rosas",
+      "artista": "Rata Blanca",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-01-01",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_the_emptiness_machine",
+      "titulo": "The Emptiness Machine",
+      "albumId": "album_from_zero",
+      "album": "From Zero",
+      "artista": "Linkin Park",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-11-15",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 95
+    },
+    {
+      "id": "cancion_heavy_is_the_crown",
+      "titulo": "Heavy Is the Crown",
+      "albumId": "album_from_zero",
+      "album": "From Zero",
+      "artista": "Linkin Park",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-11-15",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_cut_the_bridge",
+      "titulo": "Cut the Bridge",
+      "albumId": "album_from_zero",
+      "album": "From Zero",
+      "artista": "Linkin Park",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-11-15",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_two_faced",
+      "titulo": "Two Faced",
+      "albumId": "album_from_zero",
+      "album": "From Zero",
+      "artista": "Linkin Park",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-11-15",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_in_the_end",
+      "titulo": "In the End",
+      "albumId": "album_hybrid_theory",
+      "album": "Hybrid Theory",
+      "artista": "Linkin Park",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 6
+    },
+    {
+      "id": "cancion_crawling",
+      "titulo": "Crawling",
+      "albumId": "album_hybrid_theory",
+      "album": "Hybrid Theory",
+      "artista": "Linkin Park",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_papercut",
+      "titulo": "Papercut",
+      "albumId": "album_hybrid_theory",
+      "album": "Hybrid Theory",
+      "artista": "Linkin Park",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 93
+    },
+    {
+      "id": "cancion_numb",
+      "titulo": "Numb",
+      "albumId": "album_meteora",
+      "album": "Meteora",
+      "artista": "Linkin Park",
+      "anio": 2003,
+      "fechaLanzamiento": "2003-03-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 10
+    },
+    {
+      "id": "cancion_faint",
+      "titulo": "Faint",
+      "albumId": "album_meteora",
+      "album": "Meteora",
+      "artista": "Linkin Park",
+      "anio": 2003,
+      "fechaLanzamiento": "2003-03-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 97
+    },
+    {
+      "id": "cancion_somewhere_i_belong",
+      "titulo": "Somewhere I Belong",
+      "albumId": "album_meteora",
+      "album": "Meteora",
+      "artista": "Linkin Park",
+      "anio": 2003,
+      "fechaLanzamiento": "2003-03-24",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 87
+    },
+    {
+      "id": "cancion_chop_suey",
+      "titulo": "Chop Suey!",
+      "albumId": "album_toxicity",
+      "album": "Toxicity",
+      "artista": "System of a Down",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_toxicity",
+      "titulo": "Toxicity",
+      "albumId": "album_toxicity",
+      "album": "Toxicity",
+      "artista": "System of a Down",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 3
+    },
+    {
+      "id": "cancion_aerials",
+      "titulo": "Aerials",
+      "albumId": "album_toxicity",
+      "album": "Toxicity",
+      "artista": "System of a Down",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 10
+    },
+    {
+      "id": "cancion_prison_song",
+      "titulo": "Prison Song",
+      "albumId": "album_toxicity",
+      "album": "Toxicity",
+      "artista": "System of a Down",
+      "anio": 2001,
+      "fechaLanzamiento": "2001-01-01",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_b_y_o_b",
+      "titulo": "B.Y.O.B.",
+      "albumId": "album_mezmerize",
+      "album": "Mezmerize",
+      "artista": "System of a Down",
+      "anio": 2005,
+      "fechaLanzamiento": "2005-05-17",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 14
+    },
+    {
+      "id": "cancion_question",
+      "titulo": "Question!",
+      "albumId": "album_mezmerize",
+      "album": "Mezmerize",
+      "artista": "System of a Down",
+      "anio": 2005,
+      "fechaLanzamiento": "2005-05-17",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 55
+    },
+    {
+      "id": "cancion_freak_on_a_leash",
+      "titulo": "Freak On a Leash",
+      "albumId": "album_follow_the_leader",
+      "album": "Follow the Leader",
+      "artista": "Korn",
+      "anio": 1998,
+      "fechaLanzamiento": "1998-08-18",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 9
+    },
+    {
+      "id": "cancion_got_the_life",
+      "titulo": "Got the Life",
+      "albumId": "album_follow_the_leader",
+      "album": "Follow the Leader",
+      "artista": "Korn",
+      "anio": 1998,
+      "fechaLanzamiento": "1998-08-18",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 26
+    },
+    {
+      "id": "cancion_it_s_on",
+      "titulo": "It's On!",
+      "albumId": "album_follow_the_leader",
+      "album": "Follow the Leader",
+      "artista": "Korn",
+      "anio": 1998,
+      "fechaLanzamiento": "1998-08-18",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_rollin_air_raid_vehicle",
+      "titulo": "Rollin' (Air Raid Vehicle)",
+      "albumId": "album_chocolate_starfish_and_the_hot_dog_flavored_water",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "artista": "Limp Bizkit",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-17",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_my_way",
+      "titulo": "My Way",
+      "albumId": "album_chocolate_starfish_and_the_hot_dog_flavored_water",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "artista": "Limp Bizkit",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-17",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_my_generation",
+      "titulo": "My Generation",
+      "albumId": "album_chocolate_starfish_and_the_hot_dog_flavored_water",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "artista": "Limp Bizkit",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-10-17",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_change_in_the_house_of_flies",
+      "titulo": "Change (In the House of Flies)",
+      "albumId": "album_white_pony",
+      "album": "White Pony",
+      "artista": "Deftones",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-05-16",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_digital_bath",
+      "titulo": "Digital Bath",
+      "albumId": "album_white_pony",
+      "album": "White Pony",
+      "artista": "Deftones",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-05-16",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_passenger",
+      "titulo": "Passenger",
+      "albumId": "album_white_pony",
+      "album": "White Pony",
+      "artista": "Deftones",
+      "anio": 2000,
+      "fechaLanzamiento": "2000-05-16",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_back_in_black",
+      "titulo": "Back In Black",
+      "albumId": "album_back_in_black",
+      "album": "Back in Black",
+      "artista": "AC/DC",
+      "anio": 1980,
+      "fechaLanzamiento": "1980-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 21
+    },
+    {
+      "id": "cancion_you_shook_me_all_night_long",
+      "titulo": "You Shook Me All Night Long",
+      "albumId": "album_back_in_black",
+      "album": "Back in Black",
+      "artista": "AC/DC",
+      "anio": 1980,
+      "fechaLanzamiento": "1980-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 86
+    },
+    {
+      "id": "cancion_hells_bells",
+      "titulo": "Hells Bells",
+      "albumId": "album_back_in_black",
+      "album": "Back in Black",
+      "artista": "AC/DC",
+      "anio": 1980,
+      "fechaLanzamiento": "1980-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_sweet_child_o_mine",
+      "titulo": "Sweet Child O' Mine",
+      "albumId": "album_appetite_for_destruction",
+      "album": "Appetite for Destruction",
+      "artista": "Guns N' Roses",
+      "anio": 1987,
+      "fechaLanzamiento": "1987-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 5
+    },
+    {
+      "id": "cancion_welcome_to_the_jungle",
+      "titulo": "Welcome To The Jungle",
+      "albumId": "album_appetite_for_destruction",
+      "album": "Appetite for Destruction",
+      "artista": "Guns N' Roses",
+      "anio": 1987,
+      "fechaLanzamiento": "1987-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 44
+    },
+    {
+      "id": "cancion_paradise_city",
+      "titulo": "Paradise City",
+      "albumId": "album_appetite_for_destruction",
+      "album": "Appetite for Destruction",
+      "artista": "Guns N' Roses",
+      "anio": 1987,
+      "fechaLanzamiento": "1987-01-01",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_smells_like_teen_spirit",
+      "titulo": "Smells Like Teen Spirit",
+      "albumId": "album_nevermind",
+      "album": "Nevermind",
+      "artista": "Nirvana",
+      "anio": 1991,
+      "fechaLanzamiento": "1991-01-01",
+      "genero": "Rock",
+      "subgenero": "Grunge",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 11
+    },
+    {
+      "id": "cancion_come_as_you_are",
+      "titulo": "Come As You Are",
+      "albumId": "album_nevermind",
+      "album": "Nevermind",
+      "artista": "Nirvana",
+      "anio": 1991,
+      "fechaLanzamiento": "1991-01-01",
+      "genero": "Rock",
+      "subgenero": "Grunge",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 36
+    },
+    {
+      "id": "cancion_lithium",
+      "titulo": "Lithium",
+      "albumId": "album_nevermind",
+      "album": "Nevermind",
+      "artista": "Nirvana",
+      "anio": 1991,
+      "fechaLanzamiento": "1991-01-01",
+      "genero": "Rock",
+      "subgenero": "Grunge",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_bohemian_rhapsody",
+      "titulo": "Bohemian Rhapsody",
+      "albumId": "album_a_night_at_the_opera",
+      "album": "A Night at the Opera",
+      "artista": "Queen",
+      "anio": 1975,
+      "fechaLanzamiento": "1975-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 8
+    },
+    {
+      "id": "cancion_love_of_my_life",
+      "titulo": "Love of My Life",
+      "albumId": "album_a_night_at_the_opera",
+      "album": "A Night at the Opera",
+      "artista": "Queen",
+      "anio": 1975,
+      "fechaLanzamiento": "1975-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_gimme_shelter",
+      "titulo": "Gimme Shelter",
+      "albumId": "album_let_it_bleed",
+      "album": "Let It Bleed",
+      "artista": "The Rolling Stones",
+      "anio": 1969,
+      "fechaLanzamiento": "1969-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_you_can_t_always_get_what_you_want",
+      "titulo": "You Can't Always Get What You Want",
+      "albumId": "album_let_it_bleed",
+      "album": "Let It Bleed",
+      "artista": "The Rolling Stones",
+      "anio": 1969,
+      "fechaLanzamiento": "1969-01-01",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_welcome_to_the_black_parade",
+      "titulo": "Welcome to the Black Parade",
+      "albumId": "album_the_black_parade",
+      "album": "The Black Parade",
+      "artista": "My Chemical Romance",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-10-23",
+      "genero": "Rock",
+      "subgenero": "Emo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_the_sharpest_lives",
+      "titulo": "The Sharpest Lives",
+      "albumId": "album_the_black_parade",
+      "album": "The Black Parade",
+      "artista": "My Chemical Romance",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-10-23",
+      "genero": "Rock",
+      "subgenero": "Emo",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_zitti_e_buoni",
+      "titulo": "ZITTI E BUONI",
+      "albumId": "album_teatro_d_ira_vol_i",
+      "album": "Teatro d'ira: Vol. I",
+      "artista": "Måneskin",
+      "anio": 2021,
+      "fechaLanzamiento": "2021-03-19",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_i_wanna_be_your_slave",
+      "titulo": "I WANNA BE YOUR SLAVE",
+      "albumId": "album_teatro_d_ira_vol_i",
+      "album": "Teatro d'ira: Vol. I",
+      "artista": "Måneskin",
+      "anio": 2021,
+      "fechaLanzamiento": "2021-03-19",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_do_i_wanna_know",
+      "titulo": "Do I Wanna Know?",
+      "albumId": "album_am",
+      "album": "AM",
+      "artista": "Arctic Monkeys",
+      "anio": 2013,
+      "fechaLanzamiento": "2013-09-06",
+      "genero": "Rock",
+      "subgenero": "Indie rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 11
+    },
+    {
+      "id": "cancion_r_u_mine",
+      "titulo": "R U Mine?",
+      "albumId": "album_am",
+      "album": "AM",
+      "artista": "Arctic Monkeys",
+      "anio": 2013,
+      "fechaLanzamiento": "2013-09-06",
+      "genero": "Rock",
+      "subgenero": "Indie rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 86
+    },
+    {
+      "id": "cancion_de_musica_ligera",
+      "titulo": "De Música Ligera",
+      "albumId": "album_cancion_animal",
+      "album": "Canción Animal",
+      "artista": "Soda Stereo",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-10-09",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 7
+    },
+    {
+      "id": "cancion_cancion_animal",
+      "titulo": "Canción Animal",
+      "albumId": "album_cancion_animal",
+      "album": "Canción Animal",
+      "artista": "Soda Stereo",
+      "anio": 1990,
+      "fechaLanzamiento": "1990-10-09",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_bolero_falaz",
+      "titulo": "Bolero Falaz",
+      "albumId": "album_el_dorado",
+      "album": "El Dorado",
+      "artista": "Aterciopelados",
+      "anio": 1995,
+      "fechaLanzamiento": "1995-09-25",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_florecita_rockera",
+      "titulo": "Florecita Rockera",
+      "albumId": "album_el_dorado",
+      "album": "El Dorado",
+      "artista": "Aterciopelados",
+      "anio": 1995,
+      "fechaLanzamiento": "1995-09-25",
+      "genero": "Rock",
+      "subgenero": "Rock en español",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_american_idiot",
+      "titulo": "American Idiot",
+      "albumId": "album_american_idiot",
+      "album": "American Idiot",
+      "artista": "Green Day",
+      "anio": 2004,
+      "fechaLanzamiento": "2004-09-14",
+      "genero": "Rock",
+      "subgenero": "Punk rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_wake_me_up_when_september_ends",
+      "titulo": "Wake Me Up When September Ends",
+      "albumId": "album_american_idiot",
+      "album": "American Idiot",
+      "artista": "Green Day",
+      "anio": 2004,
+      "fechaLanzamiento": "2004-09-14",
+      "genero": "Rock",
+      "subgenero": "Punk rock",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 30
     },
     {
       "id": "cancion_bby_wow",
@@ -791,15 +1535,37 @@
       "album": "NO ME ARREPIENTO DE SENTIR TANTO",
       "artista": "KAROL G",
       "anio": 2026,
+      "fechaLanzamiento": "2026-08-07",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con Judeline y Rusowsky.",
-        "Es la canción 11 de NO ME ARREPIENTO DE SENTIR TANTO y dura 3:45.",
-        "Puesto 1 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
       "tendencia": 1
+    },
+    {
+      "id": "cancion_ahi",
+      "titulo": "Ahí",
+      "albumId": "album_no_me_arrepiento_de_sentir_tanto",
+      "album": "NO ME ARREPIENTO DE SENTIR TANTO",
+      "artista": "KAROL G",
+      "anio": 2026,
+      "fechaLanzamiento": "2026-08-07",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 82
+    },
+    {
+      "id": "cancion_matadora",
+      "titulo": "MATADORA",
+      "albumId": "album_no_me_arrepiento_de_sentir_tanto",
+      "album": "NO ME ARREPIENTO DE SENTIR TANTO",
+      "artista": "KAROL G",
+      "anio": 2026,
+      "fechaLanzamiento": "2026-08-07",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 44
     },
     {
       "id": "cancion_tqg",
@@ -808,16 +1574,11 @@
       "album": "MAÑANA SERÁ BONITO",
       "artista": "KAROL G",
       "anio": 2023,
+      "fechaLanzamiento": "2023-02-24",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la primera colaboración entre KAROL G y Shakira.",
-        "Debutó en el top 10 del Billboard Hot 100.",
-        "Es la canción 6 de MAÑANA SERÁ BONITO y dura 3:19.",
-        "Puesto 78 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
-      "tendencia": 78
+      "tendencia": 61
     },
     {
       "id": "cancion_mientras_me_curo_del_cora",
@@ -826,32 +1587,11 @@
       "album": "MAÑANA SERÁ BONITO",
       "artista": "KAROL G",
       "anio": 2023,
+      "fechaLanzamiento": "2023-02-24",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Abre el álbum MAÑANA SERÁ BONITO.",
-        "Es la canción 1 de MAÑANA SERÁ BONITO y dura 2:44.",
-        "Salió el 24 de febrero de 2023 con MAÑANA SERÁ BONITO."
-      ],
       "tendencia": null
-    },
-    {
-      "id": "cancion_baile_inolvidable",
-      "titulo": "BAILE INoLVIDABLE",
-      "albumId": "album_debi_tirar_mas_fotos",
-      "album": "DeBÍ TiRAR MáS FOToS",
-      "artista": "Bad Bunny",
-      "anio": 2025,
-      "genero": "Reggaetón",
-      "subgenero": "Reggaetón",
-      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es una salsa, grabada con músicos jóvenes de Puerto Rico.",
-        "Es la canción 3 de DeBÍ TiRAR MáS FOToS y dura 6:07.",
-        "Puesto 26 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
-      "tendencia": 26
     },
     {
       "id": "cancion_dtmf",
@@ -860,15 +1600,37 @@
       "album": "DeBÍ TiRAR MáS FOToS",
       "artista": "Bad Bunny",
       "anio": 2025,
+      "fechaLanzamiento": "2025-01-05",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Su título es la abreviatura del álbum: DeBÍ TiRAR MáS FOToS.",
-        "Es la canción 16 de DeBÍ TiRAR MáS FOToS y dura 3:57.",
-        "Puesto 34 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
-      "tendencia": 34
+      "tendencia": 33
+    },
+    {
+      "id": "cancion_baile_inolvidable",
+      "titulo": "BAILE INoLVIDABLE",
+      "albumId": "album_debi_tirar_mas_fotos",
+      "album": "DeBÍ TiRAR MáS FOToS",
+      "artista": "Bad Bunny",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-01-05",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 21
+    },
+    {
+      "id": "cancion_nuevayol",
+      "titulo": "NUEVAYoL",
+      "albumId": "album_debi_tirar_mas_fotos",
+      "album": "DeBÍ TiRAR MáS FOToS",
+      "artista": "Bad Bunny",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-01-05",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 46
     },
     {
       "id": "cancion_luna",
@@ -877,16 +1639,24 @@
       "album": "FERXXOCALIPSIS",
       "artista": "Feid",
       "anio": 2023,
+      "fechaLanzamiento": "2023-12-01",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con el productor ATL Jacob.",
-        "Fue el tercer sencillo de FERXXOCALIPSIS.",
-        "Es la canción 6 de FERXXOCALIPSIS y dura 3:16.",
-        "Puesto 44 del Top Colombia de Deezer el 31 de octubre de 2026."
-      ],
-      "tendencia": 44
+      "tendencia": 43
+    },
+    {
+      "id": "cancion_cual_es_esa",
+      "titulo": "CUAL ES ESA",
+      "albumId": "album_ferxxocalipsis",
+      "album": "FERXXOCALIPSIS",
+      "artista": "Feid",
+      "anio": 2023,
+      "fechaLanzamiento": "2023-12-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
     },
     {
       "id": "cancion_top_diesel",
@@ -895,15 +1665,11 @@
       "album": "BORONDO",
       "artista": "Beéle",
       "anio": 2025,
+      "fechaLanzamiento": "2025-05-15",
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 9 de BORONDO y dura 3:10.",
-        "Puesto 18 del Top Colombia de Deezer el 31 de octubre de 2026.",
-        "Salió el 15 de mayo de 2025 con BORONDO."
-      ],
-      "tendencia": 18
+      "tendencia": 27
     },
     {
       "id": "cancion_no_tiene_sentido",
@@ -912,15 +1678,24 @@
       "album": "BORONDO",
       "artista": "Beéle",
       "anio": 2025,
+      "fechaLanzamiento": "2025-05-15",
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 6 de BORONDO y dura 2:39.",
-        "Puesto 22 del Top Colombia de Deezer el 31 de octubre de 2026.",
-        "Salió el 15 de mayo de 2025 con BORONDO."
-      ],
-      "tendencia": 22
+      "tendencia": 26
+    },
+    {
+      "id": "cancion_quedate",
+      "titulo": "quédate",
+      "albumId": "album_borondo",
+      "album": "BORONDO",
+      "artista": "Beéle",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-05-15",
+      "genero": "Reggaetón",
+      "subgenero": "Afrobeat",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 34
     },
     {
       "id": "cancion_mi_gente",
@@ -929,14 +1704,10 @@
       "album": "Vibras",
       "artista": "J Balvin",
       "anio": 2018,
+      "fechaLanzamiento": "2018-05-25",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con el francés Willy William.",
-        "Tuvo un remix con Beyoncé en 2017.",
-        "Es la canción 2 de Vibras y dura 3:09."
-      ],
       "tendencia": null
     },
     {
@@ -946,14 +1717,10 @@
       "album": "Vibras",
       "artista": "J Balvin",
       "anio": 2018,
+      "fechaLanzamiento": "2018-05-25",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 3 de Vibras y dura 4:09.",
-        "Salió el 25 de mayo de 2018 con Vibras.",
-        "La interpreta J Balvin, sin artistas invitados."
-      ],
       "tendencia": null
     },
     {
@@ -963,14 +1730,10 @@
       "album": "Barrio Fino",
       "artista": "Daddy Yankee",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Ayudó a llevar el reggaetón a todo el mundo.",
-        "Fue nominada al Latin Grammy a grabación del año.",
-        "Es la canción 5 de Barrio Fino y dura 3:12."
-      ],
       "tendencia": null
     },
     {
@@ -980,14 +1743,127 @@
       "album": "Barrio Fino",
       "artista": "Daddy Yankee",
       "anio": 2004,
+      "fechaLanzamiento": "2004-01-01",
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es uno de los sencillos de Barrio Fino.",
-        "Es la canción 8 de Barrio Fino y dura 3:30.",
-        "Hace parte de Barrio Fino, de 2004."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_sanka",
+      "titulo": "SANKA",
+      "albumId": "album_sende",
+      "album": "SENDÉ",
+      "artista": "Ryan Castro",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-05-29",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 14
+    },
+    {
+      "id": "cancion_bombastik_3",
+      "titulo": "BOMBASTIK<3",
+      "albumId": "album_sende",
+      "album": "SENDÉ",
+      "artista": "Ryan Castro",
+      "anio": 2025,
+      "fechaLanzamiento": "2025-05-29",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_salio_el_sol",
+      "titulo": "Salió El Sol",
+      "albumId": "album_king_of_kings",
+      "album": "King of Kings",
+      "artista": "Don Omar",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 69
+    },
+    {
+      "id": "cancion_angelito",
+      "titulo": "Angelito",
+      "albumId": "album_king_of_kings",
+      "album": "King of Kings",
+      "artista": "Don Omar",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_cuentale",
+      "titulo": "Cuéntale",
+      "albumId": "album_king_of_kings",
+      "album": "King of Kings",
+      "artista": "Don Omar",
+      "anio": 2006,
+      "fechaLanzamiento": "2006-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_sexy_movimiento",
+      "titulo": "Sexy Movimiento",
+      "albumId": "album_los_extraterrestres",
+      "album": "Los Extraterrestres",
+      "artista": "Wisin & Yandel",
+      "anio": 2007,
+      "fechaLanzamiento": "2007-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 35
+    },
+    {
+      "id": "cancion_ahora_es",
+      "titulo": "Ahora Es",
+      "albumId": "album_los_extraterrestres",
+      "album": "Los Extraterrestres",
+      "artista": "Wisin & Yandel",
+      "anio": 2007,
+      "fechaLanzamiento": "2007-01-01",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
+      "tendencia": 69
+    },
+    {
+      "id": "cancion_hawai",
+      "titulo": "Hawái",
+      "albumId": "album_papi_juancho",
+      "album": "PAPI JUANCHO",
+      "artista": "Maluma",
+      "anio": 2020,
+      "fechaLanzamiento": "2020-08-21",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_admv",
+      "titulo": "ADMV",
+      "albumId": "album_papi_juancho",
+      "album": "PAPI JUANCHO",
+      "artista": "Maluma",
+      "anio": 2020,
+      "fechaLanzamiento": "2020-08-21",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -997,14 +1873,10 @@
       "album": "1800 Noches",
       "artista": "Jessi Uribe",
       "anio": 2023,
+      "fechaLanzamiento": "2023-05-26",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 5 de 1800 Noches y dura 2:38.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer.",
-        "Salió el 26 de mayo de 2023 con 1800 Noches."
-      ],
       "tendencia": null
     },
     {
@@ -1014,14 +1886,23 @@
       "album": "1800 Noches",
       "artista": "Jessi Uribe",
       "anio": 2023,
+      "fechaLanzamiento": "2023-05-26",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con el mexicano Luis R Conriquez.",
-        "Es la canción 2 de 1800 Noches y dura 3:43.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_tu_maniqui",
+      "titulo": "Tu Maniquí",
+      "albumId": "album_1800_noches",
+      "album": "1800 Noches",
+      "artista": "Jessi Uribe",
+      "anio": 2023,
+      "fechaLanzamiento": "2023-05-26",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -1031,14 +1912,10 @@
       "album": "Quinto Elemento",
       "artista": "Yeison Jiménez",
       "anio": 2021,
+      "fechaLanzamiento": "2021-09-03",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 6 de Quinto Elemento y dura 3:24.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer.",
-        "Salió el 3 de septiembre de 2021 con Quinto Elemento."
-      ],
       "tendencia": null
     },
     {
@@ -1048,14 +1925,23 @@
       "album": "Quinto Elemento",
       "artista": "Yeison Jiménez",
       "anio": 2021,
+      "fechaLanzamiento": "2021-09-03",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 5 de Quinto Elemento y dura 3:10.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer.",
-        "Salió el 3 de septiembre de 2021 con Quinto Elemento."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_esa_no",
+      "titulo": "Esa No",
+      "albumId": "album_quinto_elemento",
+      "album": "Quinto Elemento",
+      "artista": "Yeison Jiménez",
+      "anio": 2021,
+      "fechaLanzamiento": "2021-09-03",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -1065,14 +1951,10 @@
       "album": "Contentoso",
       "artista": "Luis Alfonso",
       "anio": 2024,
+      "fechaLanzamiento": "2024-08-30",
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 10 de Contentoso y dura 2:34.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer.",
-        "Salió el 30 de agosto de 2024 con Contentoso."
-      ],
       "tendencia": null
     },
     {
@@ -1082,14 +1964,23 @@
       "album": "Contentoso",
       "artista": "Luis Alfonso",
       "anio": 2024,
+      "fechaLanzamiento": "2024-08-30",
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es con Jhonny Rivera.",
-        "Es la canción 9 de Contentoso y dura 2:35.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_soltera",
+      "titulo": "Soltera",
+      "albumId": "album_contentoso",
+      "album": "Contentoso",
+      "artista": "Luis Alfonso",
+      "anio": 2024,
+      "fechaLanzamiento": "2024-08-30",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -1099,14 +1990,10 @@
       "album": "Te Sigo Queriendo",
       "artista": "Jhonny Rivera",
       "anio": 2011,
+      "fechaLanzamiento": "2011-08-12",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Le da nombre al álbum.",
-        "Es la canción 1 de Te Sigo Queriendo y dura 3:06.",
-        "Salió el 12 de agosto de 2011 con Te Sigo Queriendo."
-      ],
       "tendencia": null
     },
     {
@@ -1116,14 +2003,23 @@
       "album": "Te Sigo Queriendo",
       "artista": "Jhonny Rivera",
       "anio": 2011,
+      "fechaLanzamiento": "2011-08-12",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 3 de Te Sigo Queriendo y dura 3:02.",
-        "Salió el 12 de agosto de 2011 con Te Sigo Queriendo.",
-        "La interpreta Jhonny Rivera, sin artistas invitados."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_contigo_hasta_el_final",
+      "titulo": "Contigo Hasta El Final",
+      "albumId": "album_te_sigo_queriendo",
+      "album": "Te Sigo Queriendo",
+      "artista": "Jhonny Rivera",
+      "anio": 2011,
+      "fechaLanzamiento": "2011-08-12",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     },
     {
@@ -1133,14 +2029,10 @@
       "album": "En Tus Manos",
       "artista": "Paola Jara",
       "anio": 2019,
+      "fechaLanzamiento": "2019-08-21",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es uno de los grandes éxitos de Paola Jara.",
-        "Es la canción 2 de En Tus Manos y dura 3:00.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer."
-      ],
       "tendencia": null
     },
     {
@@ -1150,45 +2042,416 @@
       "album": "En Tus Manos",
       "artista": "Paola Jara",
       "anio": 2019,
+      "fechaLanzamiento": "2019-08-21",
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Es la canción 8 de En Tus Manos y dura 2:44.",
-        "Es una de las dos canciones del álbum más escuchadas en Deezer.",
-        "Salió el 21 de agosto de 2019 con En Tus Manos."
-      ],
+      "tendencia": null
+    },
+    {
+      "id": "cancion_nadie_es_eterno",
+      "titulo": "Nadie Es Eterno",
+      "albumId": "album_el_rey_del_despecho",
+      "album": "El Rey del Despecho",
+      "artista": "Darío Gómez",
+      "anio": 1996,
+      "fechaLanzamiento": "1996-06-18",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_sobrevivire",
+      "titulo": "Sobreviviré",
+      "albumId": "album_el_rey_del_despecho",
+      "album": "El Rey del Despecho",
+      "artista": "Darío Gómez",
+      "anio": 1996,
+      "fechaLanzamiento": "1996-06-18",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_si_negabas_que_buscabas",
+      "titulo": "Si Negabas Que Buscabas",
+      "albumId": "album_el_rey_del_despecho",
+      "album": "El Rey del Despecho",
+      "artista": "Darío Gómez",
+      "anio": 1996,
+      "fechaLanzamiento": "1996-06-18",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_amigos_con_derechos",
+      "titulo": "Amigos con Derechos",
+      "albumId": "album_el_rey_del_chupe",
+      "album": "El Rey del Chupe",
+      "artista": "Jhon Alex Castaño",
+      "anio": 2016,
+      "fechaLanzamiento": "2016-01-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_dos_razones",
+      "titulo": "Dos Razones",
+      "albumId": "album_el_rey_del_chupe",
+      "album": "El Rey del Chupe",
+      "artista": "Jhon Alex Castaño",
+      "anio": 2016,
+      "fechaLanzamiento": "2016-01-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_cierra_los_ojos",
+      "titulo": "Cierra los Ojos",
+      "albumId": "album_carino_malo",
+      "album": "Cariño Malo",
+      "artista": "Luis Alberto Posada",
+      "anio": 2019,
+      "fechaLanzamiento": "2019-06-10",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_carino_malo",
+      "titulo": "Cariño Malo",
+      "albumId": "album_carino_malo",
+      "album": "Cariño Malo",
+      "artista": "Luis Alberto Posada",
+      "anio": 2019,
+      "fechaLanzamiento": "2019-06-10",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_senora",
+      "titulo": "Señora",
+      "albumId": "album_aqui_estoy_yo",
+      "album": "Aquí Estoy Yo",
+      "artista": "Pipe Bueno",
+      "anio": 2026,
+      "fechaLanzamiento": "2026-10-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_mi_esposa",
+      "titulo": "Mi Esposa",
+      "albumId": "album_aqui_estoy_yo",
+      "album": "Aquí Estoy Yo",
+      "artista": "Pipe Bueno",
+      "anio": 2026,
+      "fechaLanzamiento": "2026-10-01",
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_no_me_conviene",
+      "titulo": "No Me Conviene",
+      "albumId": "album_mi_historia",
+      "album": "Mi Historia",
+      "artista": "Arelys Henao",
+      "anio": 2018,
+      "fechaLanzamiento": "2018-03-09",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
+      "tendencia": null
+    },
+    {
+      "id": "cancion_amante_y_amigo",
+      "titulo": "Amante y Amigo",
+      "albumId": "album_mi_historia",
+      "album": "Mi Historia",
+      "artista": "Arelys Henao",
+      "anio": 2018,
+      "fechaLanzamiento": "2018-03-09",
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
       "tendencia": null
     }
   ],
   "artistas": [
     {
+      "id": "artista_james_hetfield",
+      "nombre": "James Hetfield",
+      "grupo": "Metallica",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/ee6a8f5a8391452915506e78dde7131d/1000x1000-000000-80-0-0.jpg",
+      "instagram": "metallica",
+      "tendencia": 4
+    },
+    {
+      "id": "artista_kirk_hammett",
+      "nombre": "Kirk Hammett",
+      "grupo": "Metallica",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/6c5b03e870bcea24d02b22d242254754/1000x1000-000000-80-0-0.jpg",
+      "instagram": "metallica",
+      "tendencia": 4
+    },
+    {
+      "id": "artista_bruce_dickinson",
+      "nombre": "Bruce Dickinson",
+      "grupo": "Iron Maiden",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/27cb927e6588516f7706f5e55424718b/1000x1000-000000-80-0-0.jpg",
+      "instagram": "ironmaiden",
+      "tendencia": null
+    },
+    {
+      "id": "artista_steve_harris",
+      "nombre": "Steve Harris",
+      "grupo": "Iron Maiden",
+      "genero": "Metal",
+      "subgenero": "Heavy metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/0a7c2ee51b8394f51eb15d46cb4ca2a8/1000x1000-000000-80-0-0.jpg",
+      "instagram": "ironmaiden",
+      "tendencia": null
+    },
+    {
+      "id": "artista_kerry_king",
+      "nombre": "Kerry King",
+      "grupo": "Slayer",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/1f12f9fb7138ef4ef3354b1f3071c29d/1000x1000-000000-80-0-0.jpg",
+      "instagram": "slayerbandofficial",
+      "tendencia": 100
+    },
+    {
+      "id": "artista_dave_mustaine",
+      "nombre": "Dave Mustaine",
+      "grupo": "Megadeth",
+      "genero": "Metal",
+      "subgenero": "Thrash metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/bb8939328b1b96cbc5c8eef2dc11a3d9/1000x1000-000000-80-0-0.jpg",
+      "instagram": "megadeth",
+      "tendencia": 29
+    },
+    {
+      "id": "artista_phil_anselmo",
+      "nombre": "Phil Anselmo",
+      "grupo": "Pantera",
+      "genero": "Metal",
+      "subgenero": "Groove metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/8cc14e45a5081ead98bb330420b606dd/1000x1000-000000-80-0-0.jpg",
+      "instagram": "panteraofficial",
+      "tendencia": 42
+    },
+    {
+      "id": "artista_corey_taylor",
+      "nombre": "Corey Taylor",
+      "grupo": "Slipknot",
+      "genero": "Metal",
+      "subgenero": "Metal alternativo",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fe999c6ac08354ca8d665e6001ac0ba3/1000x1000-000000-80-0-0.jpg",
+      "instagram": "slipknot",
+      "tendencia": 12
+    },
+    {
+      "id": "artista_till_lindemann",
+      "nombre": "Till Lindemann",
+      "grupo": "Rammstein",
+      "genero": "Metal",
+      "subgenero": "Metal industrial",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/93252ef87371f246ce69d25188fb9cc7/1000x1000-000000-80-0-0.jpg",
+      "instagram": "rammsteinofficial",
+      "tendencia": 7
+    },
+    {
+      "id": "artista_jose_andrea",
+      "nombre": "José Andrëa",
+      "grupo": "Mägo de Oz",
+      "genero": "Metal",
+      "subgenero": "Folk metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d630ab5882a89da5593575713e3b346b/1000x1000-000000-80-0-0.jpg",
+      "instagram": "magodeozoficial",
+      "tendencia": null
+    },
+    {
       "id": "artista_mike_shinoda",
       "nombre": "Mike Shinoda",
       "grupo": "Linkin Park",
-      "genero": "Rock",
-      "subgenero": "Rock alternativo",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/83893b115ac94cfa93fc8ba94bdc91f8/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Cofundador de Linkin Park: rapea, canta, toca y produce.",
-        "Tiene un proyecto propio de hip hop: Fort Minor.",
-        "Estudió ilustración en el ArtCenter College of Design."
-      ],
-      "tendencia": null
+      "instagram": "linkinpark",
+      "tendencia": 6
     },
     {
       "id": "artista_chester_bennington",
       "nombre": "Chester Bennington",
       "grupo": "Linkin Park",
-      "genero": "Rock",
-      "subgenero": "Rock alternativo",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/83fb2aef70b7906e7b5b84ac8317afac/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Fue la voz de Linkin Park desde 1999 hasta su muerte en 2017.",
-        "Entre 2013 y 2015 también cantó en Stone Temple Pilots.",
-        "Nació en Phoenix, Arizona, en 1976."
-      ],
+      "instagram": "linkinpark",
+      "tendencia": 6
+    },
+    {
+      "id": "artista_emily_armstrong",
+      "nombre": "Emily Armstrong",
+      "grupo": "Linkin Park",
+      "genero": "Nu metal",
+      "subgenero": "Rock alternativo",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/316baef39c423f38047f9083ea6b62fd/1000x1000-000000-80-0-0.jpg",
+      "instagram": "linkinpark",
+      "tendencia": 6
+    },
+    {
+      "id": "artista_joe_hahn",
+      "nombre": "Joe Hahn",
+      "grupo": "Linkin Park",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3001a8990f6bfbd193014ec7d44a1cce/1000x1000-000000-80-0-0.jpg",
+      "instagram": "linkinpark",
+      "tendencia": 6
+    },
+    {
+      "id": "artista_serj_tankian",
+      "nombre": "Serj Tankian",
+      "grupo": "System of a Down",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/02f2cecfe6de1a85a1250285c45659ee/1000x1000-000000-80-0-0.jpg",
+      "instagram": "systemofadown",
+      "tendencia": 3
+    },
+    {
+      "id": "artista_jonathan_davis",
+      "nombre": "Jonathan Davis",
+      "grupo": "Korn",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fe568b958e43792fc774e041a3ca97e3/1000x1000-000000-80-0-0.jpg",
+      "instagram": "korn_official",
       "tendencia": null
+    },
+    {
+      "id": "artista_munky",
+      "nombre": "Munky",
+      "grupo": "Korn",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/c36e497696eda906b272fa6898458e44/1000x1000-000000-80-0-0.jpg",
+      "instagram": "korn_official",
+      "tendencia": null
+    },
+    {
+      "id": "artista_fred_durst",
+      "nombre": "Fred Durst",
+      "grupo": "Limp Bizkit",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/803ba621281755421698b3db3b16cb92/1000x1000-000000-80-0-0.jpg",
+      "instagram": "limpbizkit",
+      "tendencia": null
+    },
+    {
+      "id": "artista_wes_borland",
+      "nombre": "Wes Borland",
+      "grupo": "Limp Bizkit",
+      "genero": "Nu metal",
+      "subgenero": "Nu metal",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/f7ff5906af619ff585d91105ce067cc6/1000x1000-000000-80-0-0.jpg",
+      "instagram": "limpbizkit",
+      "tendencia": null
+    },
+    {
+      "id": "artista_chino_moreno",
+      "nombre": "Chino Moreno",
+      "grupo": "Deftones",
+      "genero": "Nu metal",
+      "subgenero": "Metal alternativo",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/69721df871a292a96ba0cf7d3fcce66d/1000x1000-000000-80-0-0.jpg",
+      "instagram": "deftones",
+      "tendencia": null
+    },
+    {
+      "id": "artista_brian_johnson",
+      "nombre": "Brian Johnson",
+      "grupo": "AC/DC",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/7175a34f2032b77ab785a48e970fd6f6/1000x1000-000000-80-0-0.jpg",
+      "instagram": "acdc",
+      "tendencia": 4
+    },
+    {
+      "id": "artista_axl_rose",
+      "nombre": "Axl Rose",
+      "grupo": "Guns N' Roses",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d27d762cba63d2703cfab5bcbceef6a7/1000x1000-000000-80-0-0.jpg",
+      "instagram": "gunsnroses",
+      "tendencia": 5
+    },
+    {
+      "id": "artista_slash",
+      "nombre": "Slash",
+      "grupo": "Guns N' Roses",
+      "genero": "Rock",
+      "subgenero": "Hard rock",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d5bcd09310756ecc8aafece29fcb8063/1000x1000-000000-80-0-0.jpg",
+      "instagram": "gunsnroses",
+      "tendencia": 5
+    },
+    {
+      "id": "artista_kurt_cobain",
+      "nombre": "Kurt Cobain",
+      "grupo": "Nirvana",
+      "genero": "Rock",
+      "subgenero": "Grunge",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d69b4e051740c531adddb99bba2b24b8/1000x1000-000000-80-0-0.jpg",
+      "instagram": null,
+      "tendencia": 11
+    },
+    {
+      "id": "artista_freddie_mercury",
+      "nombre": "Freddie Mercury",
+      "grupo": "Queen",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/05399d9db35a85caa567bbeb8634a413/1000x1000-000000-80-0-0.jpg",
+      "instagram": "officialqueenmusic",
+      "tendencia": 8
+    },
+    {
+      "id": "artista_mick_jagger",
+      "nombre": "Mick Jagger",
+      "grupo": "The Rolling Stones",
+      "genero": "Rock",
+      "subgenero": "Rock clásico",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/0297ea3962797f3e9ac011174fdc98dd/1000x1000-000000-80-0-0.jpg",
+      "instagram": "therollingstones",
+      "tendencia": 63
     },
     {
       "id": "artista_gerard_way",
@@ -1197,11 +2460,7 @@
       "genero": "Rock",
       "subgenero": "Emo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/60f1c69bc4f5459bd8b232cfd77b3176/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Vocalista y cofundador de My Chemical Romance.",
-        "Creó el cómic The Umbrella Academy, que Netflix llevó a serie.",
-        "Nació en Nueva Jersey en 1977."
-      ],
+      "instagram": "mychemicalromance",
       "tendencia": null
     },
     {
@@ -1211,11 +2470,7 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d50c689f6e096e7f596b9bb9828998b1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Vocalista de Måneskin.",
-        "Lanzó su primer álbum solista, Funny Little Fears, el 16 de mayo de 2025.",
-        "Nació en Roma en 1999."
-      ],
+      "instagram": "maneskinofficial",
       "tendencia": null
     },
     {
@@ -1225,12 +2480,8 @@
       "genero": "Rock",
       "subgenero": "Indie rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/56844fe93886217d3f89b76a338f5dd1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Vocalista y compositor de Arctic Monkeys.",
-        "También lidera The Last Shadow Puppets con Miles Kane.",
-        "Nació en Sheffield, Inglaterra, en 1986."
-      ],
-      "tendencia": null
+      "instagram": "arcticmonkeys",
+      "tendencia": 11
     },
     {
       "id": "artista_gustavo_cerati",
@@ -1239,12 +2490,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d9935156530ada9a8da56c90a567d6d2/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Líder, voz y guitarra de Soda Stereo.",
-        "Tuvo una carrera solista con discos como Bocanada (1999).",
-        "Murió en Buenos Aires en 2014."
-      ],
-      "tendencia": null
+      "instagram": "sodastereo",
+      "tendencia": 7
     },
     {
       "id": "artista_andrea_echeverri",
@@ -1253,54 +2500,18 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/2bf966dd5099aa4e8a59335c8f8556bc/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Voz de Aterciopelados, la banda que fundó en Bogotá con Héctor Buitrago.",
-        "También es ceramista.",
-        "En 2005 lanzó un álbum solista con su nombre."
-      ],
+      "instagram": "aterciopelados",
       "tendencia": null
     },
     {
-      "id": "artista_serj_tankian",
-      "nombre": "Serj Tankian",
-      "grupo": "System Of A Down",
-      "genero": "Metal",
-      "subgenero": "Nu metal",
-      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/02f2cecfe6de1a85a1250285c45659ee/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Voz de System of a Down.",
-        "Nació en Beirut, Líbano, en 1967.",
-        "Es activista por el reconocimiento del genocidio armenio."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "artista_bruce_dickinson",
-      "nombre": "Bruce Dickinson",
-      "grupo": "Iron Maiden",
-      "genero": "Metal",
-      "subgenero": "Heavy metal",
-      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/27cb927e6588516f7706f5e55424718b/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Voz de Iron Maiden: entró en 1981, salió en 1993 y volvió en 1999.",
-        "Es piloto comercial y ha volado el avión de la banda en sus giras.",
-        "También practica esgrima."
-      ],
-      "tendencia": null
-    },
-    {
-      "id": "artista_corey_taylor",
-      "nombre": "Corey Taylor",
-      "grupo": "Slipknot",
-      "genero": "Metal",
-      "subgenero": "Nu metal",
-      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fe999c6ac08354ca8d665e6001ac0ba3/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Voz de Slipknot.",
-        "También es el vocalista de Stone Sour.",
-        "Nació en Des Moines, Iowa, la ciudad de Slipknot."
-      ],
-      "tendencia": null
+      "id": "artista_billie_joe_armstrong",
+      "nombre": "Billie Joe Armstrong",
+      "grupo": "Green Day",
+      "genero": "Rock",
+      "subgenero": "Punk rock",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5514b95bb3f3a58694ab5a33407995fb/1000x1000-000000-80-0-0.jpg",
+      "instagram": "greenday",
+      "tendencia": 76
     },
     {
       "id": "artista_karol_g",
@@ -1309,11 +2520,7 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5b0aab23f8d2856951a92f3a9faf70e3/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Medellín en 1991.",
-        "Le dicen La Bichota.",
-        "MAÑANA SERÁ BONITO ganó el Grammy a mejor álbum de música urbana."
-      ],
+      "instagram": "karolg",
       "tendencia": 1
     },
     {
@@ -1323,12 +2530,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/044a3f315b041864887a8dd8709e6926/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Creció en Vega Baja, Puerto Rico.",
-        "Antes de la fama trabajaba empacando mercado en un supermercado.",
-        "DeBÍ TiRAR MáS FOToS es un homenaje a la música de Puerto Rico."
-      ],
-      "tendencia": 26
+      "instagram": "badbunnypr",
+      "tendencia": 16
     },
     {
       "id": "artista_feid",
@@ -1337,12 +2540,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/e629c93e03b3c225d8d52a42bae71537/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Medellín.",
-        "Sus fans lo llaman Ferxxo.",
-        "El verde es el color de toda su imagen."
-      ],
-      "tendencia": 4
+      "instagram": "feid",
+      "tendencia": 5
     },
     {
       "id": "artista_beele",
@@ -1351,12 +2550,8 @@
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/517e60ed50f56034769b7e845a71e35c/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Se llama Brandon de Jesús López Orozco y es de Barranquilla.",
-        "Fue el artista más escuchado en Spotify Colombia en 2025.",
-        "Su álbum debut, BORONDO, salió en 2025."
-      ],
-      "tendencia": 18
+      "instagram": "beele",
+      "tendencia": 22
     },
     {
       "id": "artista_j_balvin",
@@ -1365,12 +2560,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/325eaa46bc25052d0e3d549d60cc8225/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Medellín en 1985.",
-        "Su nombre real es José Álvaro Osorio Balvín.",
-        "Vibras ganó el Latin Grammy a mejor álbum de música urbana."
-      ],
-      "tendencia": 41
+      "instagram": "jbalvin",
+      "tendencia": 47
     },
     {
       "id": "artista_daddy_yankee",
@@ -1379,12 +2570,68 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/a4f77d40d68cf544e74883b2bd904fce/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Le dicen El Big Boss y es de San Juan, Puerto Rico.",
-        "Gasolina llevó el reggaetón al mundo en 2004.",
-        "Se retiró de la música en 2023."
-      ],
+      "instagram": "daddyyankee",
+      "tendencia": 67
+    },
+    {
+      "id": "artista_ryan_castro",
+      "nombre": "Ryan Castro",
+      "grupo": null,
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/85e4705e8cab0354605581abd89c703d/1000x1000-000000-80-0-0.jpg",
+      "instagram": "ryancastrro",
+      "tendencia": 1
+    },
+    {
+      "id": "artista_don_omar",
+      "nombre": "Don Omar",
+      "grupo": null,
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3edb52cebe741e547363a093e26d4655/1000x1000-000000-80-0-0.jpg",
+      "instagram": "donomar",
+      "tendencia": 6
+    },
+    {
+      "id": "artista_maluma",
+      "nombre": "Maluma",
+      "grupo": null,
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/69defce1be19bb2abf80cb7b1d936cdc/1000x1000-000000-80-0-0.jpg",
+      "instagram": "maluma",
+      "tendencia": 20
+    },
+    {
+      "id": "artista_kapo",
+      "nombre": "Kapo",
+      "grupo": null,
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fc34dd7446d568d21b31dfba05b9e870/1000x1000-000000-80-0-0.jpg",
+      "instagram": "yosoytukapo",
+      "tendencia": 13
+    },
+    {
+      "id": "artista_wisin",
+      "nombre": "Wisin",
+      "grupo": "Wisin & Yandel",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/2835d5ae661fb00c0d7a8558bba86c7c/1000x1000-000000-80-0-0.jpg",
+      "instagram": "wisin",
       "tendencia": null
+    },
+    {
+      "id": "artista_yandel",
+      "nombre": "Yandel",
+      "grupo": "Wisin & Yandel",
+      "genero": "Reggaetón",
+      "subgenero": "Reggaetón",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/1d6fdd7f4dfd5ca9fdf057f86bd9ef08/1000x1000-000000-80-0-0.jpg",
+      "instagram": "yandel",
+      "tendencia": 4
     },
     {
       "id": "artista_jessi_uribe",
@@ -1393,12 +2640,7 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fad276573bfee42f0875083d6f25da06/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Bucaramanga en 1987.",
-        "Empezó cantando con mariachis, como su papá.",
-        "Su éxito Dulce pecado lo dio a conocer en 2017.",
-        "Está casado con la cantante Paola Jara."
-      ],
+      "instagram": "jessiuribe3",
       "tendencia": null
     },
     {
@@ -1408,12 +2650,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/f9b243ec5542935a15e95c06cb57777e/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Manzanares, Caldas, en 1991.",
-        "En julio de 2025 fue el primer cantante de música popular en llenar solo El Campín.",
-        "Murió el 10 de enero de 2026 en un accidente aéreo en Paipa, Boyacá."
-      ],
-      "tendencia": 81
+      "instagram": "yeison_jimenez",
+      "tendencia": 62
     },
     {
       "id": "artista_luis_alfonso",
@@ -1422,11 +2660,7 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/b253934243890ef02b50bf212a250e15/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en Popayán en 1993.",
-        "Lo llaman El Señorazo.",
-        "Antes de la música trabajó cargando bultos en una plaza de mercado."
-      ],
+      "instagram": "luisalfonso",
       "tendencia": null
     },
     {
@@ -1436,11 +2670,7 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/9e3f24129b476956e4435cd5d1581bf1/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Nació en 1974 en Pereira, Risaralda.",
-        "Antes de cantar fue carpintero.",
-        "Su primer sencillo, El dolor de una partida, salió en 2004."
-      ],
+      "instagram": "jhonnyrivera",
       "tendencia": null
     },
     {
@@ -1450,11 +2680,77 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5d7d4b9579b4ffd033a81282d21ab789/1000x1000-000000-80-0-0.jpg",
-      "datosCuriosos": [
-        "Se llama Paola Andrea Zapata Jaramillo y es antioqueña.",
-        "Empezó su carrera profesional a los 14 años.",
-        "Está casada con Jessi Uribe."
-      ],
+      "instagram": "paolajarapj",
+      "tendencia": null
+    },
+    {
+      "id": "artista_dario_gomez",
+      "nombre": "Darío Gómez",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/cb4e16bccf10576b870e8dab002f664c/1000x1000-000000-80-0-0.jpg",
+      "instagram": "elreydeldespecho",
+      "tendencia": null
+    },
+    {
+      "id": "artista_jhon_alex_castano",
+      "nombre": "Jhon Alex Castaño",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/23fed682b2315f775fbdd154df9b7a61/1000x1000-000000-80-0-0.jpg",
+      "instagram": "jhonalexcastano",
+      "tendencia": null
+    },
+    {
+      "id": "artista_luis_alberto_posada",
+      "nombre": "Luis Alberto Posada",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/535049a9be1409ef5c2deab8b897edc2/1000x1000-000000-80-0-0.jpg",
+      "instagram": "posadarecords_",
+      "tendencia": null
+    },
+    {
+      "id": "artista_pipe_bueno",
+      "nombre": "Pipe Bueno",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Música popular",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/dddb2dc946e37019db63cbecebf5980b/1000x1000-000000-80-0-0.jpg",
+      "instagram": "pipebueno",
+      "tendencia": null
+    },
+    {
+      "id": "artista_arelys_henao",
+      "nombre": "Arelys Henao",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3ebf6454ad3c771ad1f6e2c9e8846ce5/1000x1000-000000-80-0-0.jpg",
+      "instagram": "arelyshenao",
+      "tendencia": null
+    },
+    {
+      "id": "artista_el_charrito_negro",
+      "nombre": "El Charrito Negro",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/24e1260f3fdc5d160641cd98bd14b48c/1000x1000-000000-80-0-0.jpg",
+      "instagram": "charritonegrooficial",
+      "tendencia": null
+    },
+    {
+      "id": "artista_francy",
+      "nombre": "Francy",
+      "grupo": null,
+      "genero": "Música popular",
+      "subgenero": "Despecho",
+      "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/e5ff981eded37bfa17f724768c251dca/1000x1000-000000-80-0-0.jpg",
+      "instagram": "francypopular",
       "tendencia": null
     }
   ]

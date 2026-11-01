@@ -1,6 +1,8 @@
 import admin from "firebase-admin";
 import { fakerES_MX as faker } from "@faker-js/faker";
 import catalogo from "./catalogo.json" with { type: "json" };
+// Los datos curiosos de cada item, por secciones: van en su propia coleccion
+import historias from "./historias.json" with { type: "json" };
 // Firebase real: descomentar este import y la linea credential, y comentar las dos del emulador
 //import serviceAccount from "./serviceAccountKey.json" with { type: "json" };
 
@@ -17,7 +19,7 @@ const db = admin.firestore();
 // Siempre salen los mismos usuarios, likes y resenas: correr el seed otra vez deja la base igual
 faker.seed(13);
 
-const USUARIOS = 12;
+const USUARIOS = 20;
 const SIGUE_A = 4; // a cuantos usuarios sigue cada uno
 const LIKES_POR_USUARIO = 8;
 const RESENAS_POR_USUARIO = 4;
@@ -112,13 +114,16 @@ function otrosUsuarios(usuarios, excluidos, maximo) {
 function buildUsuario(i) {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
+  const username = nombreDeUsuario(firstName, lastName);
 
   return {
     id: `usuario_${i}`,
-    username: nombreDeUsuario(firstName, lastName),
+    username,
     nombre: `${firstName} ${lastName}`.slice(0, MAX_NOMBRE),
     bio: faker.helpers.arrayElement(BIOS),
     fotoUrl: faker.image.personPortrait({ size: 256 }),
+    // Casi todos ponen su Instagram; es el mismo nombre de usuario, sin la @
+    instagram: faker.datatype.boolean({ probability: 0.7 }) ? username : null,
     // No se guarda: decide de que genero son sus likes y sus resenas
     generoFavorito: faker.helpers.arrayElement(generos),
   };
@@ -278,6 +283,14 @@ function armarEscrituras() {
     });
   }
 
+  // Las historias de cada item, con el mismo id: la app las lee solo al abrir Datos curiosos
+  for (const [itemId, historia] of Object.entries(historias)) {
+    documentos.push({
+      ref: db.collection("historias").doc(itemId),
+      datos: { tipo: historia.tipo, secciones: historia.secciones },
+    });
+  }
+
   return [...documentos, ...resenas, ...escrituras];
 }
 
@@ -297,7 +310,8 @@ try {
   const escrituras = armarEscrituras();
   console.log(
     `Seeding ${catalogo.albumes.length} albumes, ${catalogo.canciones.length} canciones, ` +
-      `${catalogo.artistas.length} artistas y ${USUARIOS} usuarios con sus likes, resenas y comentarios...`
+      `${catalogo.artistas.length} artistas, ${Object.keys(historias).length} historias y ${USUARIOS} usuarios ` +
+      "con sus likes, resenas y comentarios..."
   );
   await guardarPorLotes(escrituras);
   console.log("Seeding completed!");

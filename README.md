@@ -10,12 +10,13 @@ Funciones en línea del proyecto Firebase `mixtapp-720eb`. Responden a cambios e
 | `sendLikeNotification` | `onDocumentCreated("reviews/{reviewId}/likes/{userId}")` | Notifica al **autor** de la reseña cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu reseña de From Zero». |
 | `sendFollowNotification` | `onDocumentCreated("usuarios/{userId}/followers/{followerId}")` | Notifica al usuario que tiene un seguidor nuevo: «Nuevo seguidor · Ana ha comenzado a seguirte». |
 | `sendCommentNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}")` | Notifica al **autor** de la reseña cuando alguien la comenta («Nuevo comentario · Ana comentó tu reseña de From Zero») y, si es una respuesta, al autor del comentario que responde («Nueva respuesta»). Nadie recibe la notificación de su propio comentario. |
+| `sendCommentLikeNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}/likes/{userId}")` | Notifica al **autor** de un comentario cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu comentario». |
 
-Las tres notificaciones pasan por `enviarNotificacion`, que hace dos cosas:
+Las cuatro notificaciones pasan por `enviarNotificacion`, que hace dos cosas:
 
 1. **Guarda la notificación** en `usuarios/{id}/notificaciones`, que la pantalla de notificaciones de
-   la app escucha en vivo. Cada documento tiene `tipo` (`like`, `comentario`, `respuesta` o
-   `seguidor`), quién la hizo (`actorId`, `actorNombre`, `actorFotoUrl`), la reseña (`reviewId`),
+   la app escucha en vivo. Cada documento tiene `tipo` (`like`, `like_comentario`, `comentario`,
+   `respuesta` o `seguidor`), quién la hizo (`actorId`, `actorNombre`, `actorFotoUrl`), la reseña (`reviewId`),
    el título y la imagen del álbum, la canción o el artista (`itemTitulo`, `imagenUrl`), `leida` y
    `createdAt`. La app la marca como leída.
 2. **Envía el push** con el token de FCM que la app guarda en el campo `fcmtoken` del usuario. Si
@@ -37,6 +38,7 @@ mixtapp-functions
 ├── seed               catálogo real y datos falsos con Faker (ver seed/README.md)
 │   ├── .gitignore
 │   ├── catalogo.json
+│   ├── historias.json
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── README.md
@@ -76,7 +78,7 @@ cd ..
 firebase deploy --only functions
 ```
 
-El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las cuatro funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
+El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las cinco funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
 
 ## Reglas de seguridad de Firestore
 
@@ -123,11 +125,17 @@ service cloud.firestore {
       allow write: if request.resource.data.likesCount is int && request.resource.data.likesCount >= 0;
     }
 
+    //historias/album_x: los datos curiosos solo se leen; los carga el seed
+    match /historias/{itemId} {
+      allow write: if false;
+    }
+
     //usuarios/uid
     match /usuarios/{userId} {
       allow write: if request.resource.data.nombre.size() <= 40
       && request.resource.data.username.size() <= 20
-      && (request.resource.data.bio == null || request.resource.data.bio.size() <= 150);
+      && (request.resource.data.bio == null || request.resource.data.bio.size() <= 150)
+      && (request.resource.data.instagram == null || request.resource.data.instagram.size() <= 30);
 
       //usuarios/uid/likes/album_x, usuarios/uid/guardados/album_x: solo los cambia su dueño
       match /likes/{itemId} {
@@ -151,6 +159,6 @@ service cloud.firestore {
 }
 ```
 
-Las reglas repiten las validaciones que ya tiene la app: la reseña tiene hasta 500 caracteres, es del usuario autenticado, es de un álbum, una canción o un artista, tiene una calificación entera de 0 a 5 y una fecha `AAAA-MM-DD`; un comentario no está vacío y tiene hasta 500 caracteres; los contadores de likes y comentarios nunca son negativos; los likes y los guardados de un usuario solo los cambia él; y el nombre, el usuario y la biografía respetan sus límites (40, 20 y 150). Las Cloud Functions escriben con el SDK de administrador, que no pasa por las reglas.
+Las reglas repiten las validaciones que ya tiene la app: la reseña tiene hasta 500 caracteres, es del usuario autenticado, es de un álbum, una canción o un artista, tiene una calificación entera de 0 a 5 y una fecha `AAAA-MM-DD`; un comentario no está vacío y tiene hasta 500 caracteres; los contadores de likes y comentarios nunca son negativos; los likes y los guardados de un usuario solo los cambia él; el nombre, el usuario, la biografía y el Instagram respetan sus límites (40, 20, 150 y 30); y las historias no se escriben desde la app. Las Cloud Functions escriben con el SDK de administrador, que no pasa por las reglas.
 
 Storage también se creó en **modo de prueba**, que vence a los 30 días: antes de la sustentación hay que revisar en *Storage → Reglas* que no haya vencido, o la subida de la foto de perfil falla por permisos.
