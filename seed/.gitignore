@@ -1,0 +1,3 @@
+node_modules/
+# Clave privada del proyecto: nunca se sube a GitHub
+serviceAccountKey.json
