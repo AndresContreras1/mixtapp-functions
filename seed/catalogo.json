@@ -1,5 +1,5 @@
 {
-  "fuente": "Portadas, fotos, fechas y listas por género: api.deezer.com (1 de noviembre de 2026)",
+  "fuente": "Portadas, fotos, fechas y listas por género: api.deezer.com (1 de noviembre de 2026). Top Colombia (tendenciaColombia): api.deezer.com, playlist 1116188451 (5 de noviembre de 2026)",
   "albumes": [
     {
       "id": "album_master_of_puppets",
@@ -10,7 +10,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "album_the_number_of_the_beast",
@@ -21,7 +22,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_reign_in_blood",
@@ -32,7 +34,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_rust_in_peace",
@@ -43,7 +46,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_vulgar_display_of_power",
@@ -54,7 +58,8 @@
       "genero": "Metal",
       "subgenero": "Groove metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_vol_3_the_subliminal_verses",
@@ -65,7 +70,8 @@
       "genero": "Metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 16
+      "tendencia": 16,
+      "tendenciaColombia": null
     },
     {
       "id": "album_finisterra",
@@ -76,7 +82,8 @@
       "genero": "Metal",
       "subgenero": "Folk metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_post_human_nex_gen",
@@ -87,7 +94,8 @@
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_mutter",
@@ -98,7 +106,8 @@
       "genero": "Metal",
       "subgenero": "Metal industrial",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 15
+      "tendencia": 15,
+      "tendenciaColombia": null
     },
     {
       "id": "album_magos_espadas_y_rosas",
@@ -109,7 +118,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_from_zero",
@@ -120,7 +130,8 @@
       "genero": "Nu metal",
       "subgenero": "Rock alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 95
+      "tendencia": 95,
+      "tendenciaColombia": null
     },
     {
       "id": "album_hybrid_theory",
@@ -131,7 +142,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "album_meteora",
@@ -142,7 +154,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 10
+      "tendencia": 10,
+      "tendenciaColombia": null
     },
     {
       "id": "album_toxicity",
@@ -153,7 +166,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 3
+      "tendencia": 3,
+      "tendenciaColombia": null
     },
     {
       "id": "album_mezmerize",
@@ -164,7 +178,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 14
+      "tendencia": 14,
+      "tendenciaColombia": null
     },
     {
       "id": "album_follow_the_leader",
@@ -175,7 +190,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 9
+      "tendencia": 9,
+      "tendenciaColombia": null
     },
     {
       "id": "album_chocolate_starfish_and_the_hot_dog_flavored_water",
@@ -186,7 +202,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_white_pony",
@@ -197,7 +214,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_back_in_black",
@@ -208,7 +226,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 21
+      "tendencia": 21,
+      "tendenciaColombia": null
     },
     {
       "id": "album_appetite_for_destruction",
@@ -219,7 +238,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 5
+      "tendencia": 5,
+      "tendenciaColombia": 54
     },
     {
       "id": "album_nevermind",
@@ -230,7 +250,8 @@
       "genero": "Rock",
       "subgenero": "Grunge",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "album_a_night_at_the_opera",
@@ -241,7 +262,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 8
+      "tendencia": 8,
+      "tendenciaColombia": null
     },
     {
       "id": "album_let_it_bleed",
@@ -252,7 +274,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_the_black_parade",
@@ -263,7 +286,8 @@
       "genero": "Rock",
       "subgenero": "Emo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_teatro_d_ira_vol_i",
@@ -274,7 +298,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_am",
@@ -285,7 +310,8 @@
       "genero": "Rock",
       "subgenero": "Indie rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "album_cancion_animal",
@@ -296,7 +322,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 7
+      "tendencia": 7,
+      "tendenciaColombia": null
     },
     {
       "id": "album_el_dorado",
@@ -307,7 +334,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_american_idiot",
@@ -318,7 +346,8 @@
       "genero": "Rock",
       "subgenero": "Punk rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 30
+      "tendencia": 30,
+      "tendenciaColombia": null
     },
     {
       "id": "album_no_me_arrepiento_de_sentir_tanto",
@@ -329,7 +358,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 1
+      "tendencia": 1,
+      "tendenciaColombia": 1
     },
     {
       "id": "album_manana_sera_bonito",
@@ -340,7 +370,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 61
+      "tendencia": 61,
+      "tendenciaColombia": 45
     },
     {
       "id": "album_debi_tirar_mas_fotos",
@@ -351,7 +382,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 21
+      "tendencia": 21,
+      "tendenciaColombia": 23
     },
     {
       "id": "album_ferxxocalipsis",
@@ -362,7 +394,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 43
+      "tendencia": 43,
+      "tendenciaColombia": 26
     },
     {
       "id": "album_borondo",
@@ -373,7 +406,8 @@
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 22
+      "tendencia": 22,
+      "tendenciaColombia": 27
     },
     {
       "id": "album_vibras",
@@ -384,7 +418,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_barrio_fino",
@@ -395,7 +430,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_sende",
@@ -406,7 +442,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 9
+      "tendencia": 9,
+      "tendenciaColombia": 35
     },
     {
       "id": "album_king_of_kings",
@@ -417,7 +454,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 40
+      "tendencia": 40,
+      "tendenciaColombia": 74
     },
     {
       "id": "album_los_extraterrestres",
@@ -428,7 +466,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 35
+      "tendencia": 35,
+      "tendenciaColombia": null
     },
     {
       "id": "album_papi_juancho",
@@ -439,7 +478,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_1800_noches",
@@ -450,7 +490,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_quinto_elemento",
@@ -461,7 +502,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_contentoso",
@@ -472,7 +514,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_te_sigo_queriendo",
@@ -483,7 +526,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_en_tus_manos",
@@ -494,7 +538,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_el_rey_del_despecho",
@@ -505,7 +550,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_el_rey_del_chupe",
@@ -516,7 +562,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_carino_malo",
@@ -527,7 +574,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_aqui_estoy_yo",
@@ -538,7 +586,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "album_mi_historia",
@@ -549,7 +598,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     }
   ],
   "canciones": [
@@ -564,7 +614,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_battery",
@@ -577,7 +628,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 66
+      "tendencia": 66,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_welcome_home_sanitarium",
@@ -590,7 +642,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 54
+      "tendencia": 54,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_the_number_of_the_beast",
@@ -603,7 +656,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_run_to_the_hills",
@@ -616,7 +670,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_hallowed_be_thy_name",
@@ -629,7 +684,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_raining_blood",
@@ -642,7 +698,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_angel_of_death",
@@ -655,7 +712,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/b7abf0b8b7f35c4eaf11be5c11fb40fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_holy_wars_the_punishment_due",
@@ -668,7 +726,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_tornado_of_souls",
@@ -681,7 +740,8 @@
       "genero": "Metal",
       "subgenero": "Thrash metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/e72c97303ec864bff2ce9059ff030c61/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_walk",
@@ -694,7 +754,8 @@
       "genero": "Metal",
       "subgenero": "Groove metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_this_love",
@@ -707,7 +768,8 @@
       "genero": "Metal",
       "subgenero": "Groove metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ba6c7c231c21930465a4f51a41e3d5a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_duality",
@@ -720,7 +782,8 @@
       "genero": "Metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 16
+      "tendencia": 16,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_before_i_forget",
@@ -733,7 +796,8 @@
       "genero": "Metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 22
+      "tendencia": 22,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_vermilion",
@@ -746,7 +810,8 @@
       "genero": "Metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35b093d22fe1539003d5d18dd8f309eb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 44
+      "tendencia": 44,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_fiesta_pagana",
@@ -759,7 +824,8 @@
       "genero": "Metal",
       "subgenero": "Folk metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_hasta_que_el_cuerpo_aguante",
@@ -772,7 +838,8 @@
       "genero": "Metal",
       "subgenero": "Folk metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/72e01117cc83456277e511ef0b0258ff/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_limousine_feat_aurora",
@@ -785,7 +852,8 @@
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_n_a",
@@ -798,7 +866,8 @@
       "genero": "Metal",
       "subgenero": "Metalcore",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/2eeb0c78e835db405d700a46aad90f4c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_sonne",
@@ -811,7 +880,8 @@
       "genero": "Metal",
       "subgenero": "Metal industrial",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 15
+      "tendencia": 15,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_mein_herz_brennt",
@@ -824,7 +894,8 @@
       "genero": "Metal",
       "subgenero": "Metal industrial",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 64
+      "tendencia": 64,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_ich_will",
@@ -837,7 +908,8 @@
       "genero": "Metal",
       "subgenero": "Metal industrial",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6eabee34f76bd01d2562469d41c63c4d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 39
+      "tendencia": 39,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_mujer_amante",
@@ -850,7 +922,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_la_leyenda_del_hada_y_el_mago",
@@ -863,7 +936,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_el_beso_de_la_bruja",
@@ -876,7 +950,8 @@
       "genero": "Metal",
       "subgenero": "Heavy metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f080ce8cec9bbc9820ddbdce47fdbf63/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_the_emptiness_machine",
@@ -889,7 +964,8 @@
       "genero": "Nu metal",
       "subgenero": "Rock alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 95
+      "tendencia": 95,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_heavy_is_the_crown",
@@ -902,7 +978,8 @@
       "genero": "Nu metal",
       "subgenero": "Rock alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_cut_the_bridge",
@@ -915,7 +992,8 @@
       "genero": "Nu metal",
       "subgenero": "Rock alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_two_faced",
@@ -928,7 +1006,8 @@
       "genero": "Nu metal",
       "subgenero": "Rock alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_in_the_end",
@@ -941,7 +1020,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_crawling",
@@ -954,7 +1034,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_papercut",
@@ -967,7 +1048,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 93
+      "tendencia": 93,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_numb",
@@ -980,7 +1062,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 10
+      "tendencia": 10,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_faint",
@@ -993,7 +1076,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 97
+      "tendencia": 97,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_somewhere_i_belong",
@@ -1006,7 +1090,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 87
+      "tendencia": 87,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_chop_suey",
@@ -1019,7 +1104,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_toxicity",
@@ -1032,7 +1118,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 3
+      "tendencia": 3,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_aerials",
@@ -1045,7 +1132,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 10
+      "tendencia": 10,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_prison_song",
@@ -1058,7 +1146,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_b_y_o_b",
@@ -1071,7 +1160,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 14
+      "tendencia": 14,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_question",
@@ -1084,7 +1174,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4954f43cc6033ddfa0fa3ee5514a26ca/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 55
+      "tendencia": 55,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_freak_on_a_leash",
@@ -1097,7 +1188,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 9
+      "tendencia": 9,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_got_the_life",
@@ -1110,7 +1202,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 26
+      "tendencia": 26,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_it_s_on",
@@ -1123,7 +1216,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/35111a59f5d5ef0bf5a7ba2f3a203b25/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_rollin_air_raid_vehicle",
@@ -1136,7 +1230,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_my_way",
@@ -1149,7 +1244,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_my_generation",
@@ -1162,7 +1258,8 @@
       "genero": "Nu metal",
       "subgenero": "Nu metal",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/070e00c8dbd21dc735bc27eb6fef9ae1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_change_in_the_house_of_flies",
@@ -1175,7 +1272,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_digital_bath",
@@ -1188,7 +1286,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_passenger",
@@ -1201,7 +1300,8 @@
       "genero": "Nu metal",
       "subgenero": "Metal alternativo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c2942294fe29f749ca9ed2d1b25bb247/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_back_in_black",
@@ -1214,7 +1314,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 21
+      "tendencia": 21,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_you_shook_me_all_night_long",
@@ -1227,7 +1328,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 86
+      "tendencia": 86,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_hells_bells",
@@ -1240,7 +1342,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_sweet_child_o_mine",
@@ -1253,7 +1356,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 5
+      "tendencia": 5,
+      "tendenciaColombia": 54
     },
     {
       "id": "cancion_welcome_to_the_jungle",
@@ -1266,7 +1370,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 44
+      "tendencia": 44,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_paradise_city",
@@ -1279,7 +1384,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_smells_like_teen_spirit",
@@ -1292,7 +1398,8 @@
       "genero": "Rock",
       "subgenero": "Grunge",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_come_as_you_are",
@@ -1305,7 +1412,8 @@
       "genero": "Rock",
       "subgenero": "Grunge",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 36
+      "tendencia": 36,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_lithium",
@@ -1318,7 +1426,8 @@
       "genero": "Rock",
       "subgenero": "Grunge",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_bohemian_rhapsody",
@@ -1331,7 +1440,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 8
+      "tendencia": 8,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_love_of_my_life",
@@ -1344,7 +1454,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_gimme_shelter",
@@ -1357,7 +1468,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_you_can_t_always_get_what_you_want",
@@ -1370,7 +1482,8 @@
       "genero": "Rock",
       "subgenero": "Rock clásico",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/966fa939bd79e15d413abf0764f8a3b5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_welcome_to_the_black_parade",
@@ -1383,7 +1496,8 @@
       "genero": "Rock",
       "subgenero": "Emo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_the_sharpest_lives",
@@ -1396,7 +1510,8 @@
       "genero": "Rock",
       "subgenero": "Emo",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f31aab52640d3ef83b6fdee9b4acfe1d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_zitti_e_buoni",
@@ -1409,7 +1524,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_i_wanna_be_your_slave",
@@ -1422,7 +1538,8 @@
       "genero": "Rock",
       "subgenero": "Hard rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c597e4485f992fd3fdb43deba021e1cb/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_do_i_wanna_know",
@@ -1435,7 +1552,8 @@
       "genero": "Rock",
       "subgenero": "Indie rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_r_u_mine",
@@ -1448,7 +1566,8 @@
       "genero": "Rock",
       "subgenero": "Indie rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 86
+      "tendencia": 86,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_de_musica_ligera",
@@ -1461,7 +1580,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 7
+      "tendencia": 7,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_cancion_animal",
@@ -1474,7 +1594,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/88ade8cebd318b62c5e5f86825994c4e/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_bolero_falaz",
@@ -1487,7 +1608,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_florecita_rockera",
@@ -1500,7 +1622,8 @@
       "genero": "Rock",
       "subgenero": "Rock en español",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/4c8cfe2885891cc454b57fc37adc6bdd/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_american_idiot",
@@ -1513,7 +1636,8 @@
       "genero": "Rock",
       "subgenero": "Punk rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_wake_me_up_when_september_ends",
@@ -1526,7 +1650,8 @@
       "genero": "Rock",
       "subgenero": "Punk rock",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c14f698c45f445a5ba9dba395f26d642/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 30
+      "tendencia": 30,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_bby_wow",
@@ -1539,7 +1664,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 1
+      "tendencia": 1,
+      "tendenciaColombia": 1
     },
     {
       "id": "cancion_ahi",
@@ -1552,7 +1678,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 82
+      "tendencia": 82,
+      "tendenciaColombia": 60
     },
     {
       "id": "cancion_matadora",
@@ -1565,7 +1692,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 44
+      "tendencia": 44,
+      "tendenciaColombia": 19
     },
     {
       "id": "cancion_tqg",
@@ -1578,7 +1706,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 61
+      "tendencia": 61,
+      "tendenciaColombia": 45
     },
     {
       "id": "cancion_mientras_me_curo_del_cora",
@@ -1591,7 +1720,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_dtmf",
@@ -1604,7 +1734,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 33
+      "tendencia": 33,
+      "tendenciaColombia": 42
     },
     {
       "id": "cancion_baile_inolvidable",
@@ -1617,7 +1748,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 21
+      "tendencia": 21,
+      "tendenciaColombia": 23
     },
     {
       "id": "cancion_nuevayol",
@@ -1630,7 +1762,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 46
+      "tendencia": 46,
+      "tendenciaColombia": 56
     },
     {
       "id": "cancion_luna",
@@ -1643,7 +1776,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 43
+      "tendencia": 43,
+      "tendenciaColombia": 26
     },
     {
       "id": "cancion_cual_es_esa",
@@ -1656,7 +1790,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/fee4b7345f658a57a39747bf24b7466b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_top_diesel",
@@ -1669,7 +1804,8 @@
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 27
+      "tendencia": 27,
+      "tendenciaColombia": 27
     },
     {
       "id": "cancion_no_tiene_sentido",
@@ -1682,7 +1818,8 @@
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 26
+      "tendencia": 26,
+      "tendenciaColombia": 29
     },
     {
       "id": "cancion_quedate",
@@ -1695,7 +1832,8 @@
       "genero": "Reggaetón",
       "subgenero": "Afrobeat",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/9f46b8007cdb939d751106c40b20daa0/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 34
+      "tendencia": 34,
+      "tendenciaColombia": 30
     },
     {
       "id": "cancion_mi_gente",
@@ -1708,7 +1846,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_ambiente",
@@ -1721,7 +1860,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/5792230036366047e5c5b16749a52048/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_gasolina",
@@ -1734,7 +1874,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_lo_que_paso_paso",
@@ -1747,7 +1888,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d386e42d5c4dfb603e958371b79869f5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_sanka",
@@ -1760,7 +1902,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 14
+      "tendencia": 14,
+      "tendenciaColombia": 35
     },
     {
       "id": "cancion_bombastik_3",
@@ -1773,7 +1916,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/1bbd96db99629c51e6958b19cfcaa468/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_salio_el_sol",
@@ -1786,7 +1930,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 69
+      "tendencia": 69,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_angelito",
@@ -1799,7 +1944,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_cuentale",
@@ -1812,7 +1958,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/f8966a58be5772f7fc92c3ad1de8d61b/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_sexy_movimiento",
@@ -1825,7 +1972,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 35
+      "tendencia": 35,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_ahora_es",
@@ -1838,7 +1986,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/217f6c5585cba3f5d339a5fa48673fa3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": 69
+      "tendencia": 69,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_hawai",
@@ -1851,7 +2000,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_admv",
@@ -1864,7 +2014,8 @@
       "genero": "Reggaetón",
       "subgenero": "Reggaetón",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/63079ed6608d331f80a9d572d60e4a45/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_mi_debilidad",
@@ -1877,7 +2028,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_si_ya_hiciste_el_mal",
@@ -1890,7 +2042,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_tu_maniqui",
@@ -1903,7 +2056,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/bf25843546476d6a01ce92caf4313ee1/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_tu_amante",
@@ -1916,7 +2070,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_tu_eres_prohibida",
@@ -1929,7 +2084,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_esa_no",
@@ -1942,7 +2098,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/8ce94ce4732e83e0b3f09c7bdbaf726d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_gomela_y_montanero",
@@ -1955,7 +2112,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_doce_y_treinta",
@@ -1968,7 +2126,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_soltera",
@@ -1981,7 +2140,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/ee609cb74502e7846b56ee9245478388/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_te_sigo_queriendo",
@@ -1994,7 +2154,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_por_una_cerveza",
@@ -2007,7 +2168,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_contigo_hasta_el_final",
@@ -2020,7 +2182,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/39876265a72f93f28563355db62eb139/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_murio_el_amor",
@@ -2033,7 +2196,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_mientes",
@@ -2046,7 +2210,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/58f789605efb54b88224943476f21282/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_nadie_es_eterno",
@@ -2059,7 +2224,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_sobrevivire",
@@ -2072,7 +2238,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_si_negabas_que_buscabas",
@@ -2085,7 +2252,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d97ecb0e1ed954b45d1db6e41529fc0d/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_amigos_con_derechos",
@@ -2098,7 +2266,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_dos_razones",
@@ -2111,7 +2280,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/c3f40de27d5bafcf4c55f3107aad38a5/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_cierra_los_ojos",
@@ -2124,7 +2294,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_carino_malo",
@@ -2137,7 +2308,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/d57b5e4ec72fbc7273866587b0ce1608/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_senora",
@@ -2150,7 +2322,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_mi_esposa",
@@ -2163,7 +2336,8 @@
       "genero": "Música popular",
       "subgenero": "Música popular",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/aca0a24e75c1aa593ec620b9879f8581/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_no_me_conviene",
@@ -2176,7 +2350,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "cancion_amante_y_amigo",
@@ -2189,7 +2364,8 @@
       "genero": "Música popular",
       "subgenero": "Despecho",
       "portadaUrl": "https://cdn-images.dzcdn.net/images/cover/54a470c06ee01f1e382403aa132483d3/1000x1000-000000-80-0-0.jpg",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     }
   ],
   "artistas": [
@@ -2201,7 +2377,8 @@
       "subgenero": "Thrash metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/ee6a8f5a8391452915506e78dde7131d/1000x1000-000000-80-0-0.jpg",
       "instagram": "metallica",
-      "tendencia": 4
+      "tendencia": 4,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_kirk_hammett",
@@ -2211,7 +2388,8 @@
       "subgenero": "Thrash metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/6c5b03e870bcea24d02b22d242254754/1000x1000-000000-80-0-0.jpg",
       "instagram": "metallica",
-      "tendencia": 4
+      "tendencia": 4,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_bruce_dickinson",
@@ -2221,7 +2399,8 @@
       "subgenero": "Heavy metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/27cb927e6588516f7706f5e55424718b/1000x1000-000000-80-0-0.jpg",
       "instagram": "ironmaiden",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_steve_harris",
@@ -2231,7 +2410,8 @@
       "subgenero": "Heavy metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/0a7c2ee51b8394f51eb15d46cb4ca2a8/1000x1000-000000-80-0-0.jpg",
       "instagram": "ironmaiden",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_kerry_king",
@@ -2241,7 +2421,8 @@
       "subgenero": "Thrash metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/1f12f9fb7138ef4ef3354b1f3071c29d/1000x1000-000000-80-0-0.jpg",
       "instagram": "slayerbandofficial",
-      "tendencia": 100
+      "tendencia": 100,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_dave_mustaine",
@@ -2251,7 +2432,8 @@
       "subgenero": "Thrash metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/bb8939328b1b96cbc5c8eef2dc11a3d9/1000x1000-000000-80-0-0.jpg",
       "instagram": "megadeth",
-      "tendencia": 29
+      "tendencia": 29,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_phil_anselmo",
@@ -2261,7 +2443,8 @@
       "subgenero": "Groove metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/8cc14e45a5081ead98bb330420b606dd/1000x1000-000000-80-0-0.jpg",
       "instagram": "panteraofficial",
-      "tendencia": 42
+      "tendencia": 42,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_corey_taylor",
@@ -2271,7 +2454,8 @@
       "subgenero": "Metal alternativo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fe999c6ac08354ca8d665e6001ac0ba3/1000x1000-000000-80-0-0.jpg",
       "instagram": "slipknot",
-      "tendencia": 12
+      "tendencia": 12,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_till_lindemann",
@@ -2281,7 +2465,8 @@
       "subgenero": "Metal industrial",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/93252ef87371f246ce69d25188fb9cc7/1000x1000-000000-80-0-0.jpg",
       "instagram": "rammsteinofficial",
-      "tendencia": 7
+      "tendencia": 7,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_jose_andrea",
@@ -2291,7 +2476,8 @@
       "subgenero": "Folk metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d630ab5882a89da5593575713e3b346b/1000x1000-000000-80-0-0.jpg",
       "instagram": "magodeozoficial",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_mike_shinoda",
@@ -2301,7 +2487,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/83893b115ac94cfa93fc8ba94bdc91f8/1000x1000-000000-80-0-0.jpg",
       "instagram": "linkinpark",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_chester_bennington",
@@ -2311,7 +2498,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/83fb2aef70b7906e7b5b84ac8317afac/1000x1000-000000-80-0-0.jpg",
       "instagram": "linkinpark",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_emily_armstrong",
@@ -2321,7 +2509,8 @@
       "subgenero": "Rock alternativo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/316baef39c423f38047f9083ea6b62fd/1000x1000-000000-80-0-0.jpg",
       "instagram": "linkinpark",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_joe_hahn",
@@ -2331,7 +2520,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3001a8990f6bfbd193014ec7d44a1cce/1000x1000-000000-80-0-0.jpg",
       "instagram": "linkinpark",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_serj_tankian",
@@ -2341,7 +2531,8 @@
       "subgenero": "Metal alternativo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/02f2cecfe6de1a85a1250285c45659ee/1000x1000-000000-80-0-0.jpg",
       "instagram": "systemofadown",
-      "tendencia": 3
+      "tendencia": 3,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_jonathan_davis",
@@ -2351,7 +2542,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fe568b958e43792fc774e041a3ca97e3/1000x1000-000000-80-0-0.jpg",
       "instagram": "korn_official",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_munky",
@@ -2361,7 +2553,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/c36e497696eda906b272fa6898458e44/1000x1000-000000-80-0-0.jpg",
       "instagram": "korn_official",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_fred_durst",
@@ -2371,7 +2564,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/803ba621281755421698b3db3b16cb92/1000x1000-000000-80-0-0.jpg",
       "instagram": "limpbizkit",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_wes_borland",
@@ -2381,7 +2575,8 @@
       "subgenero": "Nu metal",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/f7ff5906af619ff585d91105ce067cc6/1000x1000-000000-80-0-0.jpg",
       "instagram": "limpbizkit",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_chino_moreno",
@@ -2391,7 +2586,8 @@
       "subgenero": "Metal alternativo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/69721df871a292a96ba0cf7d3fcce66d/1000x1000-000000-80-0-0.jpg",
       "instagram": "deftones",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_brian_johnson",
@@ -2401,7 +2597,8 @@
       "subgenero": "Hard rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/7175a34f2032b77ab785a48e970fd6f6/1000x1000-000000-80-0-0.jpg",
       "instagram": "acdc",
-      "tendencia": 4
+      "tendencia": 4,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_axl_rose",
@@ -2411,7 +2608,8 @@
       "subgenero": "Hard rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d27d762cba63d2703cfab5bcbceef6a7/1000x1000-000000-80-0-0.jpg",
       "instagram": "gunsnroses",
-      "tendencia": 5
+      "tendencia": 5,
+      "tendenciaColombia": 54
     },
     {
       "id": "artista_slash",
@@ -2421,7 +2619,8 @@
       "subgenero": "Hard rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d5bcd09310756ecc8aafece29fcb8063/1000x1000-000000-80-0-0.jpg",
       "instagram": "gunsnroses",
-      "tendencia": 5
+      "tendencia": 5,
+      "tendenciaColombia": 54
     },
     {
       "id": "artista_kurt_cobain",
@@ -2431,7 +2630,8 @@
       "subgenero": "Grunge",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d69b4e051740c531adddb99bba2b24b8/1000x1000-000000-80-0-0.jpg",
       "instagram": null,
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_freddie_mercury",
@@ -2441,7 +2641,8 @@
       "subgenero": "Rock clásico",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/05399d9db35a85caa567bbeb8634a413/1000x1000-000000-80-0-0.jpg",
       "instagram": "officialqueenmusic",
-      "tendencia": 8
+      "tendencia": 8,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_mick_jagger",
@@ -2451,7 +2652,8 @@
       "subgenero": "Rock clásico",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/0297ea3962797f3e9ac011174fdc98dd/1000x1000-000000-80-0-0.jpg",
       "instagram": "therollingstones",
-      "tendencia": 63
+      "tendencia": 63,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_gerard_way",
@@ -2461,7 +2663,8 @@
       "subgenero": "Emo",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/60f1c69bc4f5459bd8b232cfd77b3176/1000x1000-000000-80-0-0.jpg",
       "instagram": "mychemicalromance",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_damiano_david",
@@ -2471,7 +2674,8 @@
       "subgenero": "Hard rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d50c689f6e096e7f596b9bb9828998b1/1000x1000-000000-80-0-0.jpg",
       "instagram": "maneskinofficial",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_alex_turner",
@@ -2481,7 +2685,8 @@
       "subgenero": "Indie rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/56844fe93886217d3f89b76a338f5dd1/1000x1000-000000-80-0-0.jpg",
       "instagram": "arcticmonkeys",
-      "tendencia": 11
+      "tendencia": 11,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_gustavo_cerati",
@@ -2491,7 +2696,8 @@
       "subgenero": "Rock en español",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/d9935156530ada9a8da56c90a567d6d2/1000x1000-000000-80-0-0.jpg",
       "instagram": "sodastereo",
-      "tendencia": 7
+      "tendencia": 7,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_andrea_echeverri",
@@ -2501,7 +2707,8 @@
       "subgenero": "Rock en español",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/2bf966dd5099aa4e8a59335c8f8556bc/1000x1000-000000-80-0-0.jpg",
       "instagram": "aterciopelados",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_billie_joe_armstrong",
@@ -2511,7 +2718,8 @@
       "subgenero": "Punk rock",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5514b95bb3f3a58694ab5a33407995fb/1000x1000-000000-80-0-0.jpg",
       "instagram": "greenday",
-      "tendencia": 76
+      "tendencia": 76,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_karol_g",
@@ -2521,7 +2729,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5b0aab23f8d2856951a92f3a9faf70e3/1000x1000-000000-80-0-0.jpg",
       "instagram": "karolg",
-      "tendencia": 1
+      "tendencia": 1,
+      "tendenciaColombia": 1
     },
     {
       "id": "artista_bad_bunny",
@@ -2531,7 +2740,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/044a3f315b041864887a8dd8709e6926/1000x1000-000000-80-0-0.jpg",
       "instagram": "badbunnypr",
-      "tendencia": 16
+      "tendencia": 16,
+      "tendenciaColombia": 23
     },
     {
       "id": "artista_feid",
@@ -2541,7 +2751,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/e629c93e03b3c225d8d52a42bae71537/1000x1000-000000-80-0-0.jpg",
       "instagram": "feid",
-      "tendencia": 5
+      "tendencia": 5,
+      "tendenciaColombia": 3
     },
     {
       "id": "artista_beele",
@@ -2551,7 +2762,8 @@
       "subgenero": "Afrobeat",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/517e60ed50f56034769b7e845a71e35c/1000x1000-000000-80-0-0.jpg",
       "instagram": "beele",
-      "tendencia": 22
+      "tendencia": 22,
+      "tendenciaColombia": 20
     },
     {
       "id": "artista_j_balvin",
@@ -2561,7 +2773,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/325eaa46bc25052d0e3d549d60cc8225/1000x1000-000000-80-0-0.jpg",
       "instagram": "jbalvin",
-      "tendencia": 47
+      "tendencia": 47,
+      "tendenciaColombia": 61
     },
     {
       "id": "artista_daddy_yankee",
@@ -2571,7 +2784,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/a4f77d40d68cf544e74883b2bd904fce/1000x1000-000000-80-0-0.jpg",
       "instagram": "daddyyankee",
-      "tendencia": 67
+      "tendencia": 67,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_ryan_castro",
@@ -2581,7 +2795,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/85e4705e8cab0354605581abd89c703d/1000x1000-000000-80-0-0.jpg",
       "instagram": "ryancastrro",
-      "tendencia": 1
+      "tendencia": 1,
+      "tendenciaColombia": 6
     },
     {
       "id": "artista_don_omar",
@@ -2591,7 +2806,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3edb52cebe741e547363a093e26d4655/1000x1000-000000-80-0-0.jpg",
       "instagram": "donomar",
-      "tendencia": 6
+      "tendencia": 6,
+      "tendenciaColombia": 34
     },
     {
       "id": "artista_maluma",
@@ -2601,7 +2817,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/69defce1be19bb2abf80cb7b1d936cdc/1000x1000-000000-80-0-0.jpg",
       "instagram": "maluma",
-      "tendencia": 20
+      "tendencia": 20,
+      "tendenciaColombia": 80
     },
     {
       "id": "artista_kapo",
@@ -2611,7 +2828,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fc34dd7446d568d21b31dfba05b9e870/1000x1000-000000-80-0-0.jpg",
       "instagram": "yosoytukapo",
-      "tendencia": 13
+      "tendencia": 13,
+      "tendenciaColombia": 22
     },
     {
       "id": "artista_wisin",
@@ -2621,7 +2839,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/2835d5ae661fb00c0d7a8558bba86c7c/1000x1000-000000-80-0-0.jpg",
       "instagram": "wisin",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_yandel",
@@ -2631,7 +2850,8 @@
       "subgenero": "Reggaetón",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/1d6fdd7f4dfd5ca9fdf057f86bd9ef08/1000x1000-000000-80-0-0.jpg",
       "instagram": "yandel",
-      "tendencia": 4
+      "tendencia": 4,
+      "tendenciaColombia": 52
     },
     {
       "id": "artista_jessi_uribe",
@@ -2641,7 +2861,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/fad276573bfee42f0875083d6f25da06/1000x1000-000000-80-0-0.jpg",
       "instagram": "jessiuribe3",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_yeison_jimenez",
@@ -2651,7 +2872,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/f9b243ec5542935a15e95c06cb57777e/1000x1000-000000-80-0-0.jpg",
       "instagram": "yeison_jimenez",
-      "tendencia": 62
+      "tendencia": 62,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_luis_alfonso",
@@ -2661,7 +2883,8 @@
       "subgenero": "Música popular",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/b253934243890ef02b50bf212a250e15/1000x1000-000000-80-0-0.jpg",
       "instagram": "luisalfonso",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_jhonny_rivera",
@@ -2671,7 +2894,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/9e3f24129b476956e4435cd5d1581bf1/1000x1000-000000-80-0-0.jpg",
       "instagram": "jhonnyrivera",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_paola_jara",
@@ -2681,7 +2905,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/5d7d4b9579b4ffd033a81282d21ab789/1000x1000-000000-80-0-0.jpg",
       "instagram": "paolajarapj",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_dario_gomez",
@@ -2691,7 +2916,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/cb4e16bccf10576b870e8dab002f664c/1000x1000-000000-80-0-0.jpg",
       "instagram": "elreydeldespecho",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_jhon_alex_castano",
@@ -2701,7 +2927,8 @@
       "subgenero": "Música popular",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/23fed682b2315f775fbdd154df9b7a61/1000x1000-000000-80-0-0.jpg",
       "instagram": "jhonalexcastano",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_luis_alberto_posada",
@@ -2711,7 +2938,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/535049a9be1409ef5c2deab8b897edc2/1000x1000-000000-80-0-0.jpg",
       "instagram": "posadarecords_",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_pipe_bueno",
@@ -2721,7 +2949,8 @@
       "subgenero": "Música popular",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/dddb2dc946e37019db63cbecebf5980b/1000x1000-000000-80-0-0.jpg",
       "instagram": "pipebueno",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_arelys_henao",
@@ -2731,7 +2960,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/3ebf6454ad3c771ad1f6e2c9e8846ce5/1000x1000-000000-80-0-0.jpg",
       "instagram": "arelyshenao",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_el_charrito_negro",
@@ -2741,7 +2971,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/24e1260f3fdc5d160641cd98bd14b48c/1000x1000-000000-80-0-0.jpg",
       "instagram": "charritonegrooficial",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     },
     {
       "id": "artista_francy",
@@ -2751,7 +2982,8 @@
       "subgenero": "Despecho",
       "fotoUrl": "https://cdn-images.dzcdn.net/images/artist/e5ff981eded37bfa17f724768c251dca/1000x1000-000000-80-0-0.jpg",
       "instagram": "francypopular",
-      "tendencia": null
+      "tendencia": null,
+      "tendenciaColombia": null
     }
   ]
 }
