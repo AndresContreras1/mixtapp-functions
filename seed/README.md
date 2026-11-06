@@ -6,7 +6,8 @@
   (metal, nu metal, rock, reggaetón y música popular). Trae las portadas y fotos de 1000 px, el
   género y el subgénero, y la fecha de salida (`fechaLanzamiento`, `AAAA-MM-DD`; en los clásicos
   reeditados solo vale el año). También trae la posición en la lista de Deezer de su género del 1 de
-  noviembre de 2026 (`tendencia`, `null` si no está en la lista) y, en los artistas, el Instagram
+  noviembre de 2026 (`tendencia`, `null` si no está en la lista), la posición en el Top Colombia de
+  Deezer del 5 de noviembre de 2026 (`tendenciaColombia`, para la pestaña Tendencias) y, en los artistas, el Instagram
   oficial (el de su banda si es integrante).
 - **Los datos curiosos** de `historias.json`: una historia por cada item, con secciones según el tipo
   (*Historia*, *Cómo se hizo*, *Inspiración*, *Conciertos icónicos*, *Dato curioso*). Van en la
@@ -56,6 +57,18 @@ Los datos aparecen en `http://127.0.0.1:4000/firestore` y se borran al cerrar la
    con `albumes`, `reviews` y `usuarios`. Las cuentas de Authentication no se borran: al iniciar
    sesión, la app vuelve a crear el documento del usuario.
 4. Correr `node seed.js`.
+
+### Solo actualizar las tendencias
+
+Cuando la base ya tiene el catálogo y lo que hicieron los usuarios de la app, y solo cambiaron las
+listas de Deezer en `catalogo.json`:
+
+```bash
+node seed.js --solo-tendencias
+```
+
+Cambia `tendencia` y `tendenciaColombia` en cada álbum, canción y artista con `update` (232
+escrituras) y no toca usuarios, likes, reseñas ni historias.
 
 Cada escritura cuenta para la capa gratuita (20.000 al día): son unas 1.640. Un `batch` acepta hasta
 500 operaciones, así que se guardan en cuatro lotes. Con las Cloud Functions publicadas, cada like a

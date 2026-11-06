@@ -130,6 +130,22 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    //duelos/dia_20397_album: el primer voto del dia lo crea; los contadores nunca son negativos
+    match /duelos/{dueloId} {
+      allow write: if request.resource.data.tipo in ['album', 'cancion', 'artista']
+      && request.resource.data.votosA is int
+      && request.resource.data.votosA >= 0
+      && request.resource.data.votosB is int
+      && request.resource.data.votosB >= 0;
+
+      //duelos/dia_20397_album/votos/uid: cada usuario solo escribe su voto, por a o por b
+      match /votos/{userId} {
+        allow write: if request.auth.uid == userId
+        && request.resource.data.opcion in ['a', 'b']
+        && request.resource.data.opinion.size() <= 140;
+      }
+    }
+
     //usuarios/uid
     match /usuarios/{userId} {
       allow write: if request.resource.data.nombre.size() <= 40
@@ -159,6 +175,6 @@ service cloud.firestore {
 }
 ```
 
-Las reglas repiten las validaciones que ya tiene la app: la reseña tiene hasta 500 caracteres, es del usuario autenticado, es de un álbum, una canción o un artista, tiene una calificación entera de 0 a 5 y una fecha `AAAA-MM-DD`; un comentario no está vacío y tiene hasta 500 caracteres; los contadores de likes y comentarios nunca son negativos; los likes y los guardados de un usuario solo los cambia él; el nombre, el usuario, la biografía y el Instagram respetan sus límites (40, 20, 150 y 30); y las historias no se escriben desde la app. Las Cloud Functions escriben con el SDK de administrador, que no pasa por las reglas.
+Las reglas repiten las validaciones que ya tiene la app: la reseña tiene hasta 500 caracteres, es del usuario autenticado, es de un álbum, una canción o un artista, tiene una calificación entera de 0 a 5 y una fecha `AAAA-MM-DD`; un comentario no está vacío y tiene hasta 500 caracteres; los contadores de likes y comentarios nunca son negativos; los likes y los guardados de un usuario solo los cambia él; el nombre, el usuario, la biografía y el Instagram respetan sus límites (40, 20, 150 y 30); las historias no se escriben desde la app; y en los duelos los votos nunca son negativos, cada usuario solo escribe su propio voto (por `a` o por `b`) y la opinión tiene hasta 140 caracteres. Las Cloud Functions escriben con el SDK de administrador, que no pasa por las reglas.
 
 Storage también se creó en **modo de prueba**, que vence a los 30 días: antes de la sustentación hay que revisar en *Storage → Reglas* que no haya vencido, o la subida de la foto de perfil falla por permisos.

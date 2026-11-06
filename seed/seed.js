@@ -26,6 +26,10 @@ const RESENAS_POR_USUARIO = 4;
 const MAX_COMENTARIOS_POR_RESENA = 3;
 // Un batch acepta hasta 500 operaciones
 const MAX_OPERACIONES_POR_BATCH = 500;
+// node seed.js --solo-tendencias: solo cambia tendencia y tendenciaColombia en los documentos del
+// catalogo que ya existen, sin tocar usuarios, likes ni resenas. Es para el Firebase real, que ya
+// tiene lo que hicieron los usuarios de la app
+const SOLO_TENDENCIAS = process.argv.includes("--solo-tendencias");
 // Mismos limites que la app y las reglas
 const MAX_NOMBRE = 40;
 const MAX_USERNAME = 20;
@@ -294,26 +298,42 @@ function armarEscrituras() {
   return [...documentos, ...resenas, ...escrituras];
 }
 
-// Se guardan de a 500 por batch
-async function guardarPorLotes(escrituras) {
+// Las dos tendencias de cada item del catalogo, para actualizarlas con update
+function escriturasDeTendencias() {
+  return items.map((item) => ({
+    ref: referenciaDelItem(item),
+    datos: { tendencia: item.tendencia, tendenciaColombia: item.tendenciaColombia },
+  }));
+}
+
+// Se guardan de a 500 por batch. Con update solo cambian esos campos, y falla si el documento no
+// existe (en ese caso hay que correr el seed completo)
+async function guardarPorLotes(escrituras, soloActualizar) {
   for (let inicio = 0; inicio < escrituras.length; inicio += MAX_OPERACIONES_POR_BATCH) {
     const batch = db.batch();
     escrituras
       .slice(inicio, inicio + MAX_OPERACIONES_POR_BATCH)
-      .forEach(({ ref, datos }) => batch.set(ref, datos));
+      .forEach(({ ref, datos }) => (soloActualizar ? batch.update(ref, datos) : batch.set(ref, datos)));
     await batch.commit();
     console.log(`  ${Math.min(inicio + MAX_OPERACIONES_POR_BATCH, escrituras.length)} de ${escrituras.length}`);
   }
 }
 
 try {
+  if (SOLO_TENDENCIAS) {
+    console.log(`Actualizando las tendencias de ${items.length} items del catalogo...`);
+    await guardarPorLotes(escriturasDeTendencias(), true);
+    console.log("Tendencias actualizadas!");
+    process.exit(0);
+  }
+
   const escrituras = armarEscrituras();
   console.log(
     `Seeding ${catalogo.albumes.length} albumes, ${catalogo.canciones.length} canciones, ` +
       `${catalogo.artistas.length} artistas, ${Object.keys(historias).length} historias y ${USUARIOS} usuarios ` +
       "con sus likes, resenas y comentarios..."
   );
-  await guardarPorLotes(escrituras);
+  await guardarPorLotes(escrituras, false);
   console.log("Seeding completed!");
   process.exit(0);
 } catch (error) {
