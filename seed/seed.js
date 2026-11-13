@@ -23,6 +23,16 @@ const USUARIOS = 20;
 const SIGUE_A = 4; // a cuantos usuarios sigue cada uno
 const LIKES_POR_USUARIO = 8;
 const RESENAS_POR_USUARIO = 4;
+// La primera resena de cada usuario es de las ultimas 24 horas y tiene ubicacion: asi el mapa de la
+// app tiene marcadores. Se reparten entre estas ciudades, con unas cuadras de diferencia
+const CIUDADES = [
+  { latitud: 4.6533, longitud: -74.0836 }, // Bogota
+  { latitud: 6.2442, longitud: -75.5812 }, // Medellin
+  { latitud: 3.4516, longitud: -76.532 }, // Cali
+  { latitud: 10.9685, longitud: -74.7813 }, // Barranquilla
+  { latitud: 7.1193, longitud: -73.1227 }, // Bucaramanga
+];
+const DESVIO_EN_GRADOS = 0.03;
 const MAX_COMENTARIOS_POR_RESENA = 3;
 // Un batch acepta hasta 500 operaciones
 const MAX_OPERACIONES_POR_BATCH = 500;
@@ -188,8 +198,12 @@ function armarEscrituras() {
   for (const usuario of usuarios) {
     itemsParaUsuario(usuario, RESENAS_POR_USUARIO).forEach((item, index) => {
       const reviewRef = db.collection("reviews").doc(`${usuario.id}_${index + 1}`); // ej: "usuario_1_2"
-      const creada = faker.date.recent({ days: 60, refDate: ahora });
+      const enElMapa = index === 0;
+      const creada = enElMapa
+        ? faker.date.recent({ days: 1, refDate: ahora })
+        : faker.date.recent({ days: 60, refDate: ahora });
       const escuchada = faker.date.recent({ days: 10, refDate: creada });
+      const ciudad = CIUDADES[usuarios.indexOf(usuario) % CIUDADES.length];
 
       const quienesDieronLike = otrosUsuarios(usuarios, [usuario.id], 5);
       for (const otro of quienesDieronLike) {
@@ -230,6 +244,13 @@ function armarEscrituras() {
           commentsCount: comentarios.length,
           usuario: { nombre: usuario.nombre, fotoUrl: usuario.fotoUrl },
           item: copiaDelItem(item),
+          // Donde se publico: solo la de las ultimas 24 horas; las demas, sin ubicacion
+          latitud: enElMapa
+            ? ciudad.latitud + faker.number.float({ min: -DESVIO_EN_GRADOS, max: DESVIO_EN_GRADOS })
+            : null,
+          longitud: enElMapa
+            ? ciudad.longitud + faker.number.float({ min: -DESVIO_EN_GRADOS, max: DESVIO_EN_GRADOS })
+            : null,
         },
       });
 

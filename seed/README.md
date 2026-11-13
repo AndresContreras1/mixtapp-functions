@@ -16,7 +16,10 @@
 - **20 usuarios de [Faker](https://fakerjs.dev/)**, con nombres en español, foto y casi todos con su
   Instagram. Cada uno sigue a 4 usuarios, le da like a 8 items y escribe 4 reseñas, casi todo del
   género que prefiere. Las reseñas traen likes y una discusión con comentarios, respuestas y likes de
-  otros usuarios.
+  otros usuarios. La primera reseña de cada uno es de las **últimas 24 horas** y tiene ubicación
+  (`latitud`, `longitud`) cerca de Bogotá, Medellín, Cali, Barranquilla o Bucaramanga: son los
+  marcadores del mapa de la app. Como el mapa solo muestra las del último día, para verlos hay que
+  correr el seed el mismo día de la prueba.
 
 Los contadores (`followersCount`, `likesCount`, `commentsCount`…) salen de los documentos que se
 crean en cada subcolección, así que siempre coinciden. `faker.seed(13)` hace que salgan siempre los

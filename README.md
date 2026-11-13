@@ -6,13 +6,14 @@ Funciones en línea del proyecto Firebase `mixtapp-720eb`. Responden a cambios e
 
 | Función | Se dispara con | Qué hace |
 |---|---|---|
-| `updateUserInfoInReviews` | `onDocumentUpdated("usuarios/{userId}")` | **Integridad de los datos.** Cada reseña y cada comentario guardan una copia del nombre y la foto de quien los escribió (desnormalización). Cuando el usuario cambia alguno de los dos, la función los actualiza en todas sus reseñas y en sus comentarios de cualquier discusión, con `batch` de hasta 500 operaciones. Si solo cambiaron los contadores o el token, no hace nada. |
+| `updateUserInfoInReviews` | `onDocumentUpdated("usuarios/{userId}")` | **Integridad de los datos.** Cada reseña y cada comentario guardan una copia del nombre y la foto de quien los escribió (desnormalización). Cuando el usuario cambia alguno de los dos, la función los actualiza en todas sus reseñas, en sus comentarios de cualquier discusión y en lo que está escuchando (`sonando/{userId}`), con `batch` de hasta 500 operaciones. Si solo cambiaron los contadores o el token, no hace nada. |
 | `sendLikeNotification` | `onDocumentCreated("reviews/{reviewId}/likes/{userId}")` | Notifica al **autor** de la reseña cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu reseña de From Zero». |
 | `sendFollowNotification` | `onDocumentCreated("usuarios/{userId}/followers/{followerId}")` | Notifica al usuario que tiene un seguidor nuevo: «Nuevo seguidor · Ana ha comenzado a seguirte». |
 | `sendCommentNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}")` | Notifica al **autor** de la reseña cuando alguien la comenta («Nuevo comentario · Ana comentó tu reseña de From Zero») y, si es una respuesta, al autor del comentario que responde («Nueva respuesta»). Nadie recibe la notificación de su propio comentario. |
 | `sendCommentLikeNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}/likes/{userId}")` | Notifica al **autor** de un comentario cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu comentario». |
+| `sendSonandoReactionNotification` | `onDocumentCreated("sonando/{userId}/reacciones/{reaccionId}")` | Notifica a quien está escuchando algo cuando alguien le da 🔥: «Nuevo 🔥 · Ana le dio 🔥 a lo que escuchas: From Zero». |
 
-Las cuatro notificaciones pasan por `enviarNotificacion`, que hace dos cosas:
+Las cinco notificaciones pasan por `enviarNotificacion`, que hace dos cosas:
 
 1. **Guarda la notificación** en `usuarios/{id}/notificaciones`, que la pantalla de notificaciones de
    la app escucha en vivo. Cada documento tiene `tipo` (`like`, `like_comentario`, `comentario`,
@@ -143,6 +144,27 @@ service cloud.firestore {
         allow write: if request.auth.uid == userId
         && request.resource.data.opcion in ['a', 'b']
         && request.resource.data.opinion.size() <= 140;
+      }
+    }
+
+    //mixtapes/123: solo quien la creo la escribe; nombre de hasta 40 y descripcion de hasta 150
+    match /mixtapes/{mixtapeId} {
+      allow create: if request.resource.data.usuarioId == request.auth.uid
+      && request.resource.data.nombre.size() > 0
+      && request.resource.data.nombre.size() <= 40
+      && (request.resource.data.descripcion == null || request.resource.data.descripcion.size() <= 150);
+      allow update, delete: if resource.data.usuarioId == request.auth.uid;
+    }
+
+    //sonando/uid: lo que escucha el usuario; los demas solo cambian el contador de reacciones
+    match /sonando/{userId} {
+      allow write: if request.resource.data.reaccionesCount is int
+      && request.resource.data.reaccionesCount >= 0;
+
+      //sonando/uid/reacciones/album_x_uid: cada usuario solo escribe su propia reaccion
+      match /reacciones/{reaccionId} {
+        allow create, update: if request.resource.data.usuarioId == request.auth.uid;
+        allow delete: if request.auth != null;
       }
     }
 
