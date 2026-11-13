@@ -91,7 +91,7 @@ exports.updateUserInfoInReviews = onDocumentUpdated(
             return
         }
 
-        logger.log("Actualizando reseñas y comentarios del usuario:", userId)
+        logger.log("Actualizando reseñas, comentarios y lo que escucha el usuario:", userId)
 
         const misResenas = await db.collection("reviews").where("usuarioId", "==", userId).get()
         const referencias = misResenas.docs.map((resenaDoc) => resenaDoc.ref)
@@ -105,6 +105,13 @@ exports.updateUserInfoInReviews = onDocumentUpdated(
                 .where("usuarioId", "==", userId)
                 .get()
             misComentarios.forEach((comentarioDoc) => referencias.push(comentarioDoc.ref))
+        }
+
+        // Lo que esta escuchando ("sonando ahora") tambien guarda la copia de su nombre y su foto
+        const sonandoRef = db.collection("sonando").doc(userId)
+        const sonandoDoc = await sonandoRef.get()
+        if (sonandoDoc.exists) {
+            referencias.push(sonandoRef)
         }
 
         await actualizarPorLotes(referencias, {
@@ -273,6 +280,41 @@ exports.sendCommentLikeNotification = onDocumentCreated(
             },
             "Nuevo me gusta",
             `A ${quienDioLike.nombre} le gustó tu comentario.`
+        )
+    }
+)
+
+// Notificacion a quien esta escuchando algo cuando alguien le da 🔥. El id de la reaccion lleva
+// el item y el uid de quien reacciono; el documento trae sus datos
+exports.sendSonandoReactionNotification = onDocumentCreated(
+    "sonando/{userId}/reacciones/{reaccionId}",
+    async (event) => {
+        const userId = event.params.userId
+        const reaccion = event.data.data()
+
+        // Nadie se reacciona a si mismo, pero si pasa no se notifica
+        if (reaccion.usuarioId === userId) {
+            logger.log(`El usuario ${userId} reaccionó a lo suyo, no se notifica.`)
+            return
+        }
+
+        // El titulo y la portada salen de lo que esta sonando
+        const sonandoDoc = await db.collection("sonando").doc(userId).get()
+        const sonando = sonandoDoc.exists ? sonandoDoc.data() : {}
+        const quienReacciono = await datosDelUsuario(reaccion.usuarioId)
+        await enviarNotificacion(
+            userId,
+            {
+                tipo: "reaccion_sonando",
+                actorId: reaccion.usuarioId,
+                actorNombre: quienReacciono.nombre,
+                actorFotoUrl: quienReacciono.fotoUrl,
+                reviewId: null,
+                itemTitulo: sonando.titulo || "",
+                imagenUrl: sonando.imagenUrl || null,
+            },
+            "Nuevo 🔥",
+            `${quienReacciono.nombre} le dio 🔥 a lo que escuchas: ${sonando.titulo || ""}`
         )
     }
 )
