@@ -147,6 +147,15 @@ service cloud.firestore {
       }
     }
 
+    //mixtapes/123: solo quien la creo la escribe; nombre de hasta 40 y descripcion de hasta 150
+    match /mixtapes/{mixtapeId} {
+      allow create: if request.resource.data.usuarioId == request.auth.uid
+      && request.resource.data.nombre.size() > 0
+      && request.resource.data.nombre.size() <= 40
+      && (request.resource.data.descripcion == null || request.resource.data.descripcion.size() <= 150);
+      allow update, delete: if resource.data.usuarioId == request.auth.uid;
+    }
+
     //sonando/uid: lo que escucha el usuario; los demas solo cambian el contador de reacciones
     match /sonando/{userId} {
       allow write: if request.resource.data.reaccionesCount is int
