@@ -6,20 +6,22 @@ Funciones en línea del proyecto Firebase `mixtapp-720eb`. Responden a cambios e
 
 | Función | Se dispara con | Qué hace |
 |---|---|---|
-| `updateUserInfoInReviews` | `onDocumentUpdated("usuarios/{userId}")` | **Integridad de los datos.** Cada reseña y cada comentario guardan una copia del nombre y la foto de quien los escribió (desnormalización). Cuando el usuario cambia alguno de los dos, la función los actualiza en todas sus reseñas, en sus comentarios de cualquier discusión y en lo que está escuchando (`sonando/{userId}`), con `batch` de hasta 500 operaciones. Si solo cambiaron los contadores o el token, no hace nada. |
+| `updateUserInfoInReviews` | `onDocumentUpdated("usuarios/{userId}")` | **Integridad de los datos.** Las reseñas, los comentarios, lo que está escuchando (`sonando/{userId}`), las mixtapes y los votos de los duelos (`duelos/{dueloId}/votos/{userId}`) guardan una copia del nombre y la foto de quien los escribió en el map `usuario` (desnormalización). Cuando el usuario cambia alguno de los dos, la función actualiza todas las copias con `batch` de hasta 500 operaciones. Sus comentarios y sus votos se buscan en la subcolección de cada reseña y de cada duelo, con todas las consultas a la vez (`Promise.all`). Si solo cambiaron los contadores o el token, no hace nada. El nombre se conserva porque es el de la función publicada. |
 | `sendLikeNotification` | `onDocumentCreated("reviews/{reviewId}/likes/{userId}")` | Notifica al **autor** de la reseña cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu reseña de From Zero». |
 | `sendFollowNotification` | `onDocumentCreated("usuarios/{userId}/followers/{followerId}")` | Notifica al usuario que tiene un seguidor nuevo: «Nuevo seguidor · Ana ha comenzado a seguirte». |
 | `sendCommentNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}")` | Notifica al **autor** de la reseña cuando alguien la comenta («Nuevo comentario · Ana comentó tu reseña de From Zero») y, si es una respuesta, al autor del comentario que responde («Nueva respuesta»). Nadie recibe la notificación de su propio comentario. |
 | `sendCommentLikeNotification` | `onDocumentCreated("reviews/{reviewId}/comments/{commentId}/likes/{userId}")` | Notifica al **autor** de un comentario cuando alguien le da like: «Nuevo me gusta · A Ana le gustó tu comentario». |
-| `sendSonandoReactionNotification` | `onDocumentCreated("sonando/{userId}/reacciones/{reaccionId}")` | Notifica a quien está escuchando algo cuando alguien le da 🔥: «Nuevo 🔥 · Ana le dio 🔥 a lo que escuchas: From Zero». |
+| `sendSonandoReactionNotification` | `onDocumentCreated("sonando/{userId}/reacciones/{reaccionId}")` | Notifica a quien está escuchando algo cuando alguien le da 🔥: «Nuevo 🔥 · Ana le dio 🔥 a lo que escuchas: From Zero» («… a lo que escuchas» si no tiene título). La reacción solo guarda `usuarioId`, `itemId` y `createdAt`: el nombre y la foto de quien reaccionó salen de su documento en `usuarios`. |
 
 Las cinco notificaciones pasan por `enviarNotificacion`, que hace dos cosas:
 
 1. **Guarda la notificación** en `usuarios/{id}/notificaciones`, que la pantalla de notificaciones de
    la app escucha en vivo. Cada documento tiene `tipo` (`like`, `like_comentario`, `comentario`,
-   `respuesta` o `seguidor`), quién la hizo (`actorId`, `actorNombre`, `actorFotoUrl`), la reseña (`reviewId`),
-   el título y la imagen del álbum, la canción o el artista (`itemTitulo`, `imagenUrl`), `leida` y
-   `createdAt`. La app la marca como leída.
+   `respuesta`, `seguidor` o `reaccion_sonando`), quién la hizo (`actorId`, `actorNombre`,
+   `actorFotoUrl`), la reseña (`reviewId`, `null` en `seguidor` y `reaccion_sonando`), el título y la
+   imagen del álbum, la canción o el artista de la reseña o de lo que está sonando (`itemTitulo`,
+   `imagenUrl`; vacíos en `seguidor`), `leida` y `createdAt`. La app la marca como leída. El objeto lo
+   arma `armarNotificacion`, con los mismos nombres de campo que lee la app.
 2. **Envía el push** con el token de FCM que la app guarda en el campo `fcmtoken` del usuario. Si
    no tiene token, o la app guardó `Vacio` porque el celular no pudo darlo, solo la anota en los
    registros.
@@ -63,8 +65,18 @@ Sin un archivo de reglas, el emulador permite todas las lecturas y escrituras. L
 al cerrarlo; para llenarlo está el seed de `seed/`.
 
 Con `--only firestore,auth` las Cloud Functions no corren en el emulador: en modo debug no se crean
-notificaciones ni se actualizan las copias del nombre y la foto. Eso se prueba con el Firebase real
-(la app en release y las funciones publicadas).
+notificaciones ni se actualizan las copias del nombre y la foto. Es el comando para usar la app en
+debug. Eso se prueba con el Firebase real (la app en release y las funciones publicadas) o agregando
+`functions` a la lista, con `npm install` ya hecho en `functions/`:
+
+```bash
+firebase emulators:start --only firestore,auth,functions --project mixtapp-720eb
+```
+
+Así las funciones corren con el `index.js` local y escriben en el Firestore del emulador: sirve para
+probar un cambio en ellas antes del deploy (un like de la app o del seed crea su notificación). El
+push depende de Cloud Messaging, que no se emula: si falla, el error queda en la terminal y la
+notificación igual queda guardada.
 
 ## Publicar
 
@@ -79,7 +91,7 @@ cd ..
 firebase deploy --only functions
 ```
 
-El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las cinco funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
+El deploy tarda unos 3 minutos. Después, en la consola: *Compilación → Functions* aparecen las seis funciones con su activador, la región `us-central1` y la versión `v2`. Los tres puntos → **Ver registros** muestran los `logger.log` y los errores.
 
 ## Reglas de seguridad de Firestore
 

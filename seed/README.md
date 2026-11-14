@@ -46,7 +46,9 @@ Es la configuración que trae `seed.js`: escribe en el Firestore del emulador (`
    `firebase emulators:start --only firestore,auth --project mixtapp-720eb`
 2. En otra terminal, dentro de `seed`: `node seed.js`
 
-Los datos aparecen en `http://127.0.0.1:4000/firestore` y se borran al cerrar la CLI.
+Los datos aparecen en `http://127.0.0.1:4000/firestore` y se borran al cerrar la CLI. Si el emulador
+se arrancó también con `functions` (`--only firestore,auth,functions`), cada like, comentario y
+seguidor del seed crea su notificación en el emulador.
 
 ## Contra el Firebase real
 
