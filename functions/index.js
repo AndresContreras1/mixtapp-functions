@@ -12,6 +12,8 @@ const db = admin.firestore()
 const MAX_OPERACIONES_POR_BATCH = 500
 // Lo que guarda la app cuando el celular no pudo dar su token de FCM
 const TOKEN_VACIO = "Vacio"
+// La notificacion de un seguidor no es de ningun album, cancion ni artista
+const SIN_ITEM = { titulo: "", imagenUrl: null }
 
 // Aplica el mismo cambio a muchos documentos, de a 500 por batch
 async function actualizarPorLotes(referencias, cambios) {
@@ -57,6 +59,21 @@ async function enviarNotificacion(destinatarioId, notificacion, titulo, cuerpo) 
     }
 }
 
+// Los campos que la app lee de cada notificacion (NotificacionDto): `actor` es el nombre y la foto
+// de quien hizo la accion e `item` el titulo y la imagen de lo que se muestra. leida y createdAt
+// los pone enviarNotificacion
+function armarNotificacion(tipo, actorId, actor, reviewId, item) {
+    return {
+        tipo: tipo,
+        actorId: actorId,
+        actorNombre: actor.nombre,
+        actorFotoUrl: actor.fotoUrl,
+        reviewId: reviewId,
+        itemTitulo: item.titulo,
+        imagenUrl: item.imagenUrl,
+    }
+}
+
 // El nombre y la foto de quien hizo la accion, desde su documento
 async function datosDelUsuario(usuarioId) {
     const usuarioDoc = await db.collection("usuarios").doc(usuarioId).get()
@@ -68,9 +85,28 @@ async function datosDelUsuario(usuarioId) {
     }
 }
 
+// La resena de la notificacion; null si la borraron antes de que corriera la funcion
+async function buscarResena(reviewId) {
+    const resenaDoc = await db.collection("reviews").doc(reviewId).get()
+    if (!resenaDoc.exists) {
+        logger.log(`La reseña ${reviewId} ya no existe.`)
+        return null
+    }
+    return resenaDoc.data()
+}
+
+// El titulo y la imagen de la copia del item que guarda la resena; vacios si no la tiene
+function itemDeLaResena(resena) {
+    const item = (resena && resena.item) || {}
+    return {
+        titulo: item.titulo || "",
+        imagenUrl: item.imagenUrl || null,
+    }
+}
+
 // "tu reseña de From Zero", o "tu reseña" si la copia del item no tiene titulo
 function tuResena(resena) {
-    const titulo = resena.item ? resena.item.titulo : ""
+    const titulo = itemDeLaResena(resena).titulo
     return titulo ? `tu reseña de ${titulo}` : "tu reseña"
 }
 
@@ -130,12 +166,8 @@ exports.sendLikeNotification = onDocumentCreated(
         const reviewId = event.params.reviewId
         const userId = event.params.userId
 
-        const resenaDoc = await db.collection("reviews").doc(reviewId).get()
-        if (!resenaDoc.exists) {
-            logger.log(`La reseña ${reviewId} ya no existe.`)
-            return
-        }
-        const resena = resenaDoc.data()
+        const resena = await buscarResena(reviewId)
+        if (!resena) return
 
         // La notificacion es para quien escribio la resena, no para quien dio el like
         if (resena.usuarioId === userId) {
@@ -146,15 +178,7 @@ exports.sendLikeNotification = onDocumentCreated(
         const quienDioLike = await datosDelUsuario(userId)
         await enviarNotificacion(
             resena.usuarioId,
-            {
-                tipo: "like",
-                actorId: userId,
-                actorNombre: quienDioLike.nombre,
-                actorFotoUrl: quienDioLike.fotoUrl,
-                reviewId: reviewId,
-                itemTitulo: resena.item ? resena.item.titulo : "",
-                imagenUrl: resena.item ? resena.item.imagenUrl : null,
-            },
+            armarNotificacion("like", userId, quienDioLike, reviewId, itemDeLaResena(resena)),
             "Nuevo me gusta",
             `A ${quienDioLike.nombre} le gustó ${tuResena(resena)}.`
         )
@@ -172,15 +196,7 @@ exports.sendFollowNotification = onDocumentCreated(
         const seguidor = await datosDelUsuario(followerId)
         await enviarNotificacion(
             userId,
-            {
-                tipo: "seguidor",
-                actorId: followerId,
-                actorNombre: seguidor.nombre,
-                actorFotoUrl: seguidor.fotoUrl,
-                reviewId: null,
-                itemTitulo: "",
-                imagenUrl: null,
-            },
+            armarNotificacion("seguidor", followerId, seguidor, null, SIN_ITEM),
             "Nuevo seguidor",
             `${seguidor.nombre} ha comenzado a seguirte.`
         )
@@ -196,12 +212,8 @@ exports.sendCommentNotification = onDocumentCreated(
         const comentario = event.data.data()
         const comentaristaId = comentario.usuarioId
 
-        const resenaDoc = await db.collection("reviews").doc(reviewId).get()
-        if (!resenaDoc.exists) {
-            logger.log(`La reseña ${reviewId} ya no existe.`)
-            return
-        }
-        const resena = resenaDoc.data()
+        const resena = await buscarResena(reviewId)
+        if (!resena) return
 
         // Se muestra el nombre que se copio en el comentario, no el id
         const comentarista = {
@@ -213,7 +225,8 @@ exports.sendCommentNotification = onDocumentCreated(
         // principal. Nadie recibe la notificacion de su propio comentario
         const destinatarios = new Set([resena.usuarioId])
         if (comentario.parentCommentId) {
-            const padreDoc = await resenaDoc.ref.collection("comments").doc(comentario.parentCommentId).get()
+            const padreDoc = await db.collection("reviews").doc(reviewId)
+                .collection("comments").doc(comentario.parentCommentId).get()
             if (padreDoc.exists) destinatarios.add(padreDoc.data().usuarioId)
         }
         destinatarios.delete(comentaristaId)
@@ -223,15 +236,13 @@ exports.sendCommentNotification = onDocumentCreated(
 
             await enviarNotificacion(
                 destinatarioId,
-                {
-                    tipo: esLaResena ? "comentario" : "respuesta",
-                    actorId: comentaristaId,
-                    actorNombre: comentarista.nombre,
-                    actorFotoUrl: comentarista.fotoUrl,
-                    reviewId: reviewId,
-                    itemTitulo: resena.item ? resena.item.titulo : "",
-                    imagenUrl: resena.item ? resena.item.imagenUrl : null,
-                },
+                armarNotificacion(
+                    esLaResena ? "comentario" : "respuesta",
+                    comentaristaId,
+                    comentarista,
+                    reviewId,
+                    itemDeLaResena(resena)
+                ),
                 esLaResena ? "Nuevo comentario" : "Nueva respuesta",
                 esLaResena
                     ? `${comentarista.nombre} comentó ${tuResena(resena)}.`
@@ -263,21 +274,13 @@ exports.sendCommentLikeNotification = onDocumentCreated(
             return
         }
 
-        // La imagen y el titulo salen de la copia del item en la resena
-        const resenaDoc = await resenaRef.get()
-        const resena = resenaDoc.exists ? resenaDoc.data() : {}
+        // La imagen y el titulo salen de la copia del item en la resena; si ya no existe, la
+        // notificacion llega sin ellos
+        const resena = await buscarResena(reviewId)
         const quienDioLike = await datosDelUsuario(userId)
         await enviarNotificacion(
             comentario.usuarioId,
-            {
-                tipo: "like_comentario",
-                actorId: userId,
-                actorNombre: quienDioLike.nombre,
-                actorFotoUrl: quienDioLike.fotoUrl,
-                reviewId: reviewId,
-                itemTitulo: resena.item ? resena.item.titulo : "",
-                imagenUrl: resena.item ? resena.item.imagenUrl : null,
-            },
+            armarNotificacion("like_comentario", userId, quienDioLike, reviewId, itemDeLaResena(resena)),
             "Nuevo me gusta",
             `A ${quienDioLike.nombre} le gustó tu comentario.`
         )
@@ -301,18 +304,11 @@ exports.sendSonandoReactionNotification = onDocumentCreated(
         // El titulo y la portada salen de lo que esta sonando
         const sonandoDoc = await db.collection("sonando").doc(userId).get()
         const sonando = sonandoDoc.exists ? sonandoDoc.data() : {}
+        const loQueSuena = { titulo: sonando.titulo || "", imagenUrl: sonando.imagenUrl || null }
         const quienReacciono = await datosDelUsuario(reaccion.usuarioId)
         await enviarNotificacion(
             userId,
-            {
-                tipo: "reaccion_sonando",
-                actorId: reaccion.usuarioId,
-                actorNombre: quienReacciono.nombre,
-                actorFotoUrl: quienReacciono.fotoUrl,
-                reviewId: null,
-                itemTitulo: sonando.titulo || "",
-                imagenUrl: sonando.imagenUrl || null,
-            },
+            armarNotificacion("reaccion_sonando", reaccion.usuarioId, quienReacciono, null, loQueSuena),
             "Nuevo 🔥",
             `${quienReacciono.nombre} le dio 🔥 a lo que escuchas: ${sonando.titulo || ""}`
         )
