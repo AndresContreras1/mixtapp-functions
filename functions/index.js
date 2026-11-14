@@ -115,6 +115,24 @@ function loQueEscuchas(titulo) {
     return titulo ? `lo que escuchas: ${titulo}` : "lo que escuchas"
 }
 
+// Los comentarios de un usuario pueden estar en la discusion de cualquier resena: se buscan en la
+// subcoleccion comments de cada una. Las consultas no dependen entre si, asi que se lanzan todas
+// a la vez con Promise.all y se espera una sola vez, en vez de una por una dentro del for
+async function referenciasDeSusComentarios(userId) {
+    const todasLasResenas = await db.collection("reviews").get()
+    const comentariosPorResena = await Promise.all(
+        todasLasResenas.docs.map((resenaDoc) =>
+            resenaDoc.ref.collection("comments").where("usuarioId", "==", userId).get()
+        )
+    )
+
+    const referencias = []
+    comentariosPorResena.forEach((susComentarios) =>
+        susComentarios.forEach((comentarioDoc) => referencias.push(comentarioDoc.ref))
+    )
+    return referencias
+}
+
 // Integridad de los datos: cada resena y cada comentario guardan una copia del nombre y la foto
 // de quien los escribio. Cuando el usuario los cambia, se actualizan en todas las copias
 exports.updateUserInfoInReviews = onDocumentUpdated(
@@ -135,18 +153,11 @@ exports.updateUserInfoInReviews = onDocumentUpdated(
         logger.log("Actualizando reseñas, comentarios y lo que escucha el usuario:", userId)
 
         const misResenas = await db.collection("reviews").where("usuarioId", "==", userId).get()
-        const referencias = misResenas.docs.map((resenaDoc) => resenaDoc.ref)
-
-        // Sus comentarios pueden estar en la discusion de cualquier resena: se buscan en la
-        // subcoleccion comments de cada una
-        const todasLasResenas = await db.collection("reviews").get()
-        for (const resenaDoc of todasLasResenas.docs) {
-            const misComentarios = await resenaDoc.ref
-                .collection("comments")
-                .where("usuarioId", "==", userId)
-                .get()
-            misComentarios.forEach((comentarioDoc) => referencias.push(comentarioDoc.ref))
-        }
+        const susComentarios = await referenciasDeSusComentarios(userId)
+        const referencias = [
+            ...misResenas.docs.map((resenaDoc) => resenaDoc.ref),
+            ...susComentarios,
+        ]
 
         // Lo que esta escuchando ("sonando ahora") tambien guarda la copia de su nombre y su foto
         const sonandoRef = db.collection("sonando").doc(userId)
