@@ -133,8 +133,21 @@ async function referenciasDeSusComentarios(userId) {
     return referencias
 }
 
-// Integridad de los datos: cada resena y cada comentario guardan una copia del nombre y la foto
-// de quien los escribio. Cuando el usuario los cambia, se actualizan en todas las copias
+// El voto de un usuario en un duelo tiene su uid como id (duelos/{dueloId}/votos/{userId}): se pide
+// el de cada duelo a la vez y quedan los que existen
+async function referenciasDeSusVotos(userId) {
+    const duelos = await db.collection("duelos").get()
+    const votos = await Promise.all(
+        duelos.docs.map((dueloDoc) => dueloDoc.ref.collection("votos").doc(userId).get())
+    )
+
+    return votos.filter((votoDoc) => votoDoc.exists).map((votoDoc) => votoDoc.ref)
+}
+
+// Integridad de los datos: sus resenas, sus comentarios, lo que esta escuchando, sus mixtapes y
+// sus votos en los duelos guardan una copia de su nombre y su foto en el map usuario. Cuando el
+// usuario cambia alguno de los dos, se actualizan todas las copias. El nombre de la funcion se
+// queda igual aunque ya no son solo resenas: es el de la funcion publicada
 exports.updateUserInfoInReviews = onDocumentUpdated(
     "usuarios/{userId}",
     async (event) => {
@@ -150,16 +163,20 @@ exports.updateUserInfoInReviews = onDocumentUpdated(
             return
         }
 
-        logger.log("Actualizando reseñas, comentarios y lo que escucha el usuario:", userId)
+        logger.log("Actualizando las copias del nombre y la foto del usuario:", userId)
 
-        const misResenas = await db.collection("reviews").where("usuarioId", "==", userId).get()
+        const susResenas = await db.collection("reviews").where("usuarioId", "==", userId).get()
         const susComentarios = await referenciasDeSusComentarios(userId)
+        const susMixtapes = await db.collection("mixtapes").where("usuarioId", "==", userId).get()
+        const susVotos = await referenciasDeSusVotos(userId)
         const referencias = [
-            ...misResenas.docs.map((resenaDoc) => resenaDoc.ref),
+            ...susResenas.docs.map((resenaDoc) => resenaDoc.ref),
             ...susComentarios,
+            ...susMixtapes.docs.map((mixtapeDoc) => mixtapeDoc.ref),
+            ...susVotos,
         ]
 
-        // Lo que esta escuchando ("sonando ahora") tambien guarda la copia de su nombre y su foto
+        // Lo que esta escuchando ("sonando ahora") tiene su uid como id
         const sonandoRef = db.collection("sonando").doc(userId)
         const sonandoDoc = await sonandoRef.get()
         if (sonandoDoc.exists) {
