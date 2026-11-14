@@ -110,6 +110,11 @@ function tuResena(resena) {
     return titulo ? `tu reseña de ${titulo}` : "tu reseña"
 }
 
+// "lo que escuchas: From Zero", o "lo que escuchas" si lo que suena no tiene titulo
+function loQueEscuchas(titulo) {
+    return titulo ? `lo que escuchas: ${titulo}` : "lo que escuchas"
+}
+
 // Integridad de los datos: cada resena y cada comentario guardan una copia del nombre y la foto
 // de quien los escribio. Cuando el usuario los cambia, se actualizan en todas las copias
 exports.updateUserInfoInReviews = onDocumentUpdated(
@@ -288,7 +293,8 @@ exports.sendCommentLikeNotification = onDocumentCreated(
 )
 
 // Notificacion a quien esta escuchando algo cuando alguien le da 🔥. El id de la reaccion lleva
-// el item y el uid de quien reacciono; el documento trae sus datos
+// el item y el uid de quien reacciono, y el documento solo guarda usuarioId, itemId y createdAt:
+// el nombre y la foto de quien reacciono salen de su documento en usuarios
 exports.sendSonandoReactionNotification = onDocumentCreated(
     "sonando/{userId}/reacciones/{reaccionId}",
     async (event) => {
@@ -310,7 +316,7 @@ exports.sendSonandoReactionNotification = onDocumentCreated(
             userId,
             armarNotificacion("reaccion_sonando", reaccion.usuarioId, quienReacciono, null, loQueSuena),
             "Nuevo 🔥",
-            `${quienReacciono.nombre} le dio 🔥 a lo que escuchas: ${sonando.titulo || ""}`
+            `${quienReacciono.nombre} le dio 🔥 a ${loQueEscuchas(loQueSuena.titulo)}.`
         )
     }
 )
