@@ -143,49 +143,45 @@ function buildUsuario(i) {
   };
 }
 
-function armarEscrituras() {
-  const ahora = new Date();
-  // Cada escritura es { ref, datos }: al final se guardan todas de a 500. Las Cloud Functions
-  // leen la resena y los usuarios cuando llega un like, un comentario o un seguidor, asi que
-  // primero van el catalogo y los usuarios, despues las resenas con sus comentarios y al final
-  // los likes y los seguidores
-  const documentos = [];
-  const resenas = [];
-  const escrituras = [];
-  const likesDeItem = new Map(); // id del item -> cuantos likes tiene
-  const usuarios = Array.from({ length: USUARIOS }, (_, i) => buildUsuario(i + 1));
-  const contadores = new Map(usuarios.map((usuario) => [usuario.id, { followers: 0, following: 0 }]));
+// Los likes y los seguidores solo guardan la fecha, como la transaccion de la app
+function escrituraConFecha(ref, fecha) {
+  return { ref, datos: { timestamp: admin.firestore.Timestamp.fromDate(fecha) } };
+}
 
-  // Seguidores: following en quien sigue y followers en el seguido, como la transaccion de la app
+// Unas cuadras de diferencia alrededor de la ciudad
+function desvio() {
+  return faker.number.float({ min: -DESVIO_EN_GRADOS, max: DESVIO_EN_GRADOS });
+}
+
+// Seguidores: following en quien sigue y followers en el seguido, como la transaccion de la app.
+// Suma en `contadores` a cuantos sigue cada usuario y cuantos lo siguen
+function armarSeguidores(usuarios, contadores, ahora) {
+  const escrituras = [];
   for (const usuario of usuarios) {
     const seguidos = faker.helpers.arrayElements(
       usuarios.filter((otro) => otro.id !== usuario.id),
       SIGUE_A
     );
     for (const seguido of seguidos) {
-      const timestamp = admin.firestore.Timestamp.fromDate(faker.date.recent({ days: 60, refDate: ahora }));
-      escrituras.push({
-        ref: db.collection("usuarios").doc(usuario.id).collection("following").doc(seguido.id),
-        datos: { timestamp },
-      });
-      escrituras.push({
-        ref: db.collection("usuarios").doc(seguido.id).collection("followers").doc(usuario.id),
-        datos: { timestamp },
-      });
+      const fecha = faker.date.recent({ days: 60, refDate: ahora });
+      const followingRef = db.collection("usuarios").doc(usuario.id).collection("following").doc(seguido.id);
+      const followersRef = db.collection("usuarios").doc(seguido.id).collection("followers").doc(usuario.id);
+      escrituras.push(escrituraConFecha(followingRef, fecha), escrituraConFecha(followersRef, fecha));
       contadores.get(usuario.id).following++;
       contadores.get(seguido.id).followers++;
     }
   }
+  return escrituras;
+}
 
-  // Likes a items: el like en el item y la copia en usuarios/{uid}/likes, que alimenta los
-  // favoritos y el For you
+// Likes a items: el like en el item y la copia en usuarios/{uid}/likes, que alimenta los
+// favoritos y el For you. Suma en `likesDeItem` cuantos likes recibe cada item
+function armarLikes(usuarios, likesDeItem, ahora) {
+  const escrituras = [];
   for (const usuario of usuarios) {
     for (const item of itemsParaUsuario(usuario, LIKES_POR_USUARIO)) {
       const fecha = faker.date.recent({ days: 60, refDate: ahora });
-      escrituras.push({
-        ref: referenciaDelItem(item).collection("likes").doc(usuario.id),
-        datos: { timestamp: admin.firestore.Timestamp.fromDate(fecha) },
-      });
+      escrituras.push(escrituraConFecha(referenciaDelItem(item).collection("likes").doc(usuario.id), fecha));
       escrituras.push({
         ref: db.collection("usuarios").doc(usuario.id).collection("likes").doc(item.id),
         datos: { tipo: item.tipo, ...copiaDelItem(item), genero: item.genero, createdAt: fecha.toISOString() },
@@ -193,96 +189,124 @@ function armarEscrituras() {
       likesDeItem.set(item.id, (likesDeItem.get(item.id) || 0) + 1);
     }
   }
+  return escrituras;
+}
 
-  // Resenas con sus likes y su discusion. Los contadores salen de los documentos que se crean
-  for (const usuario of usuarios) {
-    itemsParaUsuario(usuario, RESENAS_POR_USUARIO).forEach((item, index) => {
-      const reviewRef = db.collection("reviews").doc(`${usuario.id}_${index + 1}`); // ej: "usuario_1_2"
-      const enElMapa = index === 0;
-      const creada = enElMapa
-        ? faker.date.recent({ days: 1, refDate: ahora })
-        : faker.date.recent({ days: 60, refDate: ahora });
-      const escuchada = faker.date.recent({ days: 10, refDate: creada });
-      const ciudad = CIUDADES[usuarios.indexOf(usuario) % CIUDADES.length];
-
-      const quienesDieronLike = otrosUsuarios(usuarios, [usuario.id], 5);
-      for (const otro of quienesDieronLike) {
-        escrituras.push({
-          ref: reviewRef.collection("likes").doc(otro.id),
-          datos: { timestamp: admin.firestore.Timestamp.fromDate(faker.date.between({ from: creada, to: ahora })) },
-        });
-      }
-
-      // Los comentarios son despues de la resena; la respuesta, despues del comentario que responde
-      const comentaristas = otrosUsuarios(usuarios, [usuario.id], MAX_COMENTARIOS_POR_RESENA);
-      const comentarios = comentaristas
-        .map((autor) => ({ autor, fecha: faker.date.between({ from: creada, to: ahora }) }))
-        .sort((a, b) => a.fecha - b.fecha);
-      if (comentarios.length > 0 && faker.datatype.boolean()) {
-        comentarios.push({
-          autor: usuario,
-          fecha: faker.date.between({ from: comentarios[0].fecha, to: ahora }),
-          responde: "comentario_1",
-        });
-      }
-
-      // Mismos nombres y tipos que el DTO de la app: si un campo cambia de nombre, toObject no lo lee
-      resenas.push({
-        ref: reviewRef,
-        datos: {
-          usuarioId: usuario.id,
-          itemId: item.id,
-          tipo: item.tipo,
-          calificacion: item.genero === usuario.generoFavorito
-            ? faker.number.int({ min: 3, max: 5 })
-            : faker.number.int({ min: 1, max: 5 }),
-          comentario: faker.helpers.arrayElement(RESENAS),
-          fechaEscucha: escuchada.toISOString().slice(0, 10), // "YYYY-MM-DD"
-          createdAt: creada.toISOString(),
-          updatedAt: creada.toISOString(),
-          likesCount: quienesDieronLike.length,
-          commentsCount: comentarios.length,
-          usuario: { nombre: usuario.nombre, fotoUrl: usuario.fotoUrl },
-          item: copiaDelItem(item),
-          // Donde se publico: solo la de las ultimas 24 horas; las demas, sin ubicacion
-          latitud: enElMapa
-            ? ciudad.latitud + faker.number.float({ min: -DESVIO_EN_GRADOS, max: DESVIO_EN_GRADOS })
-            : null,
-          longitud: enElMapa
-            ? ciudad.longitud + faker.number.float({ min: -DESVIO_EN_GRADOS, max: DESVIO_EN_GRADOS })
-            : null,
-        },
-      });
-
-      comentarios.forEach((comentario, c) => {
-        const comentarioRef = reviewRef.collection("comments").doc(`comentario_${c + 1}`);
-        const likesDelComentario = otrosUsuarios(usuarios, [comentario.autor.id], 3);
-        resenas.push({
-          ref: comentarioRef,
-          datos: {
-            usuarioId: comentario.autor.id,
-            contenido: faker.helpers.arrayElement(COMENTARIOS),
-            parentCommentId: comentario.responde || null,
-            likesCount: likesDelComentario.length,
-            createdAt: comentario.fecha.toISOString(),
-            usuario: { nombre: comentario.autor.nombre, fotoUrl: comentario.autor.fotoUrl },
-          },
-        });
-        for (const otro of likesDelComentario) {
-          escrituras.push({
-            ref: comentarioRef.collection("likes").doc(otro.id),
-            datos: { timestamp: admin.firestore.Timestamp.fromDate(comentario.fecha) },
-          });
-        }
-      });
+// Los comentarios de una resena, del mas viejo al mas nuevo: son despues de la resena y, a veces,
+// su autor responde al primero
+function armarDiscusion(autor, usuarios, creada, ahora) {
+  const comentaristas = otrosUsuarios(usuarios, [autor.id], MAX_COMENTARIOS_POR_RESENA);
+  const comentarios = comentaristas
+    .map((comentarista) => ({ autor: comentarista, fecha: faker.date.between({ from: creada, to: ahora }) }))
+    .sort((a, b) => a.fecha - b.fecha);
+  if (comentarios.length > 0 && faker.datatype.boolean()) {
+    comentarios.push({
+      autor,
+      fecha: faker.date.between({ from: comentarios[0].fecha, to: ahora }),
+      responde: "comentario_1",
     });
   }
+  return comentarios;
+}
 
-  // Los usuarios, con los contadores que coinciden con sus subcolecciones. El id va como nombre
-  // del documento y no dentro de los campos, como lo deja la app
+// Mismos nombres y tipos que el DTO de la app: si un campo cambia de nombre, toObject no lo lee.
+// Solo la resena que va en el mapa trae `ciudad`; las demas quedan sin ubicacion
+function buildResena(usuario, item, { creada, escuchada, ciudad, likesCount, commentsCount }) {
+  return {
+    usuarioId: usuario.id,
+    itemId: item.id,
+    tipo: item.tipo,
+    calificacion: item.genero === usuario.generoFavorito
+      ? faker.number.int({ min: 3, max: 5 })
+      : faker.number.int({ min: 1, max: 5 }),
+    comentario: faker.helpers.arrayElement(RESENAS),
+    fechaEscucha: escuchada.toISOString().slice(0, 10), // "YYYY-MM-DD"
+    createdAt: creada.toISOString(),
+    updatedAt: creada.toISOString(),
+    likesCount,
+    commentsCount,
+    usuario: { nombre: usuario.nombre, fotoUrl: usuario.fotoUrl },
+    item: copiaDelItem(item),
+    // Donde se publico
+    latitud: ciudad ? ciudad.latitud + desvio() : null,
+    longitud: ciudad ? ciudad.longitud + desvio() : null,
+  };
+}
+
+// Un comentario de la discusion; si es una respuesta, parentCommentId es el comentario que responde
+function buildComentario(comentario, likesCount) {
+  return {
+    usuarioId: comentario.autor.id,
+    contenido: faker.helpers.arrayElement(COMENTARIOS),
+    parentCommentId: comentario.responde || null,
+    likesCount,
+    createdAt: comentario.fecha.toISOString(),
+    usuario: { nombre: comentario.autor.nombre, fotoUrl: comentario.autor.fotoUrl },
+  };
+}
+
+// Una resena con sus likes y su discusion; los contadores salen de los documentos que se crean.
+// `documentos` trae la resena y sus comentarios, y `likes` los likes de los dos
+function armarResena(usuario, item, index, usuarios, ahora) {
+  const documentos = [];
+  const likes = [];
+  const reviewRef = db.collection("reviews").doc(`${usuario.id}_${index + 1}`); // ej: "usuario_1_2"
+  const enElMapa = index === 0;
+  const creada = enElMapa
+    ? faker.date.recent({ days: 1, refDate: ahora })
+    : faker.date.recent({ days: 60, refDate: ahora });
+  const escuchada = faker.date.recent({ days: 10, refDate: creada });
+
+  const quienesDieronLike = otrosUsuarios(usuarios, [usuario.id], 5);
+  for (const otro of quienesDieronLike) {
+    const fecha = faker.date.between({ from: creada, to: ahora });
+    likes.push(escrituraConFecha(reviewRef.collection("likes").doc(otro.id), fecha));
+  }
+
+  const comentarios = armarDiscusion(usuario, usuarios, creada, ahora);
+  documentos.push({
+    ref: reviewRef,
+    datos: buildResena(usuario, item, {
+      creada,
+      escuchada,
+      ciudad: enElMapa ? CIUDADES[usuarios.indexOf(usuario) % CIUDADES.length] : null,
+      likesCount: quienesDieronLike.length,
+      commentsCount: comentarios.length,
+    }),
+  });
+
+  comentarios.forEach((comentario, posicion) => {
+    const comentarioRef = reviewRef.collection("comments").doc(`comentario_${posicion + 1}`);
+    const likesDelComentario = otrosUsuarios(usuarios, [comentario.autor.id], 3);
+    documentos.push({ ref: comentarioRef, datos: buildComentario(comentario, likesDelComentario.length) });
+    for (const otro of likesDelComentario) {
+      likes.push(escrituraConFecha(comentarioRef.collection("likes").doc(otro.id), comentario.fecha));
+    }
+  });
+
+  return { documentos, likes };
+}
+
+// Las resenas de todos los usuarios, casi todas de su genero favorito
+function armarResenas(usuarios, ahora) {
+  const documentos = [];
+  const likes = [];
   for (const usuario of usuarios) {
+    itemsParaUsuario(usuario, RESENAS_POR_USUARIO).forEach((item, index) => {
+      const resena = armarResena(usuario, item, index, usuarios, ahora);
+      documentos.push(...resena.documentos);
+      likes.push(...resena.likes);
+    });
+  }
+  return { documentos, likes };
+}
+
+// Los usuarios, con los contadores que coinciden con sus subcolecciones. El id va como nombre del
+// documento y no dentro de los campos, como lo deja la app
+function armarUsuarios(usuarios, contadores) {
+  return usuarios.map((usuario) => {
     const { id, generoFavorito, ...datos } = usuario;
-    documentos.push({
+    return {
       ref: db.collection("usuarios").doc(id),
       datos: {
         ...datos,
@@ -291,13 +315,15 @@ function armarEscrituras() {
         // Sin celular: la Cloud Function no les envia push
         fcmtoken: null,
       },
-    });
-  }
+    };
+  });
+}
 
-  // El catalogo real, con cuantos likes le dieron los usuarios
-  for (const item of items) {
+// El catalogo real, con cuantos likes le dieron los usuarios
+function armarCatalogo(likesDeItem, ahora) {
+  return items.map((item) => {
     const { id, tipo, ...datos } = item;
-    documentos.push({
+    return {
       ref: referenciaDelItem(item),
       datos: {
         ...datos,
@@ -305,18 +331,46 @@ function armarEscrituras() {
         createdAt: ahora.toISOString(),
         updatedAt: ahora.toISOString(),
       },
-    });
-  }
+    };
+  });
+}
 
-  // Las historias de cada item, con el mismo id: la app las lee solo al abrir Datos curiosos
+// Las historias de cada item, con el mismo id: la app las lee solo al abrir Datos curiosos
+function armarHistorias() {
+  const documentos = [];
   for (const [itemId, historia] of Object.entries(historias)) {
     documentos.push({
       ref: db.collection("historias").doc(itemId),
       datos: { tipo: historia.tipo, secciones: historia.secciones },
     });
   }
+  return documentos;
+}
 
-  return [...documentos, ...resenas, ...escrituras];
+// Todo el seed completo. Cada escritura es { ref, datos }: al final se guardan todas de a 500. Las
+// Cloud Functions leen la resena y los usuarios cuando llega un like, un comentario o un
+// seguidor, asi que primero van los usuarios y el catalogo, despues las resenas con sus
+// comentarios y al final los likes y los seguidores
+function armarEscrituras() {
+  const ahora = new Date();
+  const usuarios = Array.from({ length: USUARIOS }, (_, i) => buildUsuario(i + 1));
+  const contadores = new Map(usuarios.map((usuario) => [usuario.id, { followers: 0, following: 0 }]));
+  const likesDeItem = new Map(); // id del item -> cuantos likes tiene
+
+  // Faker se llama siempre en este orden: con faker.seed(13) salen los mismos datos
+  const seguidores = armarSeguidores(usuarios, contadores, ahora);
+  const likes = armarLikes(usuarios, likesDeItem, ahora);
+  const resenas = armarResenas(usuarios, ahora);
+
+  return [
+    ...armarUsuarios(usuarios, contadores),
+    ...armarCatalogo(likesDeItem, ahora),
+    ...armarHistorias(),
+    ...resenas.documentos,
+    ...seguidores,
+    ...likes,
+    ...resenas.likes,
+  ];
 }
 
 // Las dos tendencias de cada item del catalogo, para actualizarlas con update
@@ -340,25 +394,29 @@ async function guardarPorLotes(escrituras, soloActualizar) {
   }
 }
 
-try {
-  if (SOLO_TENDENCIAS) {
-    console.log(`Actualizando las tendencias de ${items.length} items del catalogo...`);
-    await guardarPorLotes(escriturasDeTendencias(), true);
-    console.log("Tendencias actualizadas!");
-    process.exit(0);
-  }
+// main llama todo dentro de try/catch: si no se imprime el error nunca se sabe que esta mal
+async function main() {
+  try {
+    if (SOLO_TENDENCIAS) {
+      console.log(`Actualizando las tendencias de ${items.length} items del catalogo...`);
+      await guardarPorLotes(escriturasDeTendencias(), true);
+      console.log("Tendencias actualizadas!");
+      process.exit(0);
+    }
 
-  const escrituras = armarEscrituras();
-  console.log(
-    `Seeding ${catalogo.albumes.length} albumes, ${catalogo.canciones.length} canciones, ` +
-      `${catalogo.artistas.length} artistas, ${Object.keys(historias).length} historias y ${USUARIOS} usuarios ` +
-      "con sus likes, resenas y comentarios..."
-  );
-  await guardarPorLotes(escrituras, false);
-  console.log("Seeding completed!");
-  process.exit(0);
-} catch (error) {
-  // Si no se imprime el error nunca se sabe que esta mal
-  console.error("Error seeding data:", error);
-  process.exit(1);
+    const escrituras = armarEscrituras();
+    console.log(
+      `Seeding ${catalogo.albumes.length} albumes, ${catalogo.canciones.length} canciones, ` +
+        `${catalogo.artistas.length} artistas, ${Object.keys(historias).length} historias y ${USUARIOS} usuarios ` +
+        "con sus likes, resenas y comentarios..."
+    );
+    await guardarPorLotes(escrituras, false);
+    console.log("Seeding completed!");
+    process.exit(0);
+  } catch (error) {
+    console.error("Error seeding data:", error);
+    process.exit(1);
+  }
 }
+
+main();
