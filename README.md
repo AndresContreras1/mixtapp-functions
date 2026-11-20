@@ -237,6 +237,37 @@ service cloud.firestore {
       }
     }
 
+    //foros/album_x: el foro de un item. Lo crea o lo actualiza quien escribe (la copia del item, el
+    //contador y la fecha), y el contador nunca baja
+    match /foros/{itemId} {
+      allow read: if request.auth != null;
+      allow create, update: if request.auth != null
+      && request.resource.data.mensajesCount is int
+      && request.resource.data.mensajesCount >= 0;
+
+      //foros/album_x/mensajes/123: cada uno escribe con su uid y hasta 300 caracteres
+      match /mensajes/{mensajeId} {
+        allow read: if request.auth != null;
+        allow create: if request.resource.data.usuarioId == request.auth.uid
+        && request.resource.data.texto.size() > 0
+        && request.resource.data.texto.size() <= 300;
+      }
+    }
+
+    //chats/uidA_uidB: el id son los dos uid ordenados, asi que solo los dos participantes pueden
+    //leer y escribir el chat y sus mensajes
+    match /chats/{chatId} {
+      allow read, write: if request.auth.uid in chatId.split('_');
+
+      match /mensajes/{mensajeId} {
+        allow read: if request.auth.uid in chatId.split('_');
+        allow create: if request.auth.uid in chatId.split('_')
+        && request.resource.data.usuarioId == request.auth.uid
+        && request.resource.data.texto.size() > 0
+        && request.resource.data.texto.size() <= 300;
+      }
+    }
+
     //usuarios/uid
     match /usuarios/{userId} {
       allow write: if request.resource.data.nombre.size() <= 40
