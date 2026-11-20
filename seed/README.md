@@ -2,14 +2,17 @@
 
 `seed.js` llena Firestore para ver la app como si tuviera usuarios:
 
-- **El catálogo real** de `catalogo.json`: 50 álbumes, 126 canciones y 56 artistas de cinco géneros
-  (metal, nu metal, rock, reggaetón y música popular). Trae las portadas y fotos de 1000 px, el
+- **El catálogo real** de `catalogo.json`: 50 álbumes, 126 canciones y 56 artistas de cuatro géneros
+  (rock, metal, nu metal y reggaetón). Desde el 19 de noviembre de 2026 no hay música popular ni
+  rock en español fuera de Soda Stereo; lo que entró ese día (Red Hot Chili Peppers, Foo Fighters,
+  Pearl Jam, Black Sabbath, Avenged Sevenfold, Ghost, Slipknot, Papa Roach, Disturbed, Evanescence
+  y Bad Bunny, con sus integrantes) todavía no tiene puesto en las listas de Deezer. Trae las portadas y fotos de 1000 px, el
   género y el subgénero, y la fecha de salida (`fechaLanzamiento`, `AAAA-MM-DD`; en los clásicos
   reeditados solo vale el año). También trae la posición en la lista de Deezer de su género del 1 de
   noviembre de 2026 (`tendencia`, `null` si no está en la lista), la posición en el Top Colombia de
   Deezer del 5 de noviembre de 2026 (`tendenciaColombia`, para la pestaña Tendencias) y, en los artistas, el Instagram
   oficial (el de su banda si es integrante).
-- **Los datos curiosos** de `historias.json`: una historia por cada item, con secciones según el tipo
+- **Los datos curiosos** de `historias.json`: una historia por item, con secciones según el tipo
   (*Historia*, *Cómo se hizo*, *Inspiración*, *Conciertos icónicos*, *Dato curioso*). Van en la
   colección `historias`, con el mismo id del item, para que el inicio no descargue ese texto: la app
   las lee solo al abrir la pantalla de datos curiosos.
@@ -57,9 +60,9 @@ seguidor del seed crea su notificación en el emulador.
    el `.gitignore`: nunca se sube a GitHub).
 2. En `seed.js`, descomentar el `import` de `serviceAccountKey.json` y la línea `credential`, y
    comentar las líneas del emulador (`FIRESTORE_EMULATOR_HOST` y `projectId`).
-3. Si la base tiene los datos de antes (álbumes `album_1` a `album_15` y reseñas con `albumId`),
-   borrarlos primero en la consola: **Firestore Database → la colección → ⋮ → Eliminar colección**,
-   con `albumes`, `reviews` y `usuarios`. Las cuentas de Authentication no se borran: al iniciar
+3. Si la base tiene los datos de antes (álbumes `album_1` a `album_15` y reseñas con `albumId`, o
+   el catálogo con música popular), borrarlos primero en la consola: **Firestore Database → la colección → ⋮ → Eliminar colección**,
+   con `albumes`, `canciones`, `artistas`, `historias`, `reviews` y `usuarios`. Las cuentas de Authentication no se borran: al iniciar
    sesión, la app vuelve a crear el documento del usuario.
 4. Correr `node seed.js`.
 

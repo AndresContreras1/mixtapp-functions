@@ -458,23 +458,6 @@
       }
     ]
   },
-  "album_el_dorado": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "«El Dorado» es el segundo álbum de Aterciopelados, el grupo bogotano de Andrea Echeverri y Héctor Buitrago, y salió el 24 de octubre de 1995. Fue el disco que los sacó de la escena de Bogotá y los puso a sonar en toda Latinoamérica, con canciones como «Florecita rockera» y «Bolero falaz» en la radio y en MTV. Su título remite a la leyenda de El Dorado, el reino de oro que los conquistadores españoles buscaron en tierras colombianas, un guiño a la identidad y a las raíces ancestrales que el grupo siempre ha reivindicado."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "La banda lo grabó entre octubre y diciembre de 1994 en el estudio Audiovisión de Bogotá, con el productor Federico López. En plena grabación llegó el baterista cubano Alejandro Duque, que trabajó en canciones como «Candela», «El Dorado» y «Bolero falaz». El disco mezcla cumbia, bolero, baladas de rock y punk, e incluye una nueva versión de «Mujer gala», de su primer álbum. La portada original, una imagen de la Virgen Dolorosa con la cara de un integrante del grupo, fue cambiada por la disquera por miedo a las reacciones."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "«El Dorado» suele aparecer en las listas de los discos más importantes del rock colombiano y del rock en español: en 2006 la revista Al Borde lo puso noveno entre 250 discos esenciales del rock iberoamericano. Su éxito llevó a la banda a la primera edición de Rock al Parque, en 1995, y a giras por Colombia, México y Argentina. Su siguiente disco, «La pipa de la paz» (1996), lo produjo en Londres Phil Manzanera, guitarrista de Roxy Music."
-      }
-    ]
-  },
   "album_american_idiot": {
     "tipo": "album",
     "secciones": [
@@ -676,152 +659,6 @@
       {
         "titulo": "Dato curioso",
         "texto": "La gira que siguió al lanzamiento llevó el nombre del álbum, el Papi Juancho World Tour, y arrancó en septiembre de 2021. Como parte de ella, el 30 de abril de 2022 Maluma hizo Medallo en el Mapa, su gran concierto en el estadio Atanasio Girardot de Medellín, con Madonna como invitada especial y una tarima en el centro del estadio para verlo desde todos los ángulos. El nombre del show juega con Medallo, como le dicen los paisas a su ciudad."
-      }
-    ]
-  },
-  "album_1800_noches": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "1800 Noches salió el 26 de mayo de 2023, con ocho canciones y bajo el sello del propio Jessi Uribe. Llegó en un año grande para él: en abril había estrenado un dueto con Alejandro Fernández y en noviembre llenaría por primera vez el Movistar Arena de Bogotá con su show «Noches de Palenque». El disco se mueve entre la ranchera y el mariachi, el mundo en el que creció, pues su papá cantaba con mariachi en Bucaramanga. Entre sus títulos hay puro despecho de cantina, como «Renuncio», «Me Tiré al Alcohol» y «No Quería Engañarte»."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Más que una grabación de una sola tanda, el álbum reunió canciones que Jessi venía lanzando desde 2022. «Mi Debilidad» salió en junio de ese año como un regreso a sus inicios de mariachi; «Si Ya Hiciste El Mal» nació como dueto con el mexicano Luis R Conriquez, y «Tu Maniquí», grabada en Guadalajara, se estrenó en abril de 2023 junto a Alejandro Fernández. En el disco las tres aparecen acreditadas solo a nombre de Jessi, acompañadas por cinco temas más."
-      }
-    ]
-  },
-  "album_quinto_elemento": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "A comienzos de 2021 Yeison Jiménez firmó con Fonovisa, sello de Universal Music, y Quinto Elemento fue su primer proyecto con esa casa. En junio salió como un EP de seis canciones y el 3 de septiembre de 2021 llegó la edición Deluxe, con diez. Ahí quedaron éxitos como «Tu Amante», «Ni Tengo Ni Necesito», «Amarlas Es un Placer» y «Tú Eres Prohibida». Ese diciembre, cuando cumplía diez años de carrera, Yeison aseguró que había vuelto a ser el artista más sonado de la radio colombiana."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Según contó Yeison, el disco le tomó cerca de dos años de trabajo y lo armó con cuatro compositores mexicanos. La idea era fusionar el mariachi con ritmos norteños, y en la edición completa también hay corridos y banda, con acordeón en canciones de amor y desamor. Del proyecto salieron seis videos para YouTube. El primer sencillo fue «Tu Amante», en febrero de 2021, y después llegaron temas como «Ni Tengo Ni Necesito», de corte ranchero, y «Amarlas Es un Placer»."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "El nombre tiene su explicación. Yeison dijo que el disco habla de la importancia de los elementos en la música: el aire es la materia prima para cantar y el agua, como las canciones, cruza fronteras sin pedir permiso. Y el arranque no pudo ser mejor: según La Kalle, «Tu Amante» fue la primera canción regional colombiana en llegar al número uno de la radio general del país, apenas una semana después de salir."
-      }
-    ]
-  },
-  "album_contentoso": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Contentoso salió el 30 de agosto de 2024 con el sello La Industria y 19 canciones de amor, desamor, fiesta y despecho. Luis Alfonso, a quien sus seguidores llaman «El Señorazo», venía de pegar «Chismofilia», y la palabra «contentoso» ya se había vuelto su sello. Él ha contado que no la inventó en un estudio: la aprendió en la calle, moviéndose entre el gremio de los caballos, el de los gallos, el juego callejero y las tarimas."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Todas las canciones se grabaron en vivo y en bloque. El proyecto tomó cerca de un año, necesitó unas 17 horas de rodaje y reunió a más de 200 personas. Por el disco pasaron varios invitados: Jessi Uribe en «Lo Que Ella Necesita», Blessd en «Tequila con Cerveza», Tony Aguirre en «Los Dolidos», Jhonny Rivera en «Doce y Treinta», Paola Jara en «Me Eligió a Mí», Francy en «Démosle la Vuelta» y Manchego en «Al Cora». Al publicarlo, Luis Alfonso escribió que le habían metido el alma a cada canción."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Un año después, el espíritu del disco se volvió espectáculo. «El Festival Más Contentoso» fue su primera gran gira por Colombia, en 2025, con shows de más de siete horas y fechas en Cali, Medellín, Bogotá y Bucaramanga. La de Bogotá tuvo suspenso: el concierto en El Campín estaba anunciado para el 4 de octubre, el Distrito negó el permiso en septiembre y solo lo autorizó el 2 de octubre, dos días antes del show."
-      }
-    ]
-  },
-  "album_te_sigo_queriendo": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Te Sigo Queriendo salió el 12 de agosto de 2011 con Codiscos y reúne 11 canciones, empezando por la que le da nombre. Para entonces Jhonny Rivera ya era figura del género, aunque había empezado tarde: comenzó a cantar cerca de los 30 años, después de trabajar como vendedor ambulante. En el disco también está «El Tímido», el tema que hacia 2010 le dio éxito dentro y fuera del país, y ese mismo 2011 lo eligieron Artista Popular del Año en los Premios Nuestra Tierra."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "El álbum guarda una colaboración que hoy llama la atención: «Mi Único Tesoro», grabada con J Balvin. Años después, Balvin se convertiría en una figura mundial del reguetón. También trae «Por Una Cerveza», que según su biografía en Wikipedia llegó a ser la canción de Jhonny más vista en YouTube, con cerca de 10 millones de reproducciones en ese momento."
-      }
-    ]
-  },
-  "album_en_tus_manos": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "En Tus Manos salió el 21 de agosto de 2019 con 14 canciones y abre con «Mala Mujer», un tema sobre una mujer cansada del maltrato y del abandono en una relación tóxica. Fue un año de cambios para Paola Jara: terminó su relación de diez años con el compositor Iván Calderón, empezó su romance con Jessi Uribe y debutó como actriz en la telenovela «Un Bandido Honrado». Al presentar el disco en Noticias RCN se describió como una mujer soñadora desde niña."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "El álbum juntó canciones que ya sonaban en la radio con otras nuevas. «Murió El Amor» la había presentado en noviembre de 2017 y «Mientes» ya la coreaba el público en el Festival de La Kalle de 2018, así que el disco también sirvió para recoger esa etapa. Salió con el sello PAZ.J SAS y lo completan títulos como «Te Cogí la Mala», «No Lo Perdono», «Sí, Cómo No» y «Si Un Amor Se Va»."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Murió El Amor» terminó siendo la gran joya del disco. Para abril de 2022 su video superaba los 139 millones de visitas en YouTube y era el más visto del canal de Paola Jara. En La Kalle también llegó al primer lugar de Los 20 Madrazos, el conteo de la emisora. Muchos de sus seguidores cuentan que la usan para despedirse de un amor que les hizo daño."
-      }
-    ]
-  },
-  "album_el_rey_del_despecho": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Darío Gómez contó en una entrevista de 1995 que el apodo de «Rey del Despecho» se lo dio el público de la radio y la televisión, y con los años hasta recibió una corona con ese título. Esta recopilación lleva ese nombre y reúne 30 canciones publicadas por Discos Dago, la productora que él mismo fundó en 1982, después de salir de Codiscos. Entre las pistas hay una que se llama, justamente, «El Rey del Despecho»."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Más que un disco de estudio, es un repaso por su carrera. Incluye «Decídelo» y «Así Se Le Canta al Despecho», ligados a su arranque como solista en 1985, además de «Nadie Es Eterno», «Sobreviviré», «Entre Comillas», «Corazonada» y «Nueve Años de Soledad». Gómez fue compositor desde muy joven: escribió sus primeros versos a los 14 años y su primera canción, «La Casita Vieja», a los 16, mientras estudiaba."
-      }
-    ]
-  },
-  "album_el_rey_del_chupe": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "«El Rey del Chupe» es el apodo de Jhon Alex Castaño y también el nombre de un sencillo que lanzó en 2015. El álbum con ese título salió el 24 de octubre de 2016 con JM World Music, de Guasca Music, y tiene 14 canciones. Es un disco de cantina de principio a fin, con títulos como «Parrandero y Bebedor», «El Guayabo», «Los Adoloridos», «Me Dejó la Mujer» y «Amanecí Contento»."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "El disco funciona como vitrina de sus éxitos. «Dos Razones» fue la canción popular más sonada de 2013, según National Report, y «Amigos con Derechos» salió como sencillo en 2014; las dos ya habían aparecido en el álbum Dos Razones, de 2015, antes de llegar a este. Para entonces el risaraldense ya había hecho una gira por España, en abril de 2015, con paradas en Madrid, Barcelona, Bilbao, Alicante y Palma de Mallorca."
-      }
-    ]
-  },
-  "album_carino_malo": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Cariño Malo salió el 10 de junio de 2019 con 18 canciones, publicado a nombre del propio Luis Alberto Posada. Entre sus títulos aparecen «La Escuela de la Vida», «Mi Infancia y Mi Destino», «La Traición de un Hermano», «Las Quimeras» y «Sueños de Grandeza», además de la canción que le da nombre y «Cierra los Ojos». Es el trabajo de un cantante que para entonces llevaba unas cuatro décadas en la música popular."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "2019 fue un año especial para Posada. Además de este disco, debutó como actor con el papel protagónico de la película El Rey del Sapo, dirigida por Harold De Vasten, y recibió en el Congreso de la República la distinción Simón Bolívar a la excelencia por más de 40 años de carrera. Su personaje en la película se llama «Cartago», igual que la ciudad del Valle del Cauca donde nació en 1962."
-      }
-    ]
-  },
-  "album_aqui_estoy_yo": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Aquí Estoy Yo salió el 1 de octubre de 2026 con el sello WEA Latina y 23 canciones. Pipe Bueno lo presentó como el álbum más personal de su carrera y dijo que era el mejor que había hecho en toda su vida, justo cuando cumplía 18 años en la música. Antes del lanzamiento ya había adelantado los sencillos «Perdón» y «La Bailada», y el disco incluye tres colaboraciones. Llegó después de años en los que alternó la música con la televisión, como jurado de Yo Me Llamo y protagonista de la serie «Siempre Fui Yo»."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "El hilo del disco es la vida del propio Pipe: el amor, la familia, los excesos y los cambios. «Ya Estuvo Bueno», que abre el álbum, habla de reconocer los excesos y frenar antes de perder lo más importante, una etapa de reflexión de la que el cantante habló con el actor Juan Pablo Raba. En la otra orilla están canciones románticas como «No Fue Cupido», «Señora» y «Mi Esposa», y temas en tono de humor como «Qué Más»."
-      }
-    ]
-  },
-  "album_mi_historia": {
-    "tipo": "album",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Mi Historia salió en marzo de 2018 y fue la cuarta producción de Arelys Henao, que para entonces pasaba de 20 años de carrera. Trae 16 canciones con el sello Hdos Music, entre ellas «Amante y Amigo», «No Me Conviene», «Amor de Hospital» y la que le da nombre al disco. Es un álbum de amor, despecho y recuerdos de su propia vida, contados por la mujer a la que llaman la «Reina de la música popular»."
-      },
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "El disco se grabó en México, en los estudios Rancho Viejo de Vicente Fernández, y tiene mucho sonido norteño, un género del que Arelys se declara seguidora. Ella misma dijo que hacía rato no sonaba en Colombia una canción norteña con tanta fuerza como la que da título al álbum. Grabar en el rancho de Chente quedó entre los hitos de su carrera, junto a su primer dueto con Darío Gómez."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "La canción «Mi Historia» resume la vida de Arelys en unos tres minutos: cuenta los obstáculos que enfrentó y por qué tuvo que dejar su pueblo para buscar oportunidades en la ciudad. La estrenó en el Festival de Verano de 2017 y lloró al cantarla. Después explicó que contar una historia en tres minutos no se compara con vivirla toda una vida, y que quiso reflejar también la de miles de colombianos."
       }
     ]
   },
@@ -2008,40 +1845,6 @@
       }
     ]
   },
-  "cancion_bolero_falaz": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "La escribieron Héctor Buitrago y Andrea Echeverri, y se grabó entre octubre y diciembre de 1994 en el estudio Audiovisión de Bogotá, con el productor Federico López. En la batería tocó el cubano Alejandro Duque, que llegó a la banda en plena grabación del disco. El resultado mezcla la forma melodramática del bolero con guitarras de rock. Salió como sencillo en 1995 y fue el primer éxito del disco en MTV."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "Falaz significa engañoso, y la canción toma la forma del bolero, el género romántico por excelencia en Latinoamérica, para hablar de un amor lleno de mentiras. Andrea Echeverri le canta a esa traición con una mezcla de dolor e ironía, en un tono jocoso y lleno de colombianismos. Esa combinación de un género tradicional con guitarras eléctricas fue parte de lo que hizo única a Aterciopelados."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Su video, producido por Rhayuela Films, se repitió muchísimo en MTV Latinoamérica y le dio a Aterciopelados su primer gran éxito internacional. Algunos medios la censuraron por su lenguaje, lo que no impidió que llegara al primer lugar en radios de varios países. Rolling Stone Colombia la incluyó en su lista de las 50 mejores canciones colombianas, y hoy es un clásico infaltable en los conciertos de la banda."
-      }
-    ]
-  },
-  "cancion_florecita_rockera": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "La compuso Héctor Buitrago, bajista y cofundador de Aterciopelados, y se grabó entre octubre y diciembre de 1994 en el estudio Audiovisión de Bogotá, con la producción de Federico López. Tiene un sonido acelerado y cercano al punk que mostraba el lado más rebelde de la banda. Salió como sencillo de «El Dorado» en 1995, y meses después ya sonaba una y otra vez en las grandes radios de Buenos Aires."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "Buitrago se la dedicó a su novia de entonces, que además protagonizó el video. Él la describió como el retrato de un espíritu puro, aguerrido y femenino, y con el tiempo se convirtió en un himno de empoderamiento femenino. Tanto se asoció con su voz que Andrea Echeverri terminó siendo reconocida como la florecita rockera, una etiqueta que ella misma reconoció que durante años sintió que la encasillaba."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Es una de las canciones más conocidas de Aterciopelados y uno de los himnos del rock colombiano de los años 90. En noviembre de 2024 se estrenó en el Teatro Jorge Eliécer Gaitán de Bogotá «Florecita Rockera, el musical», con guion y dirección de Jorge Hugo Marín y 23 artistas en escena. Cuenta una historia de amor inspirada en la relación de Andrea Echeverri y Héctor Buitrago, ambientada en la Bogotá de los años 90 y contada con canciones del grupo."
-      }
-    ]
-  },
   "cancion_american_idiot": {
     "tipo": "cancion",
     "secciones": [
@@ -2439,303 +2242,6 @@
       {
         "titulo": "Dato curioso",
         "texto": "En mayo de 2020 salió una versión urbana con ritmo de reggaetón, y el 30 de abril, en plena cuarentena, Maluma la cantó en el programa de Jimmy Fallon. Fue número 1 en Colombia, Chile, Panamá, Paraguay y República Dominicana, y también en la radio latina de Estados Unidos. En México recibió una certificación de diamante y en España, doble disco de platino."
-      }
-    ]
-  },
-  "cancion_mi_debilidad": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Jessi Uribe estrenó «Mi Debilidad» a finales de junio de 2022 y la presentó como un regreso a sus inicios de mariachi: al lanzamiento llegó vestido con el traje. Ese traje tiene historia, porque Jessi creció acompañando a su papá, Fernando Uribe, a sus presentaciones como cantante de mariachi en Bucaramanga. Ese mismo año la cantó en el Gran Festival de La Kalle; después quedó incluida en el álbum 1800 Noches, de mayo de 2023, y fue nominada en los Premios Nuestra Tierra 2023."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "La canción es una dedicatoria para Paola Jara. Salió pocas semanas después de que la pareja se casara, el 14 de mayo de 2022, y según Candela Estéreo, Jessi explicó que todo lo que vive con ella se convierte en esa «debilidad» del título. Para entonces los dos ya habían grabado juntos «La Boda» y «La Conquista», que ganó como Canción Popular del Año en los Premios Nuestra Tierra 2021."
-      }
-    ]
-  },
-  "cancion_si_ya_hiciste_el_mal": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "La canción nació como dueto entre Jessi Uribe y el cantante mexicano de corridos Luis R Conriquez, y salió en 2022. Es una ranchera de licor y despecho, escrita por los compositores José Ángel Pérez Sandoval y Omar Jaffet Cárdenas Gonzales. Al año siguiente Jessi la incluyó en el álbum 1800 Noches, donde aparece como segunda pista y acreditada solo a su nombre."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "En noviembre de 2022 entró a la lista Regional Mexican Airplay de Billboard, que mide la radio de música mexicana en Estados Unidos, y llegó al top 10. También le dio a Jessi nominaciones en los Premios Juventud 2023 y en los Premios Lo Nuestro 2024. En esa misma lista de Billboard, Jessi consiguió en noviembre de 2024 su primer número uno como solista, con «Si Ya Me Voy»."
-      }
-    ]
-  },
-  "cancion_tu_maniqui": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "«Tu Maniquí» es el dueto de Jessi Uribe con Alejandro Fernández, hijo de Vicente Fernández. Se grabó en Guadalajara, México, y todo el proceso tomó unos tres meses. Es una ranchera con cuerdas y trompetas desde el arranque, y se estrenó en abril de 2023 con video en YouTube. Un mes después Jessi la puso como primera canción de su álbum 1800 Noches."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "Jessi quería una canción de despecho, que es lo suyo, pero «bonita». Él mismo reconoció que en realidad no hay despecho bonito, porque duele, pero dijo que sí hay maneras de decir las cosas sin ser grosero. Por eso la describió como una ranchera elegante, una forma distinta de cantarle al desamor. Además tenía que encontrar una canción que les sirviera a los dos, a él y a la voz de Fernández."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "El dueto nació en las redes sociales. Alejandro Fernández ya conocía la música de Jessi, y Jessi empezó a mandarle canciones suyas para que las grabara. Se vieron en persona en Caracas, Venezuela, donde Jessi le cantó en el hotel y le confesó que su sueño era grabar con él. Ninguna de las primeras propuestas convenció al mexicano, hasta que llegó «Maniquí», que le encantó. Para Jessi fue un sueño cumplido."
-      }
-    ]
-  },
-  "cancion_tu_amante": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Fue el primer sencillo de Yeison Jiménez con Fonovisa, el sello de Universal Music con el que firmó a comienzos de 2021, y salió en febrero de ese año. Mezcla norteño y mariachi, y su video se grabó en las antiguas bodegas del ferrocarril en Bello, Antioquia, con dirección de Jorge Andrés Osorio, de Everest Films. Meses después quedó como una de las piezas centrales del álbum Quinto Elemento."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "Yeison la escribió y la presentó como una canción que reunía todo su proceso como artista y compositor. Cuenta la historia de un hombre enamorado de una mujer prohibida, con la que vive una relación a escondidas, llena de pasión y deseo. El video acompañó esa idea con escenas sensuales junto a una modelo, y los seguidores la esperaban con ansias porque Yeison ya había adelantado un fragmento."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Tu Amante» hizo historia: según La Kalle, fue la primera canción regional colombiana en llegar al número uno de la radio general en Colombia, apenas una semana después de salir. Superó el millón de reproducciones en menos de 24 horas, llegó al segundo puesto de la radio en México y entró al top 40 de la lista Regional Mexican de Billboard. En 2022 le dio a Yeison una nominación en los Premios Lo Nuestro."
-      }
-    ]
-  },
-  "cancion_tu_eres_prohibida": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "«Tú Eres Prohibida» hace parte de la edición Deluxe de Quinto Elemento, que Yeison Jiménez publicó el 3 de septiembre de 2021 con diez canciones. Para ese disco trabajó cerca de dos años con cuatro compositores mexicanos, y el resultado mezcla corrido, banda y regional mexicano. La canción tuvo video propio: cuando salió el álbum completo, era el más reciente de los seis videos que el proyecto tenía en YouTube."
-      }
-    ]
-  },
-  "cancion_esa_no": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Esa No» viene de la primera versión de Quinto Elemento, el EP de seis canciones que Yeison Jiménez lanzó en junio de 2021. En ese primer paquete también estaban «No Te Voy a Perdonar» y «Perdóname Lo Siento». En septiembre las tres pasaron a la edición Deluxe de diez temas, en la que «Esa No» quedó como cuarta pista, justo antes de «Tú Eres Prohibida» y «Tu Amante»."
-      }
-    ]
-  },
-  "cancion_gomela_y_montanero": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "«Gomela y Montañero» es una de las 19 canciones de Contentoso, el álbum que Luis Alfonso lanzó el 30 de agosto de 2024. Como el resto del disco, se grabó en vivo y en bloque, en una producción que tomó cerca de un año y reunió a más de 200 personas. No estuvo entre los sencillos que anunciaron el álbum, pero con los meses se convirtió en uno de sus temas más fuertes en la radio."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "La canción cuenta el amor entre dos personas de mundos distintos, y Luis Alfonso ha dicho que refleja buena parte de su propia historia. Según contó en 2025, unos nueve años atrás conquistó a su «gomela», que hoy es su esposa y la mamá de sus tres hijos. Ella, Luisa Fernanda Pulgarín, también es su asesora de imagen, y él suele decir que su familia es su mayor apoyo en la carrera."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "En marzo de 2025, varios meses después del lanzamiento del disco, «Gomela y Montañero» llegó al primer puesto del chart de música popular en la radio colombiana, según Monitor Latino. La Kalle destacó que conectó con públicos de todas las edades, desde niños hasta adultos mayores. Ese mismo año Luis Alfonso salió de gira por Europa, con fechas en España, Francia e Inglaterra."
-      }
-    ]
-  },
-  "cancion_doce_y_treinta": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "«Doce y Treinta» es el dueto de Luis Alfonso con Jhonny Rivera dentro de Contentoso, el disco de 19 canciones que salió el 30 de agosto de 2024. Como todo el álbum, se grabó en vivo y en bloque. Es un encuentro entre dos generaciones del género: Jhonny nació en 1974 y empezó a cantar cerca de los 30 años, mientras que Luis Alfonso nació en 1993 y para entonces ya era uno de los nombres más escuchados de la música popular."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "La relación entre los dos dio de qué hablar en 2026. Cuando Jhonny Rivera se casó con Jenny López, el 22 de febrero de ese año en Arabia (Risaralda), su tierra natal, Luis Alfonso no llegó a la boda. Según explicó el propio Jhonny en Instagram, estaba confirmado, pero a última hora se presentó un problema de salud de su esposa. Jessi Uribe, por un viaje, y Pipe Bueno, por un retiro espiritual, tampoco asistieron."
-      }
-    ]
-  },
-  "cancion_soltera": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Soltera» es una de las 19 canciones de Contentoso, el álbum que Luis Alfonso publicó el 30 de agosto de 2024 con el sello La Industria. Aparece en la recta final del disco, entre «Démosle la Vuelta», su colaboración con Francy, y «Al Cora», con Manchego. Como el resto del repertorio, se grabó en vivo y en bloque, en un proyecto que tardó cerca de un año en tomar forma."
-      }
-    ]
-  },
-  "cancion_te_sigo_queriendo": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Te Sigo Queriendo» abre el álbum del mismo nombre, que Jhonny Rivera publicó con Codiscos el 12 de agosto de 2011. Es la primera de 11 canciones en un disco que también trae «Por Una Cerveza», «El Tímido» y «Mi Único Tesoro», esta última con J Balvin. Para entonces Jhonny ya llevaba varios discos encima: el primero, Ya No Dudes de Mí, es de 2004, y le siguieron trabajos como Soy Soltero, El Intenso y Tengo Rabia Conmigo."
-      }
-    ]
-  },
-  "cancion_por_una_cerveza": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Por Una Cerveza» salió en Te Sigo Queriendo, el álbum de 2011 de Jhonny Rivera, y se volvió una de sus canciones más populares. Según su biografía en Wikipedia, llegó a ser su video más visto en YouTube, con cerca de 10 millones de reproducciones en ese momento. La cerveza le volvió a traer suerte en otra canción: con «Tomando Cerveza» consiguió su primer número uno en el listado National Report Crossover."
-      }
-    ]
-  },
-  "cancion_contigo_hasta_el_final": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Contigo Hasta El Final» es la séptima canción de Te Sigo Queriendo, el álbum que Jhonny Rivera publicó con Codiscos en agosto de 2011. Comparte disco con «Malditos Celos», «Te Amo en Silencio», «Fue Mi Culpa» y «Comprendí Que Te Perdí». Ese 2011 fue un gran año para él: lo eligieron Artista Popular del Año en los Premios Nuestra Tierra, un reconocimiento que repitió en 2012."
-      }
-    ]
-  },
-  "cancion_murio_el_amor": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Paola Jara presentó «Murió El Amor» el 28 de noviembre de 2017, casi dos años antes de que saliera el álbum En Tus Manos, donde quedó como segunda pista en 2019. Para agosto de 2018 ya era de las que el público cantaba a grito herido en el Festival de La Kalle, junto a «Mientes». El video la muestra en un ambiente íntimo, y la canción terminó siendo una de las más emblemáticas de su carrera."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "La canción habla de tomar la decisión de soltar una relación después de haberlo dado todo por ella. Muchos de sus seguidores han contado que se identifican con la letra y la usan para despedirse de un amor que les hizo daño. Es despecho contado desde la mirada de una mujer, el terreno en el que Paola se ganó el apodo de «reina del despecho», como la llamó Noticias RCN."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Para abril de 2022 el video de «Murió El Amor» superaba los 139 millones de visitas en YouTube y era el más visto del canal de Paola Jara. Además llegó al número uno de Los 20 Madrazos, el conteo de La Kalle. Tiene hasta una anécdota de pareja: en una ocasión en que Paola estaba aislada por covid-19 y tuvo que cancelar presentaciones, Jessi Uribe la cantó en tarima y publicó el video con un mensaje diciéndole que la extrañaban."
-      }
-    ]
-  },
-  "cancion_mientes": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Mientes» ya sonaba antes del álbum que la recoge. En agosto de 2018, en el Festival de La Kalle, el público la cantó a todo pulmón junto a «Murió El Amor», y al año siguiente quedó incluida en En Tus Manos, el disco que Paola Jara lanzó el 21 de agosto de 2019. En ese álbum aparece como octava pista, en medio de despechos como «Mi Tristeza» y «No Lo Perdono»."
-      }
-    ]
-  },
-  "cancion_nadie_es_eterno": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Darío Gómez compuso «Nadie Es Eterno en el Mundo» y la grabó en 1989; con ella llegó a lo más alto de su fama. La canción le valió un premio ASCAP en Nueva York y terminó dando nombre a una telenovela de Caracol, emitida entre 2007 y 2008, sobre una cantante popular cuyo ídolo era el propio Darío Gómez. En ella actuó haciendo de sí mismo, junto a los protagonistas Adriana Bottina y Juan Pablo Posada."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "La idea nació en San Jerónimo, Antioquia, su pueblo. Darío volvió de visita y se enteró de que el viejo cementerio había cerrado y que el alcalde había entregado el lote a las familias más pobres para construir sus casas. Al recorrerlo con su amigo Luis Ernesto Gallego, vieron los restos de los difuntos apartados a un lado de las obras. Esa imagen, y una conversación entre copas sobre lo poco que dura todo, se convirtió en la canción."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Era su canción favorita, y su historia siguió después de su muerte. En el velorio, en el coliseo Yesid Santos de Medellín, su hermano Wilson la cantó junto a otros artistas. En diciembre de 2023 otro hermano, Gabriel Gómez, se desplomó en una tarima de Barbosa, Antioquia, mientras la interpretaba, y llegó sin signos vitales al hospital. Según Noticias Caracol, los hermanos se habían prometido que, cuando uno muriera, el otro le cantaría esta canción."
-      }
-    ]
-  },
-  "cancion_sobrevivire": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Inspiración",
-        "texto": "«Sobreviviré» habla de volver a vivir después de un desamor y de la decisión de seguir adelante, un mensaje con el que muchos se identificaron tras una relación fallida. Su video lo acompaña con imágenes de una pareja feliz montando a caballo. Semana la considera la segunda canción más recordada de Darío Gómez, solo detrás de «Nadie Es Eterno en el Mundo»."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Cuando Darío Gómez murió, en julio de 2022, la periodista Vicky Dávila lo despidió con un mensaje que citaba el título de esta canción y volvió a publicar un video en el que ella misma canta «Sobreviviré». Lo había grabado en 2020, durante la pandemia, y en su momento contó que cantarla fue como una terapia. En los comentarios muchos elogiaron su voz."
-      }
-    ]
-  },
-  "cancion_si_negabas_que_buscabas": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Si Negabas Que Buscabas» es una de las 30 canciones de la recopilación El Rey del Despecho, publicada por Discos Dago, la productora que fundó Darío Gómez. El País de Cali la cuenta entre los grandes éxitos del cantante, junto a «Entre Comillas», «Corazonada» y «Nueve Años de Soledad». Hace parte del repertorio de despecho de cantina que le dio su apodo."
-      }
-    ]
-  },
-  "cancion_amigos_con_derechos": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Amigos con Derechos» salió como sencillo en 2014, en plena racha de Jhon Alex Castaño tras el éxito de «Dos Razones». Al año siguiente quedó en el álbum Dos Razones, de 2015, y en octubre de 2016 volvió a aparecer en El Rey del Chupe, el disco que lleva el apodo del cantante. Su biografía en BuenaMúsica la cuenta entre sus sencillos más destacados, junto a «Viviré Sin Ti» y «Ron Portuano»."
-      }
-    ]
-  },
-  "cancion_dos_razones": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Dos Razones» fue el gran golpe de Jhon Alex Castaño en 2013: según National Report, fue la canción popular más sonada de ese año, y en 2014 le dio una nominación en los Premios Nuestra Tierra. El tema terminó dando nombre a un álbum de 2015 y luego pasó a El Rey del Chupe, de 2016. Hasta tiene versión en vivo, incluida en su disco Mi Primera Rasca."
-      }
-    ]
-  },
-  "cancion_cierra_los_ojos": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Cierra los Ojos» es una de las 18 canciones de Cariño Malo, el álbum que Luis Alberto Posada publicó a su propio nombre el 10 de junio de 2019. Comparte disco con la canción titular y con temas como «Las Quimeras», «Mujer Descarriada» y «Cuando Llora Mi Guitarra». Ese mismo año el cantante de Cartago debutó en el cine como protagonista de la película El Rey del Sapo."
-      }
-    ]
-  },
-  "cancion_carino_malo": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«Cariño Malo» le da nombre al álbum que Luis Alberto Posada publicó el 10 de junio de 2019, con 18 canciones. Posada, a quien llaman «el Caballo de la música popular», llevaba para entonces unas cuatro décadas de carrera: llegó a Medellín desde Cartago en 1976 buscando trabajo y empezó a cantar en los años ochenta. Ese mismo 2019 recibió en el Congreso la distinción Simón Bolívar a la excelencia."
-      }
-    ]
-  },
-  "cancion_senora": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Inspiración",
-        "texto": "«Señora» es una de las canciones románticas de Aquí Estoy Yo, el álbum que Pipe Bueno publicó el 1 de octubre de 2026. Habla de encontrar a la persona con la que se quiere compartir la vida y funciona como una declaración de permanencia, de querer construir el futuro con alguien. Hace parte del lado tranquilo y enamorado de un disco que también habla de excesos y cambios personales."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "En un álbum de 23 canciones, «Señora» aparece casi al final, como pista 21, poco antes de «Mal Gusto» y «Alma Misionera». Pipe Bueno presentó el disco como el más personal de su carrera. En él, los temas románticos como «Señora», «No Fue Cupido» y «Mi Esposa» conviven con canciones sobre los excesos, como «Ya Estuvo Bueno», la canción que abre el álbum."
-      }
-    ]
-  },
-  "cancion_mi_esposa": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Inspiración",
-        "texto": "«Mi Esposa» cuenta cómo una relación se convirtió en familia: los años compartidos, las dificultades superadas y la vida que se construye en pareja. Blu Radio la describió como una canción dedicada a la relación que el cantante ha construido con el tiempo y a su familia. Es uno de los rincones más personales de Aquí Estoy Yo, el álbum que Pipe Bueno lanzó el 1 de octubre de 2026."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "La canción es la pista 14 del disco y llegó en un año en que la vida en pareja de Pipe estuvo en primera plana. Él y la creadora de contenido Luisa Fernanda W tienen dos hijos, Máximo y Domenic, y se comprometieron en Dubái en octubre de 2023, frente al Burj Khalifa. Durante 2026 hablaron en varias entrevistas de los preparativos de su esperada boda."
-      }
-    ]
-  },
-  "cancion_no_me_conviene": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Dato curioso",
-        "texto": "«No Me Conviene» es la cuarta canción de Mi Historia, el álbum que Arelys Henao publicó en marzo de 2018 con el sello Hdos Music. El disco se grabó en México, en los estudios Rancho Viejo de Vicente Fernández, y comparte repertorio con «Amante y Amigo» y «Amor de Hospital». Fue el trabajo con el que Arelys celebró más de 20 años de carrera, y en él también aparece su canción autobiográfica, «Mi Historia»."
-      }
-    ]
-  },
-  "cancion_amante_y_amigo": {
-    "tipo": "cancion",
-    "secciones": [
-      {
-        "titulo": "Cómo se hizo",
-        "texto": "Arelys Henao presentó «Amante y Amigo» en febrero de 2017 en La Kalle, como su sencillo más reciente. En esa visita también habló de su experiencia con Darío Gómez y Vicente Fernández. Un año después la canción quedó incluida en Mi Historia, el álbum que grabó en los estudios Rancho Viejo de Vicente Fernández, en México, y que salió en marzo de 2018."
-      },
-      {
-        "titulo": "Inspiración",
-        "texto": "A diferencia de buena parte de su repertorio, aquí Arelys dejó de lado el despecho para cantarle a un amor verdadero, intenso y duradero. Es una declaración de amor más que una queja. Y llega en la voz de la llamada «Reina de la música popular», una cantante que suele contar historias de desamor desde la mirada de la mujer y que ha hecho del empoderamiento femenino una de sus causas."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "La canción caló hondo. La Kalle la escogió como canción de la semana en Los 20 Madrazos, y en 2022 sumaba 1,6 millones de reproducciones en Spotify, muy cerca de «Señor Prohibido», su tema más escuchado en esa plataforma. Todavía hoy la prensa la cuenta entre sus canciones infaltables, junto a «Señor Prohibido», «Lo Pasado Pisado» y «Mujeres y Despecho»."
       }
     ]
   },
@@ -3249,23 +2755,6 @@
       }
     ]
   },
-  "artista_andrea_echeverri": {
-    "tipo": "artista",
-    "secciones": [
-      {
-        "titulo": "Historia",
-        "texto": "Andrea Echeverri nació en Bogotá en 1965, estudió artes plásticas en la Universidad de los Andes y, además de cantante, es ceramista. Junto a Héctor Buitrago creó a comienzos de los 90 Aterciopelados, la banda que llevó el rock colombiano a toda Latinoamérica. Su voz, su humor y sus letras sobre el amor, el feminismo, el medio ambiente y la identidad colombiana la convirtieron en uno de los grandes referentes del rock en español. También tiene una carrera solista, que arrancó con el disco «Andrea Echeverri» en 2005."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Con Aterciopelados tocó en la primera edición de Rock al Parque, en 1995, el festival gratuito de rock de Bogotá. En marzo de 1996 Soda Stereo la invitó como artista invitada a su MTV Unplugged, grabado en Miami y publicado como «Comfort y música para volar». En 2014 volvió a Rock al Parque con Héctor Buitrago para celebrar los 20 años del festival, con un repertorio de clásicos que, según contó, creían que nunca volverían a tocar."
-      },
-      {
-        "titulo": "Dato curioso",
-        "texto": "Antes de Aterciopelados, Andrea cantaba en un grupo llamado Delia y los Aminoácidos, que en 1993 cambió de nombre. Con el cambio llegó un sonido que mezclaba el rock con ritmos colombianos y latinoamericanos, como el bolero y la cumbia. Ese camino les valió varias nominaciones al Grammy y tres Grammy Latinos, por «Gozo poderoso» (2001), «Oye» (2007) y «Claroscura» (2018). En 2006 ella misma fue nominada al Grammy como solista por su primer disco."
-      }
-    ]
-  },
   "artista_billie_joe_armstrong": {
     "tipo": "artista",
     "secciones": [
@@ -3483,199 +2972,315 @@
       }
     ]
   },
-  "artista_jessi_uribe": {
+  "album_californication": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Red Hot Chili Peppers publicó su séptimo disco en junio de 1999 con Warner Bros. Fue el regreso del guitarrista John Frusciante, que había dejado la banda en 1992, y se volvió el álbum más vendido de su carrera, con más de 15 millones de copias en el mundo."
+      },
+      {
+        "titulo": "Cómo se hizo",
+        "texto": "Lo produjo Rick Rubin, el mismo de «Blood Sugar Sex Magik» (1991). La masterización quedó tan alta de volumen que se cita como ejemplo de la llamada guerra del volumen: varios fans pidieron una versión con menos compresión."
+      }
+    ]
+  },
+  "album_the_colour_and_the_shape": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Es el segundo disco de Foo Fighters, de mayo de 1997, y el primero que grabaron como banda completa: el debut de 1995 lo había tocado casi entero Dave Grohl solo."
+      },
+      {
+        "titulo": "Cómo se hizo",
+        "texto": "Con el productor Gil Norton, Grohl volvió a grabar casi todas las baterías por su cuenta, y el baterista William Goldsmith dejó la banda. «Everlong» la escribió en una época de ruptura y se volvió la canción insignia del grupo."
+      }
+    ]
+  },
+  "album_ten": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "El debut de Pearl Jam salió en agosto de 1991 con Epic, el mismo año de «Nevermind». Con la explosión del grunge de Seattle se convirtió en uno de los discos de rock más vendidos de los noventa, con más de 13 millones de copias en Estados Unidos."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "El título viene del número de camiseta del basquetbolista Mookie Blaylock: la banda empezó llamándose Mookie Blaylock y tuvo que cambiar de nombre antes de firmar con la disquera."
+      }
+    ]
+  },
+  "album_paranoid": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "El segundo disco de Black Sabbath salió en septiembre de 1970 en Reino Unido, apenas siete meses después del primero. Con «War Pigs», «Iron Man» y «Paranoid» se volvió uno de los discos que definieron el heavy metal."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "Iba a llamarse «War Pigs», pero la disquera lo cambió por miedo a la polémica en plena guerra de Vietnam. «Paranoid» se compuso en el estudio en pocos minutos, para completar la duración del disco."
+      }
+    ]
+  },
+  "album_nightmare": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Quinto disco de Avenged Sevenfold, de julio de 2010. Fue el primero después de la muerte de su baterista, Jimmy «The Rev» Sullivan, en diciembre de 2009, y debutó en el puesto 1 del Billboard 200."
+      },
+      {
+        "titulo": "Cómo se hizo",
+        "texto": "Mike Portnoy, de Dream Theater, grabó la batería siguiendo las ideas que The Rev había dejado en los demos. «So Far Away» la escribió el guitarrista Synyster Gates como homenaje a su amigo."
+      }
+    ]
+  },
+  "album_impera": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Quinto disco de Ghost, de marzo de 2022, con Tobias Forge como Papa Emeritus IV. Habla del ascenso y la caída de los imperios y se convirtió en el disco con el que la banda llegó más alto en las listas de Estados Unidos."
+      },
+      {
+        "titulo": "Cómo se hizo",
+        "texto": "Lo produjo el sueco Klas Åhlund en Estocolmo. «Call Me Little Sunshine» fue el primer sencillo y «Spillways», una de sus canciones más pegajosas, terminó siendo de las más pedidas en vivo."
+      }
+    ]
+  },
+  "album_all_hope_is_gone": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Cuarto disco de Slipknot, de agosto de 2008, y el primero de la banda en llegar al puesto 1 del Billboard 200. Fue el último con el bajista Paul Gray, que murió en 2010."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "En medio de un disco muy pesado está «Snuff», una balada triste cantada por Corey Taylor que se volvió una de las canciones más queridas del grupo."
+      }
+    ]
+  },
+  "album_infest": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Papa Roach publicó «Infest» en abril de 2000, su primer disco con una disquera grande, DreamWorks. Fue triple platino en Estados Unidos y llevó a la banda de Vacaville, California, a tocar en todo el mundo."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "«Last Resort» habla de un momento muy oscuro de un amigo cercano del cantante Jacoby Shaddix, y con los años se volvió también una canción de apoyo para hablar de salud mental."
+      }
+    ]
+  },
+  "album_the_sickness": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "El debut de Disturbed salió en marzo de 2000 y vendió millones de copias en Estados Unidos. Es uno de los discos más reconocibles del nu metal de comienzos de siglo."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "Los gritos cortos y rítmicos de David Draiman en «Down with the Sickness» se volvieron su marca; la canción sigue siendo una de las más tocadas en estadios y eventos deportivos."
+      }
+    ]
+  },
+  "album_fallen": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "El primer disco de Evanescence con una disquera grande salió en marzo de 2003 y vendió más de 17 millones de copias. Con él la banda ganó el Grammy a Mejor Artista Nuevo en 2004."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "En «Bring Me to Life» canta también Paul McCoy, de la banda 12 Stones: la disquera pidió una voz masculina para que la canción sonara más en la radio de rock."
+      }
+    ]
+  },
+  "album_un_verano_sin_ti": {
+    "tipo": "album",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Bad Bunny lo publicó en mayo de 2022 y fue el disco más escuchado en Spotify en todo el mundo ese año. Mezcla reggaetón con dembow, bossa nova y sonidos del Caribe."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "Fue el primer disco cantado completamente en español nominado a Álbum del Año en los premios Grammy."
+      }
+    ]
+  },
+  "artista_anthony_kiedis": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Yesid Eduardo Uribe Ordóñez nació en Bucaramanga el 22 de marzo de 1987 y creció entre mariachis: su papá, Fernando Uribe, cantaba ranchera y lo llevaba a sus presentaciones en una discoteca de la ciudad. Su camino a la fama pasó por los realities: estuvo en Latin American Idol en 2008, en La Voz Colombia en 2013 y en A Otro Nivel en 2017, donde quedó segundo. Por esos días lanzó «Dulce Pecado», el despecho que lo hizo famoso en todo el país, y en 2019 fue jurado de Yo Me Llamo."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "El 10 de noviembre de 2023 Jessi llegó por primera vez al Movistar Arena de Bogotá con «Noches de Palenque», un show de tres horas inspirado en el formato de palenque, muy arraigado en México, en el que repasó mariachi, norteña, popular y despecho. La prensa reportó lleno total. Un mes después, el 20 de diciembre, cantó gratis en Bucaramanga por los 400 años de su ciudad, después de haber contado que por un concierto cobraba más de 100 millones de pesos."
+        "texto": "Anthony Kiedis es el vocalista de Red Hot Chili Peppers, la banda que fundó en Los Ángeles en 1983 con su amigo de colegio Flea. Su forma de cantar, entre el rap y la melodía, es una de las marcas del grupo."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Su vida sentimental ha sido tan comentada como su música. Su matrimonio con Sandra Barrios, con quien tiene cuatro hijos, terminó en 2019, y ese año empezó su relación con Paola Jara, entre críticas de quienes lo culpaban de la ruptura. Se casaron el 14 de mayo de 2022 y el 19 de noviembre de 2025 nació Emilia, la primera hija de la pareja. En lo musical, fue el primer artista de música popular colombiana nominado al Grammy a Mejor Álbum de Música Mexicana, con De Lejitos, en 2025."
+        "texto": "En 2004 publicó su autobiografía, «Scar Tissue», que toma el nombre de una de las canciones de «Californication»."
       }
     ]
   },
-  "artista_yeison_jimenez": {
+  "artista_flea": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Yeison Jiménez nació el 26 de julio de 1991 en Manzanares, Caldas. Su familia se mudó a Manizales y después a Bogotá, donde a los 13 años empezó a trabajar en Corabastos como cotero, cargando bultos de aguacate; componía mientras descargaba. En 2013 grabó su primer disco, Con el Corazón, y con canciones como «Aventurero», «Tu Amante» y «Ni Tengo Ni Necesito» se volvió una de las voces más queridas del despecho. Murió el 10 de enero de 2026, a los 34 años, cuando la avioneta en la que viajaba de Paipa a Medellín cayó poco después de despegar; ninguna de las seis personas a bordo sobrevivió."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Yeison abrió caminos para la música popular en los grandes escenarios. En 2024 fue el primer cantante del género en agotar un concierto propio en el Movistar Arena de Bogotá, y el 26 de julio de 2025, el día de su cumpleaños, llenó El Campín con su «Mi Promesa Tour» ante más de 40.000 personas. Tenía anunciada una segunda fecha en el estadio para marzo de 2026, pero no alcanzó a cumplirla: el concierto se adelantó al 31 de enero y se convirtió en un homenaje a su memoria."
+        "texto": "Michael Balzary, conocido como Flea, nació en Melbourne, Australia, y creció en Los Ángeles. Es el bajista y fundador de Red Hot Chili Peppers y uno de los bajistas más influyentes del funk rock."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Corabastos nunca lo olvidó. Su antiguo jefe en la plaza contó que tuvo que despedirlo y que, años después, Yeison le agradeció ese «favor», porque lo empujó a dedicarse a la música. Tras su muerte, comerciantes y coteros lo despidieron en la central de abastos, que en 2026 le dedicó un gran mural. Él mismo decía que sus máximos referentes eran Darío Gómez, El Charrito Negro, Joan Sebastian y Jhonny Rivera."
+        "texto": "También es actor: apareció en «Volver al futuro II» y puso la voz de Donnie en la serie animada «Los Thornberrys»."
       }
     ]
   },
-  "artista_luis_alfonso": {
+  "artista_dave_grohl": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Luis Alfonso Rendón nació en Popayán el 8 de noviembre de 1993. Perdió a su papá cuando tenía 13 meses y ha contado que creció teniendo que protegerse solo. De niño escuchaba rancheras con su abuelo y cantaba en el coro de la iglesia; después se ganó la vida con serenatas en cumpleaños, quinceañeros y hasta velorios. Un amigo le prestó plata para grabar sus dos primeras canciones, y su paso por el reality A Otro Nivel, de Caracol, le abrió la puerta. Hoy sus seguidores lo llaman «El Señorazo»."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "En 2025 armó su primera gran gira por Colombia, «El Festival Más Contentoso», con shows de más de siete horas, zonas para niños y adultos, y fechas en Cali, Medellín, Bogotá y Bucaramanga. La cita más esperada fue en El Campín, el 4 de octubre: el Distrito negó el permiso en septiembre y lo autorizó apenas dos días antes, y la prensa reportó que llenó el estadio. Ese mismo año también llevó su música a Europa, con fechas en España, Francia e Inglaterra."
+        "texto": "Dave Grohl fue el baterista de Nirvana. Después de la muerte de Kurt Cobain grabó solo, tocando casi todos los instrumentos, las canciones que se volvieron el primer disco de Foo Fighters (1995), banda que lidera desde entonces como cantante y guitarrista."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Luis Alfonso tiene su propio diccionario. Además de «contentoso», popularizó «chismofilia», y asegura que la metieron al diccionario porque esa palabra no existía. Explica que su vocabulario salió de la calle, de andar entre el gremio de los caballos, los gallos, el juego callejero y las tarimas. Con «Gomela y Montañero» llevó al disco su propia historia de amor: su esposa, a quien llama su «gomela», es la mamá de sus tres hijos."
+        "texto": "Está en el Salón de la Fama del Rock and Roll dos veces: con Nirvana y con Foo Fighters."
       }
     ]
   },
-  "artista_jhonny_rivera": {
+  "artista_eddie_vedder": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "John Jairo Rivera Valencia nació en Pereira el 23 de febrero de 1974, en una familia campesina. A los 17 años se fue a Bogotá y pasó tiempos muy duros; volvió a Pereira y empezó a cantar cerca de los 30, después de trabajar como vendedor ambulante. Una tusa le inspiró su primer éxito, «El Dolor de una Partida». En 2006 grabó «Empecemos de Cero» con Lady Yuliana, la canción que lo llevó a todo el país, y luego vinieron «El Intenso», «El Tímido» y «Te Extraño». Es el papá del cantante urbano Andy Rivera."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "2025 fue su año en el Movistar Arena de Bogotá. El 3 de mayo celebró allí sus 20 años de carrera ante más de 11.000 personas y, en plena canción, se arrodilló para pedirle matrimonio a su novia y excorista, Jenny López, que aceptó entre lágrimas. El 13 de septiembre volvió a llenar el escenario y subió a Lady Yuliana para cantar juntos «Empecemos de Cero», el dueto que lo proyectó a nivel nacional. La boda fue el 22 de febrero de 2026 en Arabia, Risaralda, su tierra natal."
+        "texto": "Eddie Vedder es la voz de Pearl Jam. Vivía en San Diego cuando le grabó letras a un demo instrumental de los músicos de Seattle; así entró a la banda en 1990."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Jhonny ha contado que un profesor de canto, al oírlo, le dijo que eso no era cantar sino llorar. Él decidió no estudiar técnica vocal, porque su público justamente quiere que le llore. En sus inicios, sin patrocinador, iba a las cantinas de La Mina, en Caldas, a escuchar sus propias canciones, y a veces sonaban en dos cantinas al mismo tiempo. Para agradecer, visitaba los negocios y les regalaba el CD original con sus canciones y videos."
+        "texto": "Compuso la banda sonora de la película «Into the Wild» (2007), su primer trabajo como solista."
       }
     ]
   },
-  "artista_paola_jara": {
+  "artista_ozzy_osbourne": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Paola Jara nació como Paula Andrea Zapata Jaramillo el 16 de mayo de 1983 en Apartadó, Antioquia, y fue su papá quien le sugirió el nombre artístico. De niña hizo parte del grupo infantil Tares Club, estudió música en la Universidad EAFIT y se ganó la vida cantando con mariachis en Medellín. Grabó su primer disco de rancheras con Codiscos a los 14 años, fue finalista de «Se Busca Intérprete» de RCN y en 2009 lanzó un álbum con su primer gran éxito, «Voy a Olvidarte». En 2016 pegó con Francy «Que Sufra, Que Chupe y Que Llore»."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Antes de ser figura, Paola se dio a conocer abriendo conciertos de Vicente y Alejandro Fernández en Medellín, y después también fue telonera de Juan Gabriel. Años más tarde le tocó ser la protagonista: en el Festival de La Kalle de 2018 el público coreó a grito herido «Murió El Amor» y «Mientes». En 2025, junto a Jessi Uribe, anunció «Despecho a Dos Voces», un formato de duelo musical para el Movistar Arena de Chile, un escenario de más de 15.000 butacas."
+        "texto": "Ozzy Osbourne fue el cantante original de Black Sabbath, formada en Birmingham, Inglaterra, en 1968. Después tuvo una larga carrera como solista y se ganó el apodo de «Príncipe de las Tinieblas»."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Su historia de amor con Jessi Uribe es de las más seguidas de la farándula. Antes estuvo diez años con el compositor vallenato Iván Calderón, relación que terminó en 2019. Ese año empezó su romance con Jessi, que recibió críticas porque él venía de un largo matrimonio. Se casaron el 14 de mayo de 2022, grabaron juntos «La Boda» y «La Conquista», que ganó como Canción Popular del Año en los Premios Nuestra Tierra 2021, y el 19 de noviembre de 2025 nació su hija Emilia."
+        "texto": "En julio de 2025 se despidió de los escenarios con la formación original de Black Sabbath en un concierto en Birmingham, su ciudad, y murió pocas semanas después."
       }
     ]
   },
-  "artista_dario_gomez": {
+  "artista_m_shadows": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Darío de Jesús Gómez Zapata nació el 6 de febrero de 1951 en la vereda Los Cedros, de San Jerónimo, Antioquia, y fue el cuarto de 13 hermanos. Escribió sus primeros versos a los 14 años y su primera canción a los 16. En Medellín llegó a Codiscos, donde fue director artístico, y en 1982 fundó su propia productora, Discos Dago. Su primer gran éxito, «Ángel Perdido», nació de la muerte de su hermana y vendió más de medio millón de copias; en 1989 llegó «Nadie Es Eterno». Murió el 26 de julio de 2022 en Medellín, a los 71 años, por un infarto."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Su primer concierto fue en una fuente de soda de Pereira llamada Nereidas, y su favorito, según él mismo contó, fue la primera vez que cantó en el estadio Atanasio Girardot de Medellín, ante más de 50.000 personas. Su despedida también fue multitudinaria: la Alcaldía de Medellín abrió el coliseo Yesid Santos, en la unidad deportiva Atanasio Girardot, para su velorio, y miles de personas hicieron fila para verlo por última vez. Llegó tanta gente que las autoridades tuvieron que tomar control de la situación."
+        "texto": "Matthew Sanders, conocido como M. Shadows, es el vocalista de Avenged Sevenfold, la banda que fundó con sus amigos de colegio en Huntington Beach, California, en 1999."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Su vida tuvo capítulos de telenovela. Según su propio relato, su papá murió en 1968 por un disparo accidental de la escopeta que Darío tomó cuando el padre amenazaba a la familia. Años después compuso «Daniela» para su nieta, cuya mamá, su hija Luz Dary, murió por una bala perdida. Y una de sus canciones inspiró la telenovela de Caracol «Nadie Es Eterno en el Mundo», en la que él mismo apareció haciendo de sí mismo."
+        "texto": "Empezó gritando en los primeros discos del grupo y fue cambiando hacia un canto limpio, que se volvió el sello de la banda desde «City of Evil» (2005)."
       }
     ]
   },
-  "artista_jhon_alex_castano": {
+  "artista_synyster_gates": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Jhon Alex Castaño nació el 13 de abril de 1981 en Balboa, Risaralda, hijo de campesinos. Su mamá le regaló una guitarra al notar su talento, y a los 10 años salió de su casa para perseguir el sueño de cantar. Vivió de casa en casa en La Virginia y luego en un hogar de paso, donde dos voluntarios suizos le regalaron una guitarra profesional. A los 17 dejó la fundación y pasó unos cuatro años sin cantar, hasta que volvió a hacerlo en buses y calles de Pereira. Allí conoció al compositor Hernán Darío Hernández, que le escribió su primer gran tema."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Tras el éxito de «Dos Razones», en abril de 2015 hizo una gira por España con fechas en Madrid, Barcelona, Palma de Mallorca, Bilbao y Alicante. También tuvo su primera gira por Estados Unidos con su agrupación, Los ReAlex, en Nueva York, Nueva Jersey, Boston, Miami y Orlando. En 2026 le tocó una tarima muy emotiva: el 31 de enero abrió el homenaje a Yeison Jiménez en el estadio El Campín, donde también cantaron Luis Alfonso, Marbelle y Nelson Velásquez."
+        "texto": "Brian Haner Jr., conocido como Synyster Gates, es el guitarrista líder de Avenged Sevenfold y uno de los guitarristas más técnicos del metal de su generación."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Le dicen «El Rey del Chupe», un apodo que también es una de sus canciones de 2015 y el título del álbum que publicó en 2016. Antes de esa fama arrancó como solista en 2006 con el sencillo «Dices» y el disco Un Corazón Que Canta. En 2013, «Dos Razones» fue la canción popular más sonada del año según National Report, y con Pipe Bueno grabó a dúo «Ingrata»."
+        "texto": "Su padre, Brian Haner, también es músico y tocó la guitarra en algunas canciones de la banda."
       }
     ]
   },
-  "artista_luis_alberto_posada": {
+  "artista_tobias_forge": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Luis Alberto Posada Hernández nació el 5 de octubre de 1962 en Cartago, Valle del Cauca, en una familia humilde. En 1976 se fue a Medellín a buscar trabajo y, después de oficios esporádicos, empezó a cantar en los años ochenta. Su gran referente fue el ecuatoriano Julio Jaramillo, y se ganó un lugar en la música popular junto a nombres como Darío Gómez. Entre sus éxitos están «Me Tomas y Me Dejas», «El Regreso del Alambrado», «Basta con Licor» y «El Precio de Tu Error»."
+        "texto": "El sueco Tobias Forge creó Ghost y es quien canta bajo los personajes de los Papas Emeritus y del Cardenal Copia. Durante años la banda se presentó sin revelar quiénes eran sus integrantes."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Le dicen «el Caballo de la música popular». En 2019, con más de 40 años de carrera, recibió en el Congreso la distinción Simón Bolívar a la excelencia y debutó en el cine como protagonista de El Rey del Sapo, de Harold De Vasten, con un personaje llamado «Cartago», como su ciudad natal. Su vida también ha tenido golpes duros: un hijo suyo fue asesinado en 2006 y un hermano en 2012. Es padre de 17 hijos."
+        "texto": "Su identidad se hizo pública en 2017, después de una demanda de antiguos músicos de la banda; desde entonces habla abiertamente de que Ghost es su proyecto."
       }
     ]
   },
-  "artista_pipe_bueno": {
+  "artista_jacoby_shaddix": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Andrés Felipe Giraldo Bueno nació en Cali y empezó su carrera a los 16 años. Su primer disco, Pipe Bueno, se grabó en Medellín en 2008 con producción de Iván Calderón, y de ahí salió «Recostada en la Cama», versión de un tema del Grupo Trinidad que lo puso a sonar en todo el país. Después llegaron «Te Hubieras Ido Antes», número uno de la radio popular en 2015, y duetos como «Al Son Que Me Toquen Bailo» con Jhonny Rivera y «La Invitación» con Maluma. También ganó el reality La Pista en 2013 y ha sido jurado de Yo Me Llamo."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "El 13 de diciembre de 2024 volvió al Movistar Arena de Bogotá con «3er Round», su tercer lleno en ese escenario y el primer concierto en formato 360 grados que se hizo allí. Entró como boxeador, con capa, presentado por los humoristas Camilo Cifuentes y Obvidio, y abrió con «Recostada en la Cama». Por la tarima pasaron Yeison Jiménez, Marbelle, Jhonny Rivera, Francy, el grupo mexicano Origen y Luisa Fernanda W, que cantó con él «Golpes en el Corazón»."
+        "texto": "Jacoby Shaddix es el vocalista de Papa Roach, la banda que formó en 1993 en Vacaville, California. Con «Infest» (2000) el grupo pasó de tocar en bares a girar por el mundo."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "En 2009, con apenas un disco, quedó nominado al Grammy Latino en la categoría de álbum de música grupera, pero no pudo ir a la ceremonia porque le negaron la visa para Estados Unidos. En lo personal, su relación con la creadora de contenido Luisa Fernanda W es de las más seguidas del país: tienen dos hijos, Máximo y Domenic, y se comprometieron en octubre de 2023 en Dubái, frente al Burj Khalifa. En 2026 lanzó Aquí Estoy Yo, el álbum que él llama el más personal de su carrera."
+        "texto": "Al comienzo usaba el nombre artístico de Coby Dick."
       }
     ]
   },
-  "artista_arelys_henao": {
+  "artista_david_draiman": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Luz Arelys Henao Ruiz nació en Sabanalarga, Antioquia, y creció en el corregimiento de El Oro. Fue la menor de una familia numerosa, de la que solo sobrevivieron siete hijos, y desde los 7 años vivió de cerca la guerra: llegó a pasar 12 horas escondida bajo unas tablas durante un combate. Cuando un grupo armado intentó reclutarla, huyó a Medellín con ayuda de una vecina. Allí vendió libros y muebles, y en 1996 ganó un concurso con «La Criada Descarada», que le dio una beca de canto; caminaba dos horas y media para llegar a clase."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "Arelys ha compartido tarima con Los Tigres del Norte, Ana Gabriel, Diomedes Díaz y Helenita Vargas. En 2014, el mismo año en que le diagnosticaron cáncer, se presentó con Ana Gabriel en el Centro de Eventos Autopista Norte, el 5 de septiembre. Para celebrar sus 30 años de carrera programó en 2026 su primer concierto en solitario en el Movistar Arena de Bogotá, para el 17 de octubre, con el Grupo Exterminador como invitado, y otro en La Macarena de Medellín para noviembre."
+        "texto": "David Draiman es el vocalista de Disturbed, banda de Chicago. Entró al grupo en 1996 y con su voz potente llevó al grupo a varios discos en el primer lugar de Estados Unidos."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Su vida inspiró «Arelys Henao: Canto para No Llorar», serie de Caracol que se estrenó el 11 de enero de 2022, con Mariana Gómez como protagonista en la primera temporada y Verónica Orozco en la segunda. Le ofrecían contar su historia desde 2017, pero esperó porque temía poner en riesgo a su familia en pleno proceso de paz, y aceptó en 2018. Está casada con su mánager, Wilfredo Hurtado, que también sufrió el desplazamiento, y tienen dos hijos, Juan Esteban y Miguel."
+        "texto": "En 2015 la banda hizo una versión lenta de «The Sound of Silence», de Simon & Garfunkel, que sorprendió a muchos y se volvió uno de sus mayores éxitos."
       }
     ]
   },
-  "artista_el_charrito_negro": {
+  "artista_amy_lee": {
     "tipo": "artista",
     "secciones": [
       {
         "titulo": "Historia",
-        "texto": "Su nombre es Johan Gabriel González y nació el 15 de febrero de 1962 en Ceilán, corregimiento de Bugalagrande, Valle del Cauca. Nunca conoció a su papá, creció entre el campo y la escuela, y a los 7 años ya tocaba guitarra. A los 16 ganó un concurso de canto de una emisora en Caicedonia, lo que le abrió las puertas de la disquera Gardenia, donde grabó su primer sencillo, «Maldito Dinero». Luego, con Discos Victoria, grabó en Medellín el LP Llorando por Ellas, con «El Guerrillero», la canción que lo hizo conocido en todo el país."
-      },
-      {
-        "titulo": "Conciertos icónicos",
-        "texto": "El Charrito Negro ha llevado su música lejos de las cantinas del Valle. Suma más de 45 giras internacionales, con presentaciones en Europa, Estados Unidos, Canadá, Venezuela y Aruba. También ha cantado con La Sonora Dinamita y grabó a dúo con Arelys Henao «Devuélveme los Besos», nominada como Canción Popular del Año en los Premios Nuestra Tierra 2023."
+        "texto": "Amy Lee es la vocalista, pianista y cofundadora de Evanescence, la banda que creó en Little Rock, Arkansas, a mediados de los noventa. Su voz y el piano son el centro del sonido del grupo."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "El apodo se lo puso un locutor de radio, por su costumbre de vestirse con traje negro y sombrero mexicano para cantar rancheras; su gran influencia fue el mexicano Antonio Aguilar. Ganó un Premio Nuestra Tierra por «Quererte Fue un Error», tiene dos discos de oro y uno de platino, y en 2019 el canal Telecafé estrenó una serie sobre su vida. Yeison Jiménez lo nombraba entre sus máximos referentes, y Jhonny Rivera lo cita como modelo de compositor."
+        "texto": "Con «Fallen» ganó dos premios Grammy en 2004, entre ellos el de Mejor Artista Nuevo."
       }
     ]
   },
-  "artista_francy": {
+  "artista_myke_towers": {
     "tipo": "artista",
     "secciones": [
       {
-        "titulo": "Conciertos icónicos",
-        "texto": "El 13 de diciembre de 2024 Francy fue una de las invitadas de Pipe Bueno en «3er Round». Con ese concierto él llenó por tercera vez el Movistar Arena de Bogotá, y fue el primero en formato 360 grados de ese escenario. Esa noche compartió cartel con Yeison Jiménez, Marbelle, Jhonny Rivera, Luisa Fernanda W y el grupo mexicano Origen, en un show de más de tres horas."
+        "titulo": "Historia",
+        "texto": "Michael Torres, conocido como Myke Towers, es un rapero y cantante de reggaetón de San Juan, Puerto Rico. Se hizo conocido subiendo canciones a internet antes de firmar con una disquera."
       },
       {
         "titulo": "Dato curioso",
-        "texto": "Francy ha dejado su voz en duetos importantes del despecho reciente. En 2016 pegó con Paola Jara «Que Sufra, Que Chupe y Que Llore», y en 2024 grabó con Luis Alfonso «Démosle la Vuelta», incluida en el álbum Contentoso. También estuvo entre los invitados de la boda de Jhonny Rivera con Jenny López, el 22 de febrero de 2026, una celebración a la que llegaron figuras como Yeferson Cossio y La Liendra."
+        "texto": "Su disco «Easy Money Baby» (2020) y la canción «LALA» (2023) lo llevaron a los primeros lugares de las listas latinas."
+      }
+    ]
+  },
+  "artista_rauw_alejandro": {
+    "tipo": "artista",
+    "secciones": [
+      {
+        "titulo": "Historia",
+        "texto": "Rauw Alejandro es un cantante y bailarín puertorriqueño que mezcla reggaetón con pop y música electrónica. Antes de la música soñaba con ser futbolista profesional."
+      },
+      {
+        "titulo": "Dato curioso",
+        "texto": "«Todo de Ti» (2021) fue su gran éxito mundial y lo llevó por primera vez a las listas de muchos países fuera de Latinoamérica."
       }
     ]
   }
