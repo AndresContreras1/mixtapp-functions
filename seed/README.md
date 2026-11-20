@@ -11,7 +11,11 @@
   reeditados solo vale el año). También trae la posición en la lista de Deezer de su género del 1 de
   noviembre de 2026 (`tendencia`, `null` si no está en la lista), la posición en el Top Colombia de
   Deezer del 5 de noviembre de 2026 (`tendenciaColombia`, para la pestaña Tendencias) y, en los artistas, el Instagram
-  oficial (el de su banda si es integrante).
+  oficial (el de su banda si es integrante) y `gifUrl`: la animación corta de su género que la app
+  muestra de fondo en el detalle del artista.
+- **Las animaciones de cada género** en `gifs/`: un WebP animado de 3 segundos por género (rock,
+  metal, nu metal y reggaetón), de 200 a 260 KB cada uno. En Firestore solo se guarda el enlace
+  público al archivo de este repositorio en `main`; el archivo no pasa por Firebase ni suma lecturas.
 - **Los datos curiosos** de `historias.json`: una historia por item, con secciones según el tipo
   (*Historia*, *Cómo se hizo*, *Inspiración*, *Conciertos icónicos*, *Dato curioso*). Van en la
   colección `historias`, con el mismo id del item, para que el inicio no descargue ese texto: la app
